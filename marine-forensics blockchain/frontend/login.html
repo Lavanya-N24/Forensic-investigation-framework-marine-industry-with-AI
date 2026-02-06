@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login – Marine Cyber Security Portal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOfr7F21Bb26JY_nq5YM2wRCtFofUk9d1rEA&s") no-repeat center center/cover;
+            color: white;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.55);
+            backdrop-filter: blur(2px);
+            z-index: 1;
+        }
+
+        .login-box {
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            max-width: 380px;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 18px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .login-box h1 {
+            margin: 0 0 8px 0;
+            font-size: 22px;
+            font-weight: 600;
+            text-align: center;
+            color: #fff;
+            text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .login-box .sub {
+            text-align: center;
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.85);
+            margin-bottom: 28px;
+        }
+
+        .form-group {
+            margin-bottom: 18px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 13px;
+            margin-bottom: 6px;
+            color: rgba(255, 255, 255, 0.95);
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px 14px;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            font-size: 15px;
+            font-family: inherit;
+        }
+
+        .form-group input::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: rgba(255, 255, 255, 0.7);
+            background: rgba(255, 255, 255, 0.25);
+        }
+
+        button[type="submit"] {
+            width: 100%;
+            padding: 14px;
+            margin-top: 8px;
+            border: none;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.35);
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        button[type="submit"]:hover {
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        .error-msg {
+            margin-top: 12px;
+            padding: 10px;
+            background: rgba(200, 60, 60, 0.4);
+            border-radius: 8px;
+            font-size: 13px;
+            color: #ffcccc;
+            display: none;
+        }
+
+        .error-msg.show {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <div class="login-box">
+        <h1>Marine Cyber Security Portal</h1>
+        <p class="sub">Sign in to access the portal</p>
+        <form id="loginForm" action="/api/login" method="POST">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter username" required
+                    autocomplete="username">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter password" required
+                    autocomplete="current-password">
+            </div>
+            <div class="error-msg" id="errorMsg"></div>
+            <button type="submit">Sign in</button>
+        </form>
+    </div>
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", async function (e) {
+            e.preventDefault();
+            var form = this;
+            var errEl = document.getElementById("errorMsg");
+            errEl.classList.remove("show");
+            errEl.textContent = "";
+            var fd = new FormData(form);
+            var dataObj = {};
+            fd.forEach((value, key) => { dataObj[key] = value });
+            try {
+                var res = await fetch("/api/login", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(dataObj),
+                    credentials: "same-origin"
+                });
+                var data = await res.json().catch(function () { return {}; });
+                if (res.ok && data.success) {
+                    window.location.href = "/home.html";
+                    return;
+                }
+                errEl.textContent = (data && data.message) ? data.message : "Invalid username or password.";
+                errEl.classList.add("show");
+            } catch (err) {
+                errEl.textContent = "Network error. Try again.";
+                errEl.classList.add("show");
+            }
+        });
+    </script>
+</body>
+
+</html>

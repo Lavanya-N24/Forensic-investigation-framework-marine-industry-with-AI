@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin Communication Console - Marine Forensics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOfr7F21Bb26JY_nq5YM2wRCtFofUk9d1rEA&s") no-repeat center center/cover;
+            color: white;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.55);
+            backdrop-filter: blur(2px);
+            z-index: 1;
+        }
+
+        .container {
+            position: relative;
+            z-index: 2;
+            width: 500px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.18);
+            border-radius: 18px;
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            margin-top: 0;
+            font-weight: 600;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            background: rgba(255, 255, 255, 0.2);
+            color: black;
+            font-family: inherit;
+        }
+
+        option {
+            color: black;
+        }
+
+        /* fix for select dropdown readability */
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background: #4fc3f7;
+            color: #000;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #81d4fa;
+        }
+
+        .back-link {
+            display: block;
+            margin-top: 20px;
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay"></div>
+
+    <div class="navbar"
+        style="position:fixed; top:0; width:100%; z-index:100; background:rgba(0,0,0,0.8); padding:15px; display:flex; justify-content:space-between; align-items:center;">
+        <h2 style="margin:0; padding-left:20px; color:white;">Marine Digital Forensics</h2>
+        <div style="padding-right:20px;">
+            <a href="home.html" style="color:white; text-decoration:none; margin:0 15px;">Portal Home</a>
+            <a href="index.html" style="color:white; text-decoration:none; margin:0 15px;">Home</a>
+            <a href="submit.html" style="color:white; text-decoration:none; margin:0 15px;">Submit</a>
+            <a href="verify.html" style="color:white; text-decoration:none; margin:0 15px;">Verify</a>
+            <a href="records.html" style="color:white; text-decoration:none; margin:0 15px;">Record</a>
+            <a href="admin.html"
+                style="color:white; text-decoration:none; margin:0 15px; font-weight:bold; border-bottom:2px solid #4fc3f7;">Admin</a>
+            <a href="about.html" style="color:white; text-decoration:none; margin:0 15px;">About</a>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top:80px;">
+        <h2>👨‍✈️ Admin Console</h2>
+        <p>Send secure alerts to Officers regarding spoofing or anomalies.</p>
+
+        <form id="adminForm">
+            <div class="form-group">
+                <label>Incident Type</label>
+                <select id="incidentType" required>
+                    <option value="Blockchain Spoofing">Blockchain Spoofing Attempt</option>
+                    <option value="Suspicious Login">Suspicious Login Activity</option>
+                    <option value="Data Tampering">Data Tampering Alert</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Sender Email</label>
+                <input type="email" id="senderEmail" placeholder="admin@marine-corp.com" required>
+            </div>
+            <div class="form-group">
+                <label>App Password (for Gmail)</label>
+                <input type="password" id="appPassword" placeholder="Enter your 16-digit App Password" required>
+            </div>
+            <div class="form-group">
+                <label>Officer Email (Recipient)</label>
+                <input type="email" id="officerEmail" placeholder="officer@marine-corp.com">
+            </div>
+            <div class="form-group">
+                <label>Message / Notes</label>
+                <textarea id="message" rows="4" placeholder="Describe the spoofing details..." required></textarea>
+            </div>
+            <div class="form-group">
+                <label>Select Evidence Record to Attach</label>
+                <select id="recordSelect">
+                    <option value="">-- No Record --</option>
+                    <!-- Options populated by JS -->
+                </select>
+                <input type="hidden" id="recordData" value="">
+            </div>
+            <button type="submit">Send Alert</button>
+        </form>
+
+        <a href="home.html" class="back-link">← Back to Home</a>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+
+</html>

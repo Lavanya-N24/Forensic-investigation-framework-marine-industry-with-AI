@@ -1,19 +1,33 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const session = require("express-session");
 const crypto = require("crypto");
 const cors = require("cors");
 const fs = require("fs-extra");
 const path = require("path");
 const { ethers } = require("ethers");
 const { exec } = require("child_process");
-
+function cleanId(id) {
+  return id.startsWith("0x") ? id.slice(2) : id;
+}
 const app = express();
-app.use(cors());
+app.use(cors({ origin: true, credentials: true }));
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+// Session – required for login (only logged-in users access the site)
+app.use(session({
+  secret: process.env.SESSION_SECRET || "marine-forensics-secret-change-in-production",
+  resave: false,
+  saveUninitialized: false,
+  cookie: { httpOnly: true, maxAge: 24 * 60 * 60 * 1000 }
+}));
+
 // Serve all frontend files (HTML, CSS, JS)
 app.use(express.static(path.join(__dirname, "../frontend")));
 const evidenceDir = path.join(__dirname, "evidence");
 fs.ensureDirSync(evidenceDir);
+
 
 // 🔴 UPDATE THESE AFTER DEPLOYMENT 🔴
 const CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
@@ -33,6 +47,43 @@ const contract = new ethers.Contract(CONTRACT_ADDRESS, ABI, wallet);
 function sha256(data) {
   return crypto.createHash("sha256").update(data).digest("hex");
 }
+
+// ---------- LOGIN: only logged-in users can access the site ----------
+// Allowed users (username -> password). Change these for your project.
+const USERS = { admin: "lav123", clerk: "clerk123", officer: "officer123" };
+
+app.get("/api/check-session", (req, res) => {
+  if (req.session && req.session.user) {
+    return res.json({ loggedIn: true, username: req.session.user });
+  }
+  res.json({ loggedIn: false });
+});
+
+app.post("/api/login", (req, res) => {
+  const username = (req.body.username || "").trim();
+  const password = (req.body.password || "");
+  if (!username || !password) {
+    return res.status(400).json({ success: false, message: "Username and password required." });
+  }
+  if (USERS[username] === password) {
+    req.session.user = username;
+    return res.json({ success: true, username });
+  }
+  res.status(401).json({ success: false, message: "Invalid username or password." });
+});
+
+app.post("/api/logout", (req, res) => {
+  req.session.destroy(() => { });
+  res.json({ success: true });
+});
+
+// Root: redirect to login if not logged in, else to home
+app.get("/", (req, res) => {
+  if (req.session && req.session.user) {
+    return res.redirect("/home.html");
+  }
+  res.redirect("/login.html");
+});
 
 /* ======================================================
      🚀 NEW FUNCTION — START PYTHON STREAMLIT DASHBOARD
@@ -79,12 +130,15 @@ app.post("/submit", async (req, res) => {
     res.send({
       message: "Evidence stored",
       evidenceId: eIdBytes,
-      hash
+      hash,
+      evidence: log   // 👈 IMPORTANT
     });
+
   } catch (err) {
     res.send({ error: err.message });
   }
 });
+
 
 /* ==========================
    VERIFY EVIDENCE (same)
@@ -121,20 +175,34 @@ app.get("/verify/:id", async (req, res) => {
 /* ==========================
    GET ALL RECORDS (same)
    ========================== */
-app.get("/records", (req, res) => {
+app.get("/records", async (req, res) => {
   try {
     const files = fs.readdirSync(evidenceDir);
     const records = [];
 
-    files.forEach(file => {
+    for (const file of files) {
       const id = file.replace(".json", "");
       const content = fs.readJsonSync(path.join(evidenceDir, file));
+      const localHash = sha256(JSON.stringify(content));
 
-      records.push({
-        evidenceId: "0x" + id,
-        data: content
-      });
-    });
+      try {
+        const [chainHash] = await contract.getEvidence("0x" + id);
+        const isValid = chainHash.replace("0x", "") === localHash;
+
+        records.push({
+          evidenceId: "0x" + id,
+          data: content,
+          valid: isValid
+        });
+      } catch (e) {
+        console.error(`Error verifying ${id}:`, e);
+        records.push({
+          evidenceId: "0x" + id,
+          data: content,
+          valid: false // Treat as invalid if blockchain check fails
+        });
+      }
+    }
 
     res.send(records);
   } catch (err) {
@@ -161,12 +229,9 @@ app.get("/evidence/:id", (req, res) => {
     res.send({ error: err.message });
   }
 });
-// SERVE HOME.HTML THROUGH NODE BACKEND
-/* =============================================
-   SERVE HOME.HTML (ABSOLUTE PATH)
-   ============================================= */
+// Serve home page from this project's frontend
 app.get("/home", (req, res) => {
-  res.sendFile("C:/Users/lavan/OneDrive/Desktop/mini project/marine-forensics/frontend/home.html");
+  res.sendFile(path.join(__dirname, "../frontend/home.html"));
 });
 
 
@@ -174,6 +239,76 @@ app.get("/home", (req, res) => {
 /* ==========================
    START BACKEND
    ========================== */
+// Email configuration
+require("dotenv").config({ path: __dirname + '/.env' });
+const nodemailer = require("nodemailer");
+
+// Transporter will be created dynamically
+const GlobalTransporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS
+  }
+});
+
+/* ==========================
+   SEND EMAIL ENDPOINT
+   ========================== */
+app.post("/api/send-email", async (req, res) => {
+  const { to, subject, text, attachment, replyTo, user, pass } = req.body;
+
+  console.log("📨 Attempting to send email to:", to);
+
+  let transporterToUse = GlobalTransporter;
+
+  if (user && pass) {
+    console.log("🔑 Using provided credentials for:", user);
+    transporterToUse = nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+        user: user,
+        pass: pass
+      }
+    });
+  }
+
+  try {
+    // Construct the email
+    let mailOptions = {
+      from: user ? `"Marine Admin" <${user}>` : '"Marine Forensics Admin" <admin@marine-forensics.com>',
+      to: to,
+      replyTo: replyTo, // Allow officer to reply to the sender
+      subject: subject,
+      text: text
+    };
+
+    if (attachment) {
+      mailOptions.attachments = [
+        {
+          filename: 'evidence_record.json',
+          content: JSON.stringify(attachment, null, 2)
+        }
+      ];
+    }
+
+    // Send Real Email
+    try {
+      let info = await transporterToUse.sendMail(mailOptions);
+      console.log("✅ Email Sent: %s", info.messageId);
+    } catch (mailError) {
+      console.error("❌ SMTP Error:", mailError);
+      return res.status(500).json({ success: false, message: "SMTP connection failed. Check App Password." });
+    }
+
+    res.json({ success: true, message: "Email sent successfully!" });
+
+  } catch (err) {
+    console.error("Email API Error:", err);
+    res.status(500).json({ success: false, message: "Failed to send email." });
+  }
+});
+
 app.listen(5000, () =>
   console.log("Backend running at http://localhost:5000")
 );

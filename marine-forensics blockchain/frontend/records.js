@@ -27,13 +27,14 @@ function displayRecords(records) {
 
         div.innerHTML = `
             <p class="record-eid">${record.evidenceId}</p>
-
+            
             <pre class="record-json">${formattedJson}</pre>
 
             <button class="download-btn" onclick="downloadJSON('${record.evidenceId}')">
                 Download JSON
             </button>
         `;
+
 
         container.appendChild(div);
     });

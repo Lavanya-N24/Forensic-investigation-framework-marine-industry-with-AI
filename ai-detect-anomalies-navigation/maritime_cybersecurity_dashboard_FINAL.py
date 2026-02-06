@@ -48,16 +48,29 @@ import streamlit as st
 
 # MUST BE FIRST STREAMLIT COMMAND
 st.set_page_config(page_title="Maritime Cybersecurity Dashboard (Fixed)", layout="wide")
-# Change this path to your actual home.html path
-import webbrowser
-
-HOME_URL = "http://localhost:5000/home"
+# Project home (backend serves frontend on port 5000)
+HOME_PAGE_URL = "http://localhost:5000/home.html"
 
 st.sidebar.markdown("### Navigation")
+st.sidebar.markdown(
+    f'<p><a href="{HOME_PAGE_URL}" target="_self" style="color:#4fc3f7;text-decoration:none;font-weight:600;">← Go back to Home</a></p>'
+    '<p style="font-size:0.85rem;color:#888;">Opens project home page.</p>',
+    unsafe_allow_html=True,
+)
 
-if st.sidebar.button("🏠 Go Back to Home"):
-    st.success("Opening Home Page...")
-    webbrowser.open_new_tab(HOME_URL)
+# ---------- Worker sends FROM their Gmail TO the officer (different person) ----------
+st.sidebar.markdown("### Utilities & Settings")
+st.sidebar.markdown("**You (worker)** send the report **to the officer** (not you).")
+gmail_addr = st.sidebar.text_input("Your Gmail (worker – sends FROM)", value=st.session_state.get("gmail_sender", "you@gmail.com"), key="gmail_input", help="Your email – report is sent FROM here")
+app_pass = st.sidebar.text_input("Gmail App Password", type="password", placeholder="16-char App Password", key="app_pass_input", help="From Google Account → Security → App passwords")
+officer_addr = st.sidebar.text_input("Officer email (recipient – NOT you)", value=st.session_state.get("officer_email", ""), placeholder="officer@company.com", key="officer_input", help="The officer who will analyse – report is sent TO this address")
+# Persist to session so send_email_alert uses them
+if gmail_addr:
+    st.session_state["gmail_sender"] = gmail_addr
+if app_pass:
+    st.session_state["app_password"] = app_pass
+if officer_addr:
+    st.session_state["officer_email"] = officer_addr
 
 # --- Background Image CSS --
 
@@ -104,11 +117,10 @@ BLOCKLIST_FILE = "ip_blocklist.json"
 GEO_CACHE_FILE = "ip_geo_cache.json"
 FILES_TO_MONITOR = ["config.txt", "system.log"]
 
-# ---------- EMAIL SETTINGS (NO SECRETS - local testing) ----------
-# Replace with your Gmail and 16-character App Password
-EMAIL_SENDER = "lavanyanm75@gmail.com"
-EMAIL_PASSWORD = "gqew nvvz djej culf"  # Gmail App Password
-EMAIL_RECEIVER = "lathacr.09@gmail.com"
+# ---------- EMAIL SETTINGS (fallbacks - override via sidebar) ----------
+EMAIL_SENDER = os.environ.get("EMAIL_SENDER", "")
+EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD", "")
+EMAIL_RECEIVER = os.environ.get("EMAIL_RECEIVER", "")
 
 # ---------- HELPERS ----------
 def to_excel_bytes(df):
@@ -170,15 +182,31 @@ def update_ledger(file, ledger_file):
     return ledger
 
 def send_email_alert(subject, message, receiver=None):
-    receiver = receiver or EMAIL_RECEIVER
+    # Use session state (sidebar) or fallback env/defaults
+    sender = (st.session_state.get("gmail_sender") or EMAIL_SENDER or "").strip()
+    # Gmail App Passwords are 16 chars; Google shows them with spaces – strip spaces
+    password = (st.session_state.get("app_password") or EMAIL_PASSWORD or "").replace(" ", "").strip()
+    to_addr = (receiver or st.session_state.get("officer_email") or EMAIL_RECEIVER or "").strip()
+    if not sender or not password:
+        st.warning("⚠ Enter Gmail address and App Password in the sidebar to send email.")
+        return
+    if not to_addr:
+        st.warning("⚠ Enter Officer email (recipient) in the sidebar.")
+        return
     try:
         msg = MIMEText(message)
         msg["Subject"] = subject
-        msg["From"] = EMAIL_SENDER
-        msg["To"] = receiver
+        msg["From"] = sender
+        msg["To"] = to_addr
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
-            server.login(EMAIL_SENDER, EMAIL_PASSWORD)
-            server.sendmail(EMAIL_SENDER, receiver, msg.as_string())
+            server.login(sender, password)
+            server.sendmail(sender, to_addr, msg.as_string())
+    except smtplib.SMTPAuthenticationError:
+        st.warning(
+            "⚠ Gmail rejected your login. Use an **App Password**, not your normal password. "
+            "Turn on 2-Step Verification, then create one at: Google Account → Security → App passwords. "
+            "Paste the 16-character password (spaces are removed automatically)."
+        )
     except Exception as e:
         st.warning(f"⚠ Email sending failed: {e}")
 
@@ -437,14 +465,98 @@ merged_df["Is_Malicious_IP"] = merged_df["IP"].astype(str).apply(lambda x: x in 
 
 st.title("🛳 Maritime Cybersecurity Dashboard (Fixed)")
 
-# Test email button
-st.sidebar.markdown("### Testing & Utilities")
+# ----- Send to officer: explicit buttons -----
+st.sidebar.markdown("---")
+st.sidebar.markdown("**Send to officer**")
+officer_email = st.session_state.get("officer_email", "")
+
+def build_report_for_officer():
+    """Build a FULL report for the officer: where anomalies are detected and how many."""
+    lines = [
+        "MARITIME CYBERSECURITY – FULL ANOMALY REPORT FOR OFFICER",
+        "Generated: " + datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC"),
+        "",
+        "========== ANOMALY COUNTS (HOW MANY) ==========",
+        "",
+        f"Total login records scanned: {len(merged_df)}",
+        f"ANOMALIES – Suspicious IPs flagged: {len(flagged_ips)}",
+        f"ANOMALIES – Consecutive failed logins (≥3): {len(suspicious)}",
+    ]
+    # Malicious IP hits
+    mal_hits = merged_df[merged_df.get("Is_Malicious_IP", False)]
+    if not mal_hits.empty:
+        lines.append(f"ANOMALIES – Logins from malicious/blocklist IPs: {len(mal_hits)}")
+    lines.append("")
+    # High/medium threat counts
+    if "Threat_Level" in merged_df.columns:
+        high = (merged_df["Threat_Level"] == "High").sum()
+        med = (merged_df["Threat_Level"] == "Medium").sum()
+        lines.append(f"Threat level – High: {high}, Medium: {med}")
+        lines.append("")
+    lines.append("========== WHERE ANOMALIES ARE DETECTED ==========")
+    lines.append("")
+    if not flagged_ips.empty:
+        lines.append("--- Suspicious IPs (where detected) ---")
+        lines.append(f"Count: {len(flagged_ips)}")
+        for i, (_, r) in enumerate(flagged_ips.iterrows(), 1):
+            lines.append(f"  {i}. IP {r['IP']} – fail count: {int(r.get('Fail_Count', 0))}, unique users: {int(r.get('Unique_Users', 0))}, ships affected: {int(r.get('Unique_Ships', 0))}")
+        lines.append("")
+    if not suspicious.empty:
+        lines.append("--- Consecutive failed logins (where detected) ---")
+        lines.append(f"Count: {len(suspicious)}")
+        for i, (_, r) in enumerate(suspicious.iterrows(), 1):
+            lines.append(f"  {i}. Ship {r['Ship_ID']}, user '{r['Username']}' – {int(r.get('Consec_Fails', 0))} consecutive fails, IP: {r.get('IP', 'N/A')}")
+        lines.append("")
+    if not mal_hits.empty:
+        lines.append("--- Logins from malicious/blocklist IPs ---")
+        lines.append(f"Count: {len(mal_hits)}")
+        for i, (_, r) in enumerate(mal_hits.head(50).iterrows(), 1):
+            lines.append(f"  {i}. Ship {r['Ship_ID']}, user '{r['Username']}', IP {r['IP']}, time: {r.get('Timestamp', 'N/A')}")
+        if len(mal_hits) > 50:
+            lines.append(f"  ... and {len(mal_hits) - 50} more.")
+        lines.append("")
+    # Anomalies by ship
+    if not (flagged_ips.empty and suspicious.empty):
+        lines.append("--- Anomalies by ship ---")
+        for sid in sorted(merged_df["Ship_ID"].dropna().unique()):
+            ship_fails = merged_df[(merged_df["Ship_ID"] == sid) & (merged_df["Login_Status"] == "Fail")]
+            ship_susp = suspicious[suspicious["Ship_ID"] == sid]
+            ship_high = merged_df[(merged_df["Ship_ID"] == sid) & (merged_df.get("Threat_Level", "") == "High")]
+            if not ship_susp.empty or not ship_high.empty or len(ship_fails) > 5:
+                lines.append(f"  Ship {sid}: failed logins {len(ship_fails)}, suspicious consecutive-fail events {len(ship_susp)}, high-threat events {len(ship_high)}")
+        lines.append("")
+    if os.path.exists(ALERT_HISTORY_FILE):
+        ah = pd.read_csv(ALERT_HISTORY_FILE)
+        recent = ah.tail(30)
+        lines.append("========== RECENT ALERTS (chronological) ==========")
+        for _, row in recent.iterrows():
+            lines.append(f"  [{row.get('Timestamp', '')}] {row.get('Alert', '')}")
+    return "\n".join(lines)
+
+# Button: Send report to officer (so they can analyse it)
+if st.sidebar.button("📤 Send report to officer", type="primary"):
+    if not officer_email or not officer_email.strip():
+        st.sidebar.error("Enter **Officer email (TO)** above first.")
+    elif not st.session_state.get("gmail_sender") or not st.session_state.get("app_password"):
+        st.sidebar.error("Enter **Your Gmail** and **App Password** above first.")
+    else:
+        try:
+            report_body = build_report_for_officer()
+            send_email_alert("Maritime Cybersecurity Report – for analysis", report_body, receiver=officer_email.strip())
+            st.sidebar.success("Report sent to officer. They can analyse it from their inbox.")
+        except Exception as e:
+            st.sidebar.error(f"Send failed: {e}")
+
+# Test email: same flow, short message
 if st.sidebar.button("Test Email"):
-    try:
-        send_email_alert("Test Alert", "This is a test alert from the Maritime Dashboard.")
-        st.sidebar.success("Test email sent (check inbox).")
-    except Exception as e:
-        st.sidebar.error(f"Email test failed: {e}")
+    if not officer_email or not officer_email.strip():
+        st.sidebar.warning("Enter **Officer email (TO)** above, then try again.")
+    else:
+        try:
+            send_email_alert("Test Alert", "This is a test from the Maritime Dashboard.", receiver=officer_email.strip())
+            st.sidebar.success("Test email sent to officer.")
+        except Exception as e:
+            st.sidebar.error(f"Email test failed: {e}")
 
 # Show main tables
 st.subheader("All Login Logs (merged with AIS where available)")

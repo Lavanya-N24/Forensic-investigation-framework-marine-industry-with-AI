@@ -467,5 +467,4424 @@
     },
     "prev_hash": "de9c7acb086cb21112019156e0669bb7dbe73ef2efaffdef352539a65869a5ab",
     "hash": "8eb59fb44c97a7453ae53b6a5685cec65af6753ec0a707b8a7c4abcd06ce0310"
+  },
+  {
+    "index": 53,
+    "timestamp": "2026-01-30T17:49:24.723805+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "8eb59fb44c97a7453ae53b6a5685cec65af6753ec0a707b8a7c4abcd06ce0310",
+    "hash": "7719540b70e49fac6b25a9b1faaca17e104e2fc12abf145a5c0ce143b47a9994"
+  },
+  {
+    "index": 54,
+    "timestamp": "2026-01-30T17:49:24.770445+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "7719540b70e49fac6b25a9b1faaca17e104e2fc12abf145a5c0ce143b47a9994",
+    "hash": "0b1e93501a0aff8be3c4d3d9a68a2b0bc7e46088e7325c3b9625515e5e413ef2"
+  },
+  {
+    "index": 55,
+    "timestamp": "2026-01-30T17:49:24.790848+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "0b1e93501a0aff8be3c4d3d9a68a2b0bc7e46088e7325c3b9625515e5e413ef2",
+    "hash": "2b89a7d9b02c029c0981a2e44ae164687e414422fcb932a74c5c5031609ccdc2"
+  },
+  {
+    "index": 56,
+    "timestamp": "2026-01-30T17:49:24.811856+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "2b89a7d9b02c029c0981a2e44ae164687e414422fcb932a74c5c5031609ccdc2",
+    "hash": "3f00650a96c6a1dbbb93c4ae87352430257ac25dc848f0090e4e4a4a7530a5ac"
+  },
+  {
+    "index": 57,
+    "timestamp": "2026-01-30T17:49:27.292657+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "3f00650a96c6a1dbbb93c4ae87352430257ac25dc848f0090e4e4a4a7530a5ac",
+    "hash": "84c785efe52b9bd1b192fb43417c020c2b3c1ffb1e061a715695f9d8dc22a5bd"
+  },
+  {
+    "index": 58,
+    "timestamp": "2026-01-30T17:49:33.251789+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "84c785efe52b9bd1b192fb43417c020c2b3c1ffb1e061a715695f9d8dc22a5bd",
+    "hash": "8b77977a1b7e254a88baf8beac83386ebd0f3728b54e464ac318baa1790dfb1b"
+  },
+  {
+    "index": 59,
+    "timestamp": "2026-01-30T17:49:33.264480+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "8b77977a1b7e254a88baf8beac83386ebd0f3728b54e464ac318baa1790dfb1b",
+    "hash": "df368c8352755278813eb2f1d8c5b2b4c013e09039c6999416fefe490b900cb6"
+  },
+  {
+    "index": 60,
+    "timestamp": "2026-01-30T17:49:33.276019+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "df368c8352755278813eb2f1d8c5b2b4c013e09039c6999416fefe490b900cb6",
+    "hash": "b89f2f93f2bcbf9d33afd1ff7bb47bbc7b594159000981a176725451f631ada8"
+  },
+  {
+    "index": 61,
+    "timestamp": "2026-01-30T17:49:33.289699+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "b89f2f93f2bcbf9d33afd1ff7bb47bbc7b594159000981a176725451f631ada8",
+    "hash": "bc97f67086f94b566f4ca423c784a3e18592c52b0654b67af94297c7e7321341"
+  },
+  {
+    "index": 62,
+    "timestamp": "2026-01-30T17:49:34.258990+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "bc97f67086f94b566f4ca423c784a3e18592c52b0654b67af94297c7e7321341",
+    "hash": "4505f277dd624467a9c771cb7aab6825fbd5031de75fcb71b931ed74532badde"
+  },
+  {
+    "index": 63,
+    "timestamp": "2026-01-30T17:49:42.415271+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "4505f277dd624467a9c771cb7aab6825fbd5031de75fcb71b931ed74532badde",
+    "hash": "16ded4691770067e7eff7353a21e29265fc377faecb0d7041cff25d9fdda5477"
+  },
+  {
+    "index": 64,
+    "timestamp": "2026-01-30T17:49:42.429635+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "16ded4691770067e7eff7353a21e29265fc377faecb0d7041cff25d9fdda5477",
+    "hash": "808501b979c08e832864857ac3c94d7c13d93b9663db71d08a1f92f3bc56428d"
+  },
+  {
+    "index": 65,
+    "timestamp": "2026-01-30T17:49:42.442055+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "808501b979c08e832864857ac3c94d7c13d93b9663db71d08a1f92f3bc56428d",
+    "hash": "567609f8bf286e8a46316b9802f4af2a7732aa09b7695e97f93a99bbef27ec29"
+  },
+  {
+    "index": 66,
+    "timestamp": "2026-01-30T17:49:42.453279+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "567609f8bf286e8a46316b9802f4af2a7732aa09b7695e97f93a99bbef27ec29",
+    "hash": "91833a0b1dbdf6867f9d6d315a6511ec4b3440872ee9d9e4c41442ee480c11dc"
+  },
+  {
+    "index": 67,
+    "timestamp": "2026-01-30T17:49:43.269231+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "91833a0b1dbdf6867f9d6d315a6511ec4b3440872ee9d9e4c41442ee480c11dc",
+    "hash": "fa34e7fd0ceaf9d1ec447022693943faa84cecaf3de6b4d5efdf4acef494c11d"
+  },
+  {
+    "index": 68,
+    "timestamp": "2026-01-30T17:49:57.537967+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "fa34e7fd0ceaf9d1ec447022693943faa84cecaf3de6b4d5efdf4acef494c11d",
+    "hash": "ff0d4995ae804dd99a238dbe7c0fe186fc9367672d40537a3f37fcb0fbe215d0"
+  },
+  {
+    "index": 69,
+    "timestamp": "2026-01-30T17:49:57.554117+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "ff0d4995ae804dd99a238dbe7c0fe186fc9367672d40537a3f37fcb0fbe215d0",
+    "hash": "9cac0326441665831eeb08840ee893a92471cd2aed2c8189a7ea28e790635489"
+  },
+  {
+    "index": 70,
+    "timestamp": "2026-01-30T17:49:57.565835+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "9cac0326441665831eeb08840ee893a92471cd2aed2c8189a7ea28e790635489",
+    "hash": "a5146cf5ca006bc3369d234edc53a9ce640da52222f2e2d44a2e6628062b94cf"
+  },
+  {
+    "index": 71,
+    "timestamp": "2026-01-30T17:49:57.578956+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "a5146cf5ca006bc3369d234edc53a9ce640da52222f2e2d44a2e6628062b94cf",
+    "hash": "a7eaa1a354ec5d61c3379861fbfd6ec3c9d9d292cdcbfbb7ff0f1263f0092bbf"
+  },
+  {
+    "index": 72,
+    "timestamp": "2026-01-30T17:49:58.509408+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "a7eaa1a354ec5d61c3379861fbfd6ec3c9d9d292cdcbfbb7ff0f1263f0092bbf",
+    "hash": "3c700b3a4d4314f1aefde72b1402b2311b9fc6c474e931fa63f0dbd2f81572f6"
+  },
+  {
+    "index": 73,
+    "timestamp": "2026-01-30T17:50:22.175022+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "3c700b3a4d4314f1aefde72b1402b2311b9fc6c474e931fa63f0dbd2f81572f6",
+    "hash": "46394d2f5d1fb699f9fd8c9b6012c456cfa9d7b07126a07fbad0e308f46a8950"
+  },
+  {
+    "index": 74,
+    "timestamp": "2026-01-30T17:50:22.190550+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "46394d2f5d1fb699f9fd8c9b6012c456cfa9d7b07126a07fbad0e308f46a8950",
+    "hash": "da6528be344e293a5a97af2cb29498428fdafc002203eba1bbbe9515ba3e221e"
+  },
+  {
+    "index": 75,
+    "timestamp": "2026-01-30T17:50:22.202970+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "da6528be344e293a5a97af2cb29498428fdafc002203eba1bbbe9515ba3e221e",
+    "hash": "01e91ebacecf467f1d0f97217bfbcd0396c51bbda88c070afd5da0b8ec018dd0"
+  },
+  {
+    "index": 76,
+    "timestamp": "2026-01-30T17:50:22.212197+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "01e91ebacecf467f1d0f97217bfbcd0396c51bbda88c070afd5da0b8ec018dd0",
+    "hash": "d8d4df74c1faa951f2af6373bcecf2b609868886de55cbe5430e43f787eb318e"
+  },
+  {
+    "index": 77,
+    "timestamp": "2026-01-30T17:50:23.187261+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "d8d4df74c1faa951f2af6373bcecf2b609868886de55cbe5430e43f787eb318e",
+    "hash": "4d17552df2158b9af742d8174cc0293bb19b8d841acfa2bca3169aad383b1047"
+  },
+  {
+    "index": 78,
+    "timestamp": "2026-01-30T17:54:34.744995+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "4d17552df2158b9af742d8174cc0293bb19b8d841acfa2bca3169aad383b1047",
+    "hash": "11e018260f9d697cee300c4941c4bf80d7a6b7efd6096094e6fced787c89de3b"
+  },
+  {
+    "index": 79,
+    "timestamp": "2026-01-30T17:54:34.768797+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "11e018260f9d697cee300c4941c4bf80d7a6b7efd6096094e6fced787c89de3b",
+    "hash": "34b7ac1518aeb4b888c042fda8faf69b8fbd29a07455e073072e37e20ac09470"
+  },
+  {
+    "index": 80,
+    "timestamp": "2026-01-30T17:54:34.787535+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "34b7ac1518aeb4b888c042fda8faf69b8fbd29a07455e073072e37e20ac09470",
+    "hash": "ee420c14ee78e4565a3fda775c96e3d71f01bcc69d2bac26ca793e521794025d"
+  },
+  {
+    "index": 81,
+    "timestamp": "2026-01-30T17:54:34.809670+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "ee420c14ee78e4565a3fda775c96e3d71f01bcc69d2bac26ca793e521794025d",
+    "hash": "f26480973a41cfcf9ac7f94a1b61df4de9037e911e38cccf2c7152a47f5713ee"
+  },
+  {
+    "index": 82,
+    "timestamp": "2026-01-30T17:54:37.352454+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "f26480973a41cfcf9ac7f94a1b61df4de9037e911e38cccf2c7152a47f5713ee",
+    "hash": "c3ce956ecf05f58810157073b1dd8c7856fa569b8a21a88f11bc50a438da476d"
+  },
+  {
+    "index": 83,
+    "timestamp": "2026-01-30T17:54:44.680163+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "c3ce956ecf05f58810157073b1dd8c7856fa569b8a21a88f11bc50a438da476d",
+    "hash": "5c64e5c8ae2eac5aa933a96504353d386bde8ea156e03c1547b1bac52302dbd0"
+  },
+  {
+    "index": 84,
+    "timestamp": "2026-01-30T17:54:44.698493+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "5c64e5c8ae2eac5aa933a96504353d386bde8ea156e03c1547b1bac52302dbd0",
+    "hash": "9c97d38429eac695c97aee610d9d9b3d6922a2af2594f5d10e4c6df6bea34d18"
+  },
+  {
+    "index": 85,
+    "timestamp": "2026-01-30T17:54:44.716706+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "9c97d38429eac695c97aee610d9d9b3d6922a2af2594f5d10e4c6df6bea34d18",
+    "hash": "5483fe68e5ff6e86ccb1f607bde2ddf3b38206ebc79a553035ce2a918fd3b90c"
+  },
+  {
+    "index": 86,
+    "timestamp": "2026-01-30T17:54:44.729143+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "5483fe68e5ff6e86ccb1f607bde2ddf3b38206ebc79a553035ce2a918fd3b90c",
+    "hash": "48e52df03c0716eca868589891e4a3f286d768aafc55586a047c791573f0c088"
+  },
+  {
+    "index": 87,
+    "timestamp": "2026-01-30T17:54:45.894152+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "48e52df03c0716eca868589891e4a3f286d768aafc55586a047c791573f0c088",
+    "hash": "421121f83bc4f0bb5d1d71a7a5855667560392e507c7bd5f11e5fc843c2ae463"
+  },
+  {
+    "index": 88,
+    "timestamp": "2026-01-30T17:54:49.460458+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "421121f83bc4f0bb5d1d71a7a5855667560392e507c7bd5f11e5fc843c2ae463",
+    "hash": "b91479f6b0e48599d40c8332904598bfebaa1c64eba846a20e3f5e71d3679d2a"
+  },
+  {
+    "index": 89,
+    "timestamp": "2026-01-30T17:54:49.481161+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "b91479f6b0e48599d40c8332904598bfebaa1c64eba846a20e3f5e71d3679d2a",
+    "hash": "507016f35caed58c173b0648ea06657d348a6a29040a4faefcca1a2e7110a561"
+  },
+  {
+    "index": 90,
+    "timestamp": "2026-01-30T17:54:49.495949+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "507016f35caed58c173b0648ea06657d348a6a29040a4faefcca1a2e7110a561",
+    "hash": "9e7141174cb0b54d26a491aa06352c4f7f6b27f885e2bcd8fc0862b0fb0e60ce"
+  },
+  {
+    "index": 91,
+    "timestamp": "2026-01-30T17:54:49.509437+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "9e7141174cb0b54d26a491aa06352c4f7f6b27f885e2bcd8fc0862b0fb0e60ce",
+    "hash": "598aec0b09df4fe5938f38f7b7d5da68426e88a9fcd47f305a24e1483303eadf"
+  },
+  {
+    "index": 92,
+    "timestamp": "2026-01-30T17:54:50.485212+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "598aec0b09df4fe5938f38f7b7d5da68426e88a9fcd47f305a24e1483303eadf",
+    "hash": "a58a8be768aba04e88f216117a23ba9f979b267f67b28b9ba6f0211376a57ef5"
+  },
+  {
+    "index": 93,
+    "timestamp": "2026-01-30T18:01:28.732790+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "a58a8be768aba04e88f216117a23ba9f979b267f67b28b9ba6f0211376a57ef5",
+    "hash": "584b6569768eb208676804e3f1b560b3773ce0c8d33d729e52610506ee4b5b96"
+  },
+  {
+    "index": 94,
+    "timestamp": "2026-01-30T18:01:28.757865+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "584b6569768eb208676804e3f1b560b3773ce0c8d33d729e52610506ee4b5b96",
+    "hash": "431804e698ec065e4d92f6c951a6b76284fc8ff45961a3c47a90328b7536c3f5"
+  },
+  {
+    "index": 95,
+    "timestamp": "2026-01-30T18:01:28.783032+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "431804e698ec065e4d92f6c951a6b76284fc8ff45961a3c47a90328b7536c3f5",
+    "hash": "03d941999ff4e93beda34b7bc00755cb7fe7169c9e34baf1a12a7cac01f3caeb"
+  },
+  {
+    "index": 96,
+    "timestamp": "2026-01-30T18:01:28.802436+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "03d941999ff4e93beda34b7bc00755cb7fe7169c9e34baf1a12a7cac01f3caeb",
+    "hash": "59b18a929ad96c950e60d6e99e6138ea5f6e97d3dc852559f48e863bcb293717"
+  },
+  {
+    "index": 97,
+    "timestamp": "2026-01-30T18:01:30.284702+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "59b18a929ad96c950e60d6e99e6138ea5f6e97d3dc852559f48e863bcb293717",
+    "hash": "402e06ccf74fd004313dff2fcc7e81a723e423436c4ede4a6da0479433f20869"
+  },
+  {
+    "index": 98,
+    "timestamp": "2026-01-30T18:01:36.991806+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "402e06ccf74fd004313dff2fcc7e81a723e423436c4ede4a6da0479433f20869",
+    "hash": "240a32aa9b4652537334417dd1b3aec01733f68a16a4dd53ab83c9c0b5277352"
+  },
+  {
+    "index": 99,
+    "timestamp": "2026-01-30T18:01:37.042584+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "240a32aa9b4652537334417dd1b3aec01733f68a16a4dd53ab83c9c0b5277352",
+    "hash": "c5ee7d3bb5b0985c202d98808cc19acd4fc8e325840ce3dc53064347cf6aa44b"
+  },
+  {
+    "index": 100,
+    "timestamp": "2026-01-30T18:01:37.069448+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "c5ee7d3bb5b0985c202d98808cc19acd4fc8e325840ce3dc53064347cf6aa44b",
+    "hash": "a1ba9657f7295aa12fa15b043e3aab41843226af6501d5b87b7f164611021c11"
+  },
+  {
+    "index": 101,
+    "timestamp": "2026-01-30T18:01:37.094689+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "a1ba9657f7295aa12fa15b043e3aab41843226af6501d5b87b7f164611021c11",
+    "hash": "607746beb98c2cb12874786d046a58e51158e260acf664c907934d1f132ec497"
+  },
+  {
+    "index": 102,
+    "timestamp": "2026-01-30T18:01:38.107487+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "607746beb98c2cb12874786d046a58e51158e260acf664c907934d1f132ec497",
+    "hash": "dc57d550ad9feed6b5caf0c6d8bd7fcea225aae7d8bd8b5fcc6a53cc31449b9b"
+  },
+  {
+    "index": 103,
+    "timestamp": "2026-01-30T18:05:16.885777+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "dc57d550ad9feed6b5caf0c6d8bd7fcea225aae7d8bd8b5fcc6a53cc31449b9b",
+    "hash": "40296152f0cbcfd22f5ead49642808c5a891b49ac1902e5522c9bc8d9f9ae36d"
+  },
+  {
+    "index": 104,
+    "timestamp": "2026-01-30T18:05:16.904728+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "40296152f0cbcfd22f5ead49642808c5a891b49ac1902e5522c9bc8d9f9ae36d",
+    "hash": "e813ad1991697dbbec4913ba9338b97029a3e781b1fd2277933a9ef793417225"
+  },
+  {
+    "index": 105,
+    "timestamp": "2026-01-30T18:05:16.922615+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "e813ad1991697dbbec4913ba9338b97029a3e781b1fd2277933a9ef793417225",
+    "hash": "6a47b1b1390aac752e57a4453ca3675cad52affb59bc305ef9c0add8ddf60d60"
+  },
+  {
+    "index": 106,
+    "timestamp": "2026-01-30T18:05:16.936577+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "6a47b1b1390aac752e57a4453ca3675cad52affb59bc305ef9c0add8ddf60d60",
+    "hash": "38bcb326139fc7329512c8e714047e8a0e9c85416721623a691c63ae369cd39e"
+  },
+  {
+    "index": 107,
+    "timestamp": "2026-01-30T18:05:18.947374+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "38bcb326139fc7329512c8e714047e8a0e9c85416721623a691c63ae369cd39e",
+    "hash": "c2a08f1ccfd4639ebcdb4ba593f0347e77a51ddb42d36383820ee976f62ba240"
+  },
+  {
+    "index": 108,
+    "timestamp": "2026-01-30T18:06:49.337931+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "c2a08f1ccfd4639ebcdb4ba593f0347e77a51ddb42d36383820ee976f62ba240",
+    "hash": "326fedd602146356e18805184f4e2438ac0651fa318073ee629e8765a1608c03"
+  },
+  {
+    "index": 109,
+    "timestamp": "2026-01-30T18:06:49.357947+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "326fedd602146356e18805184f4e2438ac0651fa318073ee629e8765a1608c03",
+    "hash": "2e33c0fbbe19befd1f08bcd21e13afda8e87c0bb797dc5191aa74131287b36f6"
+  },
+  {
+    "index": 110,
+    "timestamp": "2026-01-30T18:06:49.373052+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "2e33c0fbbe19befd1f08bcd21e13afda8e87c0bb797dc5191aa74131287b36f6",
+    "hash": "e97ee12f7323e79ad7b2b5bc33c67955e67dc7e2d304b7caa160d4b140839a2e"
+  },
+  {
+    "index": 111,
+    "timestamp": "2026-01-30T18:06:49.386564+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "e97ee12f7323e79ad7b2b5bc33c67955e67dc7e2d304b7caa160d4b140839a2e",
+    "hash": "c76009d69a7abda0ec5501ad24749c31cd8e3e51779103d674765b05603cae90"
+  },
+  {
+    "index": 112,
+    "timestamp": "2026-01-30T18:06:50.233395+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "c76009d69a7abda0ec5501ad24749c31cd8e3e51779103d674765b05603cae90",
+    "hash": "d3d9ba59e78e4cae7285819fa111b08e881b8a0cacc372b0903a3077bfc5bde0"
+  },
+  {
+    "index": 113,
+    "timestamp": "2026-01-30T18:07:11.635453+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "d3d9ba59e78e4cae7285819fa111b08e881b8a0cacc372b0903a3077bfc5bde0",
+    "hash": "0b3a511b9747c9380a4a205bc87c456b9f2650af39232a91995fe888bc94cc63"
+  },
+  {
+    "index": 114,
+    "timestamp": "2026-01-30T18:07:11.659026+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "0b3a511b9747c9380a4a205bc87c456b9f2650af39232a91995fe888bc94cc63",
+    "hash": "5c6891e8f3355145f2b45341f7134b401aa671a578e9020e544eef46dc7e7ed7"
+  },
+  {
+    "index": 115,
+    "timestamp": "2026-01-30T18:07:11.675197+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "5c6891e8f3355145f2b45341f7134b401aa671a578e9020e544eef46dc7e7ed7",
+    "hash": "bda4a4a8932fd66184ad8c91880fb7ae0b57c4eabde674844c6536b47199e4f3"
+  },
+  {
+    "index": 116,
+    "timestamp": "2026-01-30T18:07:11.696848+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "bda4a4a8932fd66184ad8c91880fb7ae0b57c4eabde674844c6536b47199e4f3",
+    "hash": "41d3505953d4938d38c9fc5edc7f85ed0a569a4102eb9401b3d734cecf20a2c5"
+  },
+  {
+    "index": 117,
+    "timestamp": "2026-01-30T18:07:13.214337+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "41d3505953d4938d38c9fc5edc7f85ed0a569a4102eb9401b3d734cecf20a2c5",
+    "hash": "a1dcc61560dfce981b159fa9ed29ec9f16a8bcfd2f467e11ad43c4631f32314b"
+  },
+  {
+    "index": 118,
+    "timestamp": "2026-01-30T18:07:19.375085+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "a1dcc61560dfce981b159fa9ed29ec9f16a8bcfd2f467e11ad43c4631f32314b",
+    "hash": "eebed93ac5bf8ee1d593edaa4698bd375c607372c8dea56d1af99ce62753b73d"
+  },
+  {
+    "index": 119,
+    "timestamp": "2026-01-30T18:07:19.403530+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "eebed93ac5bf8ee1d593edaa4698bd375c607372c8dea56d1af99ce62753b73d",
+    "hash": "715ffe9837092dbb38bf1bdf6c53c29f63f0d9fe29c13f60a93a010360169cf9"
+  },
+  {
+    "index": 120,
+    "timestamp": "2026-01-30T18:07:19.422137+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "715ffe9837092dbb38bf1bdf6c53c29f63f0d9fe29c13f60a93a010360169cf9",
+    "hash": "ea4296c379c41fcd8320c0fe013a9fad78b48e8fb9a9b7cdef6568780e54bd2c"
+  },
+  {
+    "index": 121,
+    "timestamp": "2026-01-30T18:07:19.445105+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "ea4296c379c41fcd8320c0fe013a9fad78b48e8fb9a9b7cdef6568780e54bd2c",
+    "hash": "053e9e1c9bcf984b3382485b10205db57069f5581d01122c24df86378b57ea92"
+  },
+  {
+    "index": 122,
+    "timestamp": "2026-01-30T18:07:20.473170+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "053e9e1c9bcf984b3382485b10205db57069f5581d01122c24df86378b57ea92",
+    "hash": "d4e92d8c3365e0436ca0d2b62d6db20f609b92476c41d37fb1f150dfde658ef5"
+  },
+  {
+    "index": 123,
+    "timestamp": "2026-01-30T18:07:22.602737+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "d4e92d8c3365e0436ca0d2b62d6db20f609b92476c41d37fb1f150dfde658ef5",
+    "hash": "9d06cf9f41ceaec8c0da6cfc7f679d89f81f76582e423db13f71c9ba2322de85"
+  },
+  {
+    "index": 124,
+    "timestamp": "2026-01-30T18:07:22.623391+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "9d06cf9f41ceaec8c0da6cfc7f679d89f81f76582e423db13f71c9ba2322de85",
+    "hash": "90c1492841c8bf4bbf5ed5577bf7d127fe82744c5252f21d31334cf09af92875"
+  },
+  {
+    "index": 125,
+    "timestamp": "2026-01-30T18:07:22.643571+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "90c1492841c8bf4bbf5ed5577bf7d127fe82744c5252f21d31334cf09af92875",
+    "hash": "cb6f05d63c5a8e3e4ffb99da5b9c7868c2f893c42afe4a047a279b574cedff24"
+  },
+  {
+    "index": 126,
+    "timestamp": "2026-01-30T18:07:22.660986+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "cb6f05d63c5a8e3e4ffb99da5b9c7868c2f893c42afe4a047a279b574cedff24",
+    "hash": "52ece6eed2162745fc3783800c8a1682059623cb83e6a2586d4346f6d829cf85"
+  },
+  {
+    "index": 127,
+    "timestamp": "2026-01-30T18:07:26.919805+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "52ece6eed2162745fc3783800c8a1682059623cb83e6a2586d4346f6d829cf85",
+    "hash": "729dd7c0d4f522dcf70218fdacffa9759b8a721209438f14a20f0211c43c4212"
+  },
+  {
+    "index": 128,
+    "timestamp": "2026-01-30T18:07:26.958289+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "729dd7c0d4f522dcf70218fdacffa9759b8a721209438f14a20f0211c43c4212",
+    "hash": "fcb76fca639dff3f632088186ba2973ca9cd77d2f8071d212730d85ac2c1ec88"
+  },
+  {
+    "index": 129,
+    "timestamp": "2026-01-30T18:07:26.998731+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "fcb76fca639dff3f632088186ba2973ca9cd77d2f8071d212730d85ac2c1ec88",
+    "hash": "d62e416a3e38710a7ddc5ed9bcf757f87a03186ce7b65f7b138095a15445c08f"
+  },
+  {
+    "index": 130,
+    "timestamp": "2026-01-30T18:07:27.064843+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "d62e416a3e38710a7ddc5ed9bcf757f87a03186ce7b65f7b138095a15445c08f",
+    "hash": "5ec7794864791cd6c8a92a41c60e24f77639c1fbf44e11bca56482b91d4f0b60"
+  },
+  {
+    "index": 131,
+    "timestamp": "2026-01-30T18:07:30.603172+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "5ec7794864791cd6c8a92a41c60e24f77639c1fbf44e11bca56482b91d4f0b60",
+    "hash": "25c377583f61d5b7e6997a2485b779fee27b916a9c8d278317569d0369b06800"
+  },
+  {
+    "index": 132,
+    "timestamp": "2026-01-30T18:07:36.735671+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "25c377583f61d5b7e6997a2485b779fee27b916a9c8d278317569d0369b06800",
+    "hash": "27eac879552377d8c85ab365c283babc40958c0650832b77d054f17a12fe0f49"
+  },
+  {
+    "index": 133,
+    "timestamp": "2026-01-30T18:07:36.765621+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "27eac879552377d8c85ab365c283babc40958c0650832b77d054f17a12fe0f49",
+    "hash": "06cee94ff154d507c926b8b563923f5e1d007d7b6eb2910f33b85de0afd13707"
+  },
+  {
+    "index": 134,
+    "timestamp": "2026-01-30T18:07:36.785864+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "06cee94ff154d507c926b8b563923f5e1d007d7b6eb2910f33b85de0afd13707",
+    "hash": "952ad4dff570f75f43128d5fda98393df30166e001764acdb6dbbd0aecccf1e4"
+  },
+  {
+    "index": 135,
+    "timestamp": "2026-01-30T18:07:36.809101+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "952ad4dff570f75f43128d5fda98393df30166e001764acdb6dbbd0aecccf1e4",
+    "hash": "b5ec9eb6174a3f84646220ed4755097f02b904bb2dc8efb6a5dde305e8d41fbc"
+  },
+  {
+    "index": 136,
+    "timestamp": "2026-01-30T18:07:37.574332+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "b5ec9eb6174a3f84646220ed4755097f02b904bb2dc8efb6a5dde305e8d41fbc",
+    "hash": "f4eb38a6e1366b8a02c211ca9ae992cbb19744cdbee46759ba2814f00889eb54"
+  },
+  {
+    "index": 137,
+    "timestamp": "2026-01-30T18:08:00.947977+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "f4eb38a6e1366b8a02c211ca9ae992cbb19744cdbee46759ba2814f00889eb54",
+    "hash": "1ad79ea3fac21851e2448b151226b595f5ef87e2ed1951346f90428d886ebab7"
+  },
+  {
+    "index": 138,
+    "timestamp": "2026-01-30T18:08:00.974334+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "1ad79ea3fac21851e2448b151226b595f5ef87e2ed1951346f90428d886ebab7",
+    "hash": "5f5fc1cf70a8856af28ea268ade0fb2ed9344c01ba0e8a2f90f010cb3c8eef95"
+  },
+  {
+    "index": 139,
+    "timestamp": "2026-01-30T18:08:00.995320+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "5f5fc1cf70a8856af28ea268ade0fb2ed9344c01ba0e8a2f90f010cb3c8eef95",
+    "hash": "3201781a0db5fed67221bc7a3d9ea962b71126a32be98fb29ca3384c9cb99628"
+  },
+  {
+    "index": 140,
+    "timestamp": "2026-01-30T18:08:01.016243+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "3201781a0db5fed67221bc7a3d9ea962b71126a32be98fb29ca3384c9cb99628",
+    "hash": "8965f06c70de483624b6c7539277a95646af28bdc0f5857d2028e8f3f08c04ea"
+  },
+  {
+    "index": 141,
+    "timestamp": "2026-01-30T18:08:01.924555+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "8965f06c70de483624b6c7539277a95646af28bdc0f5857d2028e8f3f08c04ea",
+    "hash": "80caf57e63d02d7de1d1adafabafc03c3fb98546569122a9179bf2223e7c1272"
+  },
+  {
+    "index": 142,
+    "timestamp": "2026-01-30T18:08:15.932687+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "80caf57e63d02d7de1d1adafabafc03c3fb98546569122a9179bf2223e7c1272",
+    "hash": "962e83ca0b75e3ba3676cdc31a82826c57f9d0ca6171eca593a80229efe36564"
+  },
+  {
+    "index": 143,
+    "timestamp": "2026-01-30T18:08:15.955742+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "962e83ca0b75e3ba3676cdc31a82826c57f9d0ca6171eca593a80229efe36564",
+    "hash": "22d2681e121df0020e30a1ee2ee132106d7d41a111c09222e37ed30274fe655e"
+  },
+  {
+    "index": 144,
+    "timestamp": "2026-01-30T18:08:15.974465+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "22d2681e121df0020e30a1ee2ee132106d7d41a111c09222e37ed30274fe655e",
+    "hash": "9f1b9e85ef6df576e4889f281b2b5be4a851403c4592ae1a8b914aee5fa1dfae"
+  },
+  {
+    "index": 145,
+    "timestamp": "2026-01-30T18:08:15.995674+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "9f1b9e85ef6df576e4889f281b2b5be4a851403c4592ae1a8b914aee5fa1dfae",
+    "hash": "5a06a3a9fb23cd7bda564bb94ea760a4470e1ae1211bc6f2a7a310cb3a41e6a8"
+  },
+  {
+    "index": 146,
+    "timestamp": "2026-01-30T18:08:16.885748+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "5a06a3a9fb23cd7bda564bb94ea760a4470e1ae1211bc6f2a7a310cb3a41e6a8",
+    "hash": "8921c160f820515b68a288ea71a64532708fe639d5d4acb36a37d683427ef7df"
+  },
+  {
+    "index": 147,
+    "timestamp": "2026-01-30T18:16:28.122411+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "8921c160f820515b68a288ea71a64532708fe639d5d4acb36a37d683427ef7df",
+    "hash": "ed3f2f18165bd98eacdbf36dcdce0fa4a68167a9d0faa4b044920e294a40b90e"
+  },
+  {
+    "index": 148,
+    "timestamp": "2026-01-30T18:16:28.137706+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "ed3f2f18165bd98eacdbf36dcdce0fa4a68167a9d0faa4b044920e294a40b90e",
+    "hash": "a6e940c11ed97d1db9d1c2dce1324855a0835b2a0f005626846a28a55be12c2c"
+  },
+  {
+    "index": 149,
+    "timestamp": "2026-01-30T18:16:28.151650+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "a6e940c11ed97d1db9d1c2dce1324855a0835b2a0f005626846a28a55be12c2c",
+    "hash": "9ac41c87c502586c61ad9c9363960c56894417c7a8ee2879ebe5b6560a86a6f1"
+  },
+  {
+    "index": 150,
+    "timestamp": "2026-01-30T18:16:28.162223+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "9ac41c87c502586c61ad9c9363960c56894417c7a8ee2879ebe5b6560a86a6f1",
+    "hash": "c1cac47d6258785194b4f7a0b1af535b797752a71aec531326b378283bc9f2b4"
+  },
+  {
+    "index": 151,
+    "timestamp": "2026-01-30T18:16:30.982271+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "c1cac47d6258785194b4f7a0b1af535b797752a71aec531326b378283bc9f2b4",
+    "hash": "15c090e2e7a2888e33e7fc50848c16837fcf4bd6e18b697457aa1487f1f9e02c"
+  },
+  {
+    "index": 152,
+    "timestamp": "2026-01-30T18:16:35.850795+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "15c090e2e7a2888e33e7fc50848c16837fcf4bd6e18b697457aa1487f1f9e02c",
+    "hash": "f4725f1a5f792dea1e9de7b1792874ddabeed03fdb41c30cd32016931b40d26d"
+  },
+  {
+    "index": 153,
+    "timestamp": "2026-01-30T18:16:35.873385+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "f4725f1a5f792dea1e9de7b1792874ddabeed03fdb41c30cd32016931b40d26d",
+    "hash": "8c7fef691369acccb53e28a01b4d0b90b7d6d2dc18f88efc10a86842ba57a3e2"
+  },
+  {
+    "index": 154,
+    "timestamp": "2026-01-30T18:16:35.889148+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "8c7fef691369acccb53e28a01b4d0b90b7d6d2dc18f88efc10a86842ba57a3e2",
+    "hash": "da9ceebe44c946fa58fa95fcd8941d68da996235974aa9cfe7c66072abcb7123"
+  },
+  {
+    "index": 155,
+    "timestamp": "2026-01-30T18:16:35.920197+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "da9ceebe44c946fa58fa95fcd8941d68da996235974aa9cfe7c66072abcb7123",
+    "hash": "e87708124df247e2fe31932788098a4d4f789fb3659ef04c49abf22119b05580"
+  },
+  {
+    "index": 156,
+    "timestamp": "2026-01-30T18:16:37.005524+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "e87708124df247e2fe31932788098a4d4f789fb3659ef04c49abf22119b05580",
+    "hash": "1b6227e788aa8de774af98aad9ab11299868c533f25a658090fef40084fbe346"
+  },
+  {
+    "index": 157,
+    "timestamp": "2026-01-30T18:16:43.341729+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "1b6227e788aa8de774af98aad9ab11299868c533f25a658090fef40084fbe346",
+    "hash": "efa450a8ee55c300d85bc3612cda1b33f91e69917bde0ad064bbec1d27d5ffc0"
+  },
+  {
+    "index": 158,
+    "timestamp": "2026-01-30T18:16:43.378017+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "efa450a8ee55c300d85bc3612cda1b33f91e69917bde0ad064bbec1d27d5ffc0",
+    "hash": "f28fd6d98e04fdd0552393b6d53997ccd46cf979b574117049f703012e85aaad"
+  },
+  {
+    "index": 159,
+    "timestamp": "2026-01-30T18:16:43.406685+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "f28fd6d98e04fdd0552393b6d53997ccd46cf979b574117049f703012e85aaad",
+    "hash": "9036bbf7236b7736a3d6212ee10446a5b53c124adb0acefaf64da2629cbe3d46"
+  },
+  {
+    "index": 160,
+    "timestamp": "2026-01-30T18:16:43.437971+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "9036bbf7236b7736a3d6212ee10446a5b53c124adb0acefaf64da2629cbe3d46",
+    "hash": "f1e74137b0ccfc080e88e21823e61eac5dd17be9b12316e0da4d438e74f3117b"
+  },
+  {
+    "index": 161,
+    "timestamp": "2026-01-30T18:16:44.284604+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "f1e74137b0ccfc080e88e21823e61eac5dd17be9b12316e0da4d438e74f3117b",
+    "hash": "06be99eabb3dc072593e4fea4dd6bf4c5f3386951eaf4a1ccc813b3c1eb8df7a"
+  },
+  {
+    "index": 162,
+    "timestamp": "2026-01-30T18:16:47.325356+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "06be99eabb3dc072593e4fea4dd6bf4c5f3386951eaf4a1ccc813b3c1eb8df7a",
+    "hash": "b47aa6a8f435114e80ee6e5c4f840d0474c9beda45369765ac8a9dc8c6d5fe86"
+  },
+  {
+    "index": 163,
+    "timestamp": "2026-01-30T18:16:47.353667+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "b47aa6a8f435114e80ee6e5c4f840d0474c9beda45369765ac8a9dc8c6d5fe86",
+    "hash": "beec09a73cb0651344394053f3260e3b0ab2c32d4aa3d7392277d573eb07a04e"
+  },
+  {
+    "index": 164,
+    "timestamp": "2026-01-30T18:16:47.374990+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "beec09a73cb0651344394053f3260e3b0ab2c32d4aa3d7392277d573eb07a04e",
+    "hash": "c3b73973a69e1c60d782cbe8fe5a8ad923b8613a6df3519ffc3dbc51d6251c9f"
+  },
+  {
+    "index": 165,
+    "timestamp": "2026-01-30T18:16:47.400960+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "c3b73973a69e1c60d782cbe8fe5a8ad923b8613a6df3519ffc3dbc51d6251c9f",
+    "hash": "af9dc0525e43a1e7a3f441196267f7f7c7adaeb6a3c7c95530d6602b126f4075"
+  },
+  {
+    "index": 166,
+    "timestamp": "2026-01-30T18:16:48.346818+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "af9dc0525e43a1e7a3f441196267f7f7c7adaeb6a3c7c95530d6602b126f4075",
+    "hash": "6f2e5639b39ce5f4a64b4f83c2ba2d74757846e170079b3156af8db6615c6612"
+  },
+  {
+    "index": 167,
+    "timestamp": "2026-01-30T18:16:54.657260+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "6f2e5639b39ce5f4a64b4f83c2ba2d74757846e170079b3156af8db6615c6612",
+    "hash": "fc9d69cf73116077cdc90a5bbb15108ee6292586e8aafc92efa55bf0fdef8944"
+  },
+  {
+    "index": 168,
+    "timestamp": "2026-01-30T18:16:54.681963+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "fc9d69cf73116077cdc90a5bbb15108ee6292586e8aafc92efa55bf0fdef8944",
+    "hash": "f62e560002920629ff7f2aad1a4d9db633facee7dae9a2301a75af842cff25ab"
+  },
+  {
+    "index": 169,
+    "timestamp": "2026-01-30T18:16:54.713363+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "f62e560002920629ff7f2aad1a4d9db633facee7dae9a2301a75af842cff25ab",
+    "hash": "a11f60a6854a3b97280a82c6a9ba09c5ab22aabbbf1b99295a74c2ead7e675b5"
+  },
+  {
+    "index": 170,
+    "timestamp": "2026-01-30T18:16:54.747484+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "a11f60a6854a3b97280a82c6a9ba09c5ab22aabbbf1b99295a74c2ead7e675b5",
+    "hash": "379e38f0a387daaef86d428c66545bf65fa106820af4fe9070628587d0310c03"
+  },
+  {
+    "index": 171,
+    "timestamp": "2026-01-30T18:16:55.514776+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "379e38f0a387daaef86d428c66545bf65fa106820af4fe9070628587d0310c03",
+    "hash": "5dc1561a1668c6b2ca6c8a8d045520de6ca0407d739254552cf5fd65c577269d"
+  },
+  {
+    "index": 172,
+    "timestamp": "2026-01-30T18:16:58.101180+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "5dc1561a1668c6b2ca6c8a8d045520de6ca0407d739254552cf5fd65c577269d",
+    "hash": "03d6087192342c8656e751a5c0a27b1b09af7d139dc8f5e8c1f7ae59f9111a1d"
+  },
+  {
+    "index": 173,
+    "timestamp": "2026-01-30T18:16:58.134051+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "03d6087192342c8656e751a5c0a27b1b09af7d139dc8f5e8c1f7ae59f9111a1d",
+    "hash": "6d9ae01f83485fb0700a11827b70d14a316a26f62b3f9531de8795eda36a682d"
+  },
+  {
+    "index": 174,
+    "timestamp": "2026-01-30T18:16:58.190764+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "6d9ae01f83485fb0700a11827b70d14a316a26f62b3f9531de8795eda36a682d",
+    "hash": "35bcc1c6a07b2afdad538f9083822ddb54aa34b22c524790adfdfb930b7e8ccd"
+  },
+  {
+    "index": 175,
+    "timestamp": "2026-01-30T18:16:58.232086+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "35bcc1c6a07b2afdad538f9083822ddb54aa34b22c524790adfdfb930b7e8ccd",
+    "hash": "4084af49de02fea891029b63eeeaf05af3136ffe2e077c9ae7d94515ebd708cf"
+  },
+  {
+    "index": 176,
+    "timestamp": "2026-01-30T18:16:59.075013+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "4084af49de02fea891029b63eeeaf05af3136ffe2e077c9ae7d94515ebd708cf",
+    "hash": "581447299c197e170c049e5135fe03259c00d96cb9eb81d1657a973c95b86408"
+  },
+  {
+    "index": 177,
+    "timestamp": "2026-01-30T18:17:00.356999+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "581447299c197e170c049e5135fe03259c00d96cb9eb81d1657a973c95b86408",
+    "hash": "bb4dd48fd7b8ab4fc1dfa9d01265753da36a44691bba4eaf472b26fa5cb7757e"
+  },
+  {
+    "index": 178,
+    "timestamp": "2026-01-30T18:17:00.377806+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "bb4dd48fd7b8ab4fc1dfa9d01265753da36a44691bba4eaf472b26fa5cb7757e",
+    "hash": "997b79030e1daf58782bafb1b59efe5899fa1ce4b151431f5454952910846b1b"
+  },
+  {
+    "index": 179,
+    "timestamp": "2026-01-30T18:17:00.396550+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "997b79030e1daf58782bafb1b59efe5899fa1ce4b151431f5454952910846b1b",
+    "hash": "ba6e523daf79cf8247a66b8989a4c79196f83bc2d233cec214b42e5a171d9f03"
+  },
+  {
+    "index": 180,
+    "timestamp": "2026-01-30T18:17:00.414179+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "ba6e523daf79cf8247a66b8989a4c79196f83bc2d233cec214b42e5a171d9f03",
+    "hash": "87c62d7ff822d07370556c2b07b98802983edd3b9078749301db03666ac8700b"
+  },
+  {
+    "index": 181,
+    "timestamp": "2026-01-30T18:17:03.835218+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "87c62d7ff822d07370556c2b07b98802983edd3b9078749301db03666ac8700b",
+    "hash": "c6c3627256d058ddd5e4bd7d73e3ed6ec9a6e8562193bb01f607503235caf664"
+  },
+  {
+    "index": 182,
+    "timestamp": "2026-01-30T18:19:13.439540+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "c6c3627256d058ddd5e4bd7d73e3ed6ec9a6e8562193bb01f607503235caf664",
+    "hash": "1b3919d87c7e749e0dc84f60dbce911db5457b5901d33d8f92a5e579b0bfe61e"
+  },
+  {
+    "index": 183,
+    "timestamp": "2026-01-30T18:19:13.463981+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "1b3919d87c7e749e0dc84f60dbce911db5457b5901d33d8f92a5e579b0bfe61e",
+    "hash": "b7342278dc1b81faab13e016a55f281c35f85507bc6eef307309bc526343a3df"
+  },
+  {
+    "index": 184,
+    "timestamp": "2026-01-30T18:19:13.485277+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "b7342278dc1b81faab13e016a55f281c35f85507bc6eef307309bc526343a3df",
+    "hash": "ee4e064f7ab0d1dd3310df8264e3b313d4901d7fdad9e2eb0373334c64a3740a"
+  },
+  {
+    "index": 185,
+    "timestamp": "2026-01-30T18:19:13.506674+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "ee4e064f7ab0d1dd3310df8264e3b313d4901d7fdad9e2eb0373334c64a3740a",
+    "hash": "994953ac78732264099cdf23d3b09345a26d6ecd721a538baf89b62a97d9a6cf"
+  },
+  {
+    "index": 186,
+    "timestamp": "2026-01-30T18:19:17.606296+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "994953ac78732264099cdf23d3b09345a26d6ecd721a538baf89b62a97d9a6cf",
+    "hash": "4d8c6aea6cc5edb8386b57dc6ed1aedf07912da82f6d36667b1c270488df8f8e"
+  },
+  {
+    "index": 187,
+    "timestamp": "2026-01-30T18:20:25.230478+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "4d8c6aea6cc5edb8386b57dc6ed1aedf07912da82f6d36667b1c270488df8f8e",
+    "hash": "3248a8d597f0499f37edabb772c56fcb0365036f3b50c403608970efd1c7d3fe"
+  },
+  {
+    "index": 188,
+    "timestamp": "2026-01-30T18:20:25.262753+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "3248a8d597f0499f37edabb772c56fcb0365036f3b50c403608970efd1c7d3fe",
+    "hash": "bbb5a953ab19c30b34fee3589ae2bc5d573b0a600a1f84c75bae5c18ee8768c4"
+  },
+  {
+    "index": 189,
+    "timestamp": "2026-01-30T18:20:25.283047+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "bbb5a953ab19c30b34fee3589ae2bc5d573b0a600a1f84c75bae5c18ee8768c4",
+    "hash": "8de744291d8bc954f09730d60fc413b1f9dc81b3958d721d22486617025c3542"
+  },
+  {
+    "index": 190,
+    "timestamp": "2026-01-30T18:20:25.303110+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "8de744291d8bc954f09730d60fc413b1f9dc81b3958d721d22486617025c3542",
+    "hash": "ef1c32e77872eacec85b41acbac472af90a5becc2d75c12268379a180b7c7363"
+  },
+  {
+    "index": 191,
+    "timestamp": "2026-01-30T18:20:29.031431+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "ef1c32e77872eacec85b41acbac472af90a5becc2d75c12268379a180b7c7363",
+    "hash": "7a707c0c81a837d3ab8f9f3f6aeca5144e4d4fc76d30cff0bf4104c16c775890"
+  },
+  {
+    "index": 192,
+    "timestamp": "2026-01-30T18:25:08.406244+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "7a707c0c81a837d3ab8f9f3f6aeca5144e4d4fc76d30cff0bf4104c16c775890",
+    "hash": "9799b91adb4141e77b94f49f1c3d7a30d303ccce43b40724aae8e2118839488f"
+  },
+  {
+    "index": 193,
+    "timestamp": "2026-01-30T18:25:08.430609+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "9799b91adb4141e77b94f49f1c3d7a30d303ccce43b40724aae8e2118839488f",
+    "hash": "aa5c8fcafd157c04b35b057a7454775adba962136a199511f908bc0188322f5d"
+  },
+  {
+    "index": 194,
+    "timestamp": "2026-01-30T18:25:08.451433+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "aa5c8fcafd157c04b35b057a7454775adba962136a199511f908bc0188322f5d",
+    "hash": "8e9accb55f99ca70576ac63209aa464b3e4a103c9770356fe3608be73882d384"
+  },
+  {
+    "index": 195,
+    "timestamp": "2026-01-30T18:25:08.476837+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "8e9accb55f99ca70576ac63209aa464b3e4a103c9770356fe3608be73882d384",
+    "hash": "0bc94f1bf11b974c4904a6b36a94000e74f3841b17bb6ffe5b3c085249c150f1"
+  },
+  {
+    "index": 196,
+    "timestamp": "2026-01-30T18:25:09.753302+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "0bc94f1bf11b974c4904a6b36a94000e74f3841b17bb6ffe5b3c085249c150f1",
+    "hash": "f7453109e1be18bc5d9ab30b3762c181668fcd91853653007c334cebc50a4bf9"
+  },
+  {
+    "index": 197,
+    "timestamp": "2026-01-30T18:25:34.158943+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "f7453109e1be18bc5d9ab30b3762c181668fcd91853653007c334cebc50a4bf9",
+    "hash": "59da77e43ece6fad6c2392c5ed5283f482bcb9e6f3a5a53b552deb89c3cff67a"
+  },
+  {
+    "index": 198,
+    "timestamp": "2026-01-30T18:25:34.184601+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "59da77e43ece6fad6c2392c5ed5283f482bcb9e6f3a5a53b552deb89c3cff67a",
+    "hash": "f9efb4f51d1128cb101295569e2704e0a5b1f75a385d3d16b295bcd246df174f"
+  },
+  {
+    "index": 199,
+    "timestamp": "2026-01-30T18:25:34.205920+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "f9efb4f51d1128cb101295569e2704e0a5b1f75a385d3d16b295bcd246df174f",
+    "hash": "696fc463d14a74042099c65daf257e6e92addfb7aaf1bbfd8511425d690f17b9"
+  },
+  {
+    "index": 200,
+    "timestamp": "2026-01-30T18:25:34.227463+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "696fc463d14a74042099c65daf257e6e92addfb7aaf1bbfd8511425d690f17b9",
+    "hash": "e4db183c91d1727c0e764e1fec4253d5560bce5d1e36c45b6e87f1ee44b08029"
+  },
+  {
+    "index": 201,
+    "timestamp": "2026-01-30T18:25:35.761625+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "e4db183c91d1727c0e764e1fec4253d5560bce5d1e36c45b6e87f1ee44b08029",
+    "hash": "414d5a4dc8bb8675c8fa3cee1f64f5b4ba361295e6bdd16018f6da71fc37c955"
+  },
+  {
+    "index": 202,
+    "timestamp": "2026-01-30T18:26:05.494729+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "414d5a4dc8bb8675c8fa3cee1f64f5b4ba361295e6bdd16018f6da71fc37c955",
+    "hash": "802f946945abf5e26530b9622aa6323d635f685f141346831c4600ff1abee0ca"
+  },
+  {
+    "index": 203,
+    "timestamp": "2026-01-30T18:26:05.522681+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "802f946945abf5e26530b9622aa6323d635f685f141346831c4600ff1abee0ca",
+    "hash": "f6b7085b82bf8ca4e79c51828d24c43375f5f477067fda0ef7df5630588aea83"
+  },
+  {
+    "index": 204,
+    "timestamp": "2026-01-30T18:26:05.547283+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "f6b7085b82bf8ca4e79c51828d24c43375f5f477067fda0ef7df5630588aea83",
+    "hash": "67ae9db7358ef9946d74de3e567d62ec0bd56d3ef95f5509fcf401ab616ec761"
+  },
+  {
+    "index": 205,
+    "timestamp": "2026-01-30T18:26:05.569034+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "67ae9db7358ef9946d74de3e567d62ec0bd56d3ef95f5509fcf401ab616ec761",
+    "hash": "10727aebf2466c542dc628bb62a5dd49f26c84b391f80aeeceea051f3564f7db"
+  },
+  {
+    "index": 206,
+    "timestamp": "2026-01-30T18:26:06.643736+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "10727aebf2466c542dc628bb62a5dd49f26c84b391f80aeeceea051f3564f7db",
+    "hash": "53d5a17da3beed8ce982f465f743324547008c227b7d156df7b7cd8c20df13a6"
+  },
+  {
+    "index": 207,
+    "timestamp": "2026-01-30T18:29:18.376154+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "53d5a17da3beed8ce982f465f743324547008c227b7d156df7b7cd8c20df13a6",
+    "hash": "706e9c7fb95dbdc13a04daf70e9c51a808a62ca16fdf3eb164d9881bafb17e14"
+  },
+  {
+    "index": 208,
+    "timestamp": "2026-01-30T18:29:18.443067+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "706e9c7fb95dbdc13a04daf70e9c51a808a62ca16fdf3eb164d9881bafb17e14",
+    "hash": "37cde2b12aff50cd3d8b20063ea49f81197508248e3fc168d6620f50d49cd6a6"
+  },
+  {
+    "index": 209,
+    "timestamp": "2026-01-30T18:29:18.489457+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "37cde2b12aff50cd3d8b20063ea49f81197508248e3fc168d6620f50d49cd6a6",
+    "hash": "8e2f8e76a4e00375f6cee9b8995ff28ad9fd105d3f1ae865d1641e7fc54e1d5c"
+  },
+  {
+    "index": 210,
+    "timestamp": "2026-01-30T18:29:18.540308+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "8e2f8e76a4e00375f6cee9b8995ff28ad9fd105d3f1ae865d1641e7fc54e1d5c",
+    "hash": "5c5890327eb6537dad0ba04c9a601e1f052da057d152211dd262186ea1b8a7e6"
+  },
+  {
+    "index": 211,
+    "timestamp": "2026-01-30T18:29:20.337265+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "5c5890327eb6537dad0ba04c9a601e1f052da057d152211dd262186ea1b8a7e6",
+    "hash": "ee448026f2f151de90ea3325bf10423569aad4d61f097b3608cd5e019b4bbb18"
+  },
+  {
+    "index": 212,
+    "timestamp": "2026-01-31T16:13:36.679972+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "ee448026f2f151de90ea3325bf10423569aad4d61f097b3608cd5e019b4bbb18",
+    "hash": "7684038baa68d6d80eaa15deca8d16ec583669aa9f89549274817be3ad6eb254"
+  },
+  {
+    "index": 213,
+    "timestamp": "2026-01-31T16:13:36.809421+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "7684038baa68d6d80eaa15deca8d16ec583669aa9f89549274817be3ad6eb254",
+    "hash": "0624fb1f28b5b6661a5eeaeee037f8666a7de8039c43ebb3d516537f346d4a1a"
+  },
+  {
+    "index": 214,
+    "timestamp": "2026-01-31T16:13:36.923759+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "0624fb1f28b5b6661a5eeaeee037f8666a7de8039c43ebb3d516537f346d4a1a",
+    "hash": "830968af246520a5986e2c87bea13210da8546a64a4c24421ea6b349288e1604"
+  },
+  {
+    "index": 215,
+    "timestamp": "2026-01-31T16:13:37.041629+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "830968af246520a5986e2c87bea13210da8546a64a4c24421ea6b349288e1604",
+    "hash": "ddbfe786c32784d6226ffdc9b26446c8aa5f7a28ed1c1f966a2777d45f19d49d"
+  },
+  {
+    "index": 216,
+    "timestamp": "2026-01-31T16:13:42.528510+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "ddbfe786c32784d6226ffdc9b26446c8aa5f7a28ed1c1f966a2777d45f19d49d",
+    "hash": "c5f769b0527557fe1afbc95f8b19c8d5fd63141761bf50215e89a0fd82ee0266"
+  },
+  {
+    "index": 217,
+    "timestamp": "2026-01-31T16:22:15.545534+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "c5f769b0527557fe1afbc95f8b19c8d5fd63141761bf50215e89a0fd82ee0266",
+    "hash": "2901c5b36acd71a7ed620f3e4b0273b30b15761a442819c6454fb2ef063bc709"
+  },
+  {
+    "index": 218,
+    "timestamp": "2026-01-31T16:22:15.676268+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "2901c5b36acd71a7ed620f3e4b0273b30b15761a442819c6454fb2ef063bc709",
+    "hash": "cfcbb76adbfbcba7c123f4f73c9ebd0296788ddcbf46e8b64cf4814fed527214"
+  },
+  {
+    "index": 219,
+    "timestamp": "2026-01-31T16:22:15.783464+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "cfcbb76adbfbcba7c123f4f73c9ebd0296788ddcbf46e8b64cf4814fed527214",
+    "hash": "e747235a1769edde6992a1942cf32d6873b9f957ee17a034e5ed0eec7e38b0ff"
+  },
+  {
+    "index": 220,
+    "timestamp": "2026-01-31T16:22:15.810399+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "e747235a1769edde6992a1942cf32d6873b9f957ee17a034e5ed0eec7e38b0ff",
+    "hash": "292635433d66fe0bdf969c5548a46a38cb42c3329c24ce40ddbb6532f9c6c619"
+  },
+  {
+    "index": 221,
+    "timestamp": "2026-01-31T16:22:25.158366+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "292635433d66fe0bdf969c5548a46a38cb42c3329c24ce40ddbb6532f9c6c619",
+    "hash": "63edd76d520907265057f29b38c9826a6db2cf852a645710218b0c2f65bb6c37"
+  },
+  {
+    "index": 222,
+    "timestamp": "2026-01-31T16:34:21.159834+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "63edd76d520907265057f29b38c9826a6db2cf852a645710218b0c2f65bb6c37",
+    "hash": "b0509bc9fd87509f373066779458d8b3c34fce1c65b551c2ac3019289afb5c38"
+  },
+  {
+    "index": 223,
+    "timestamp": "2026-01-31T16:34:21.610706+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "b0509bc9fd87509f373066779458d8b3c34fce1c65b551c2ac3019289afb5c38",
+    "hash": "3afe3cba636a0c3df7e90050bc4f13def2b09e1f7d9d83e963b2dfa1b2d62532"
+  },
+  {
+    "index": 224,
+    "timestamp": "2026-01-31T16:34:22.996029+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "3afe3cba636a0c3df7e90050bc4f13def2b09e1f7d9d83e963b2dfa1b2d62532",
+    "hash": "934bf214ce9dfb7802d050149f8933fb8fe6df1d49afcdda696927931cce7f26"
+  },
+  {
+    "index": 225,
+    "timestamp": "2026-01-31T16:34:23.366742+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "934bf214ce9dfb7802d050149f8933fb8fe6df1d49afcdda696927931cce7f26",
+    "hash": "a72b6b685cb40826421bc1e9e7ba108aac3216c748d509644039cef455b0a7db"
+  },
+  {
+    "index": 226,
+    "timestamp": "2026-01-31T16:34:28.772443+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "a72b6b685cb40826421bc1e9e7ba108aac3216c748d509644039cef455b0a7db",
+    "hash": "87392b741009f038b5cfc18884308bfd69a3951ca6f4c31608ac8deffedff6c0"
+  },
+  {
+    "index": 227,
+    "timestamp": "2026-01-31T16:34:43.587212+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "87392b741009f038b5cfc18884308bfd69a3951ca6f4c31608ac8deffedff6c0",
+    "hash": "0dc3bf97c0f97ba6195b031d74c49ff903bcdb2262682f66ff21756c29a3b313"
+  },
+  {
+    "index": 228,
+    "timestamp": "2026-01-31T16:34:43.640469+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "0dc3bf97c0f97ba6195b031d74c49ff903bcdb2262682f66ff21756c29a3b313",
+    "hash": "9c45203a7c2306991f529b428f69ea3251f4c24fc3b6bf292cf293fdedf2c962"
+  },
+  {
+    "index": 229,
+    "timestamp": "2026-01-31T16:34:43.697115+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "9c45203a7c2306991f529b428f69ea3251f4c24fc3b6bf292cf293fdedf2c962",
+    "hash": "044a4e1b45ce78aab3341b9176dfe80be885e42ea034ea1af77ebfcf996c039f"
+  },
+  {
+    "index": 230,
+    "timestamp": "2026-01-31T16:34:43.717516+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "044a4e1b45ce78aab3341b9176dfe80be885e42ea034ea1af77ebfcf996c039f",
+    "hash": "598592ce1c6d173b826aab9d4cea3742edf58e3e45986f06db255b7447320ef4"
+  },
+  {
+    "index": 231,
+    "timestamp": "2026-01-31T16:34:45.000141+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "598592ce1c6d173b826aab9d4cea3742edf58e3e45986f06db255b7447320ef4",
+    "hash": "2ebd91dfa5d033bd8fc416efe45ff1e2e5004223e6c03f84a39c7542cc4c2080"
+  },
+  {
+    "index": 232,
+    "timestamp": "2026-01-31T16:34:47.767747+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "2ebd91dfa5d033bd8fc416efe45ff1e2e5004223e6c03f84a39c7542cc4c2080",
+    "hash": "69f29f6175197ccf0af5e8570cd04f7e8d5330d5c7309f114fec7b83748e042f"
+  },
+  {
+    "index": 233,
+    "timestamp": "2026-01-31T16:34:47.803459+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "69f29f6175197ccf0af5e8570cd04f7e8d5330d5c7309f114fec7b83748e042f",
+    "hash": "0a9df441218fb50d0413db00096ac6fed5937812f8fcd707d7bae024519cad97"
+  },
+  {
+    "index": 234,
+    "timestamp": "2026-01-31T16:34:47.849360+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "0a9df441218fb50d0413db00096ac6fed5937812f8fcd707d7bae024519cad97",
+    "hash": "345256a23551e9775c7f85c9cc39bb98804d4b577fcf8ddc4bd8bb1400f93a9e"
+  },
+  {
+    "index": 235,
+    "timestamp": "2026-01-31T16:34:47.898064+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "345256a23551e9775c7f85c9cc39bb98804d4b577fcf8ddc4bd8bb1400f93a9e",
+    "hash": "201a9a797c28e6e565ed41ae7896d1723d61181389f3f10faecef3738282a6d5"
+  },
+  {
+    "index": 236,
+    "timestamp": "2026-01-31T16:34:52.550326+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "201a9a797c28e6e565ed41ae7896d1723d61181389f3f10faecef3738282a6d5",
+    "hash": "2be70ad556a12fcf32a60ca678f03bedeba1d06835500a887aaa978974d30ce1"
+  },
+  {
+    "index": 237,
+    "timestamp": "2026-01-31T16:52:16.714838+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "2be70ad556a12fcf32a60ca678f03bedeba1d06835500a887aaa978974d30ce1",
+    "hash": "a0c0148684bcfccd111b8ddfbe930e5bf74faf30d537a02881c29642ab273310"
+  },
+  {
+    "index": 238,
+    "timestamp": "2026-01-31T16:52:16.815225+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "a0c0148684bcfccd111b8ddfbe930e5bf74faf30d537a02881c29642ab273310",
+    "hash": "55216edb856fce2344b2a0ae79539b4d3f75e301c0a6397b7e29d1d16188d15f"
+  },
+  {
+    "index": 239,
+    "timestamp": "2026-01-31T16:52:16.845888+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "55216edb856fce2344b2a0ae79539b4d3f75e301c0a6397b7e29d1d16188d15f",
+    "hash": "b2c37320d44c346f3d03595f5c792c51cdcb6d7c308dab0df39b74636e02ecee"
+  },
+  {
+    "index": 240,
+    "timestamp": "2026-01-31T16:52:16.922613+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "b2c37320d44c346f3d03595f5c792c51cdcb6d7c308dab0df39b74636e02ecee",
+    "hash": "323bb1c59847e54ceabb3ca227bf705eaebfa192ee6c39d36ace756538042292"
+  },
+  {
+    "index": 241,
+    "timestamp": "2026-01-31T16:52:21.704001+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "323bb1c59847e54ceabb3ca227bf705eaebfa192ee6c39d36ace756538042292",
+    "hash": "c4850d64e457a2e01bff20df4b6235bcbef5ab9874dc235d04c2f3b46c418526"
+  },
+  {
+    "index": 242,
+    "timestamp": "2026-01-31T16:52:57.090333+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "c4850d64e457a2e01bff20df4b6235bcbef5ab9874dc235d04c2f3b46c418526",
+    "hash": "a0d82aa0f539339c76aa82dad45d8f8ab9a78254c512e14a2a39694896d64557"
+  },
+  {
+    "index": 243,
+    "timestamp": "2026-01-31T16:52:57.124248+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "a0d82aa0f539339c76aa82dad45d8f8ab9a78254c512e14a2a39694896d64557",
+    "hash": "a570a0e757c01cd8c21c904fb0cbd4e78123646f987741136e71ba3c69cb6fb3"
+  },
+  {
+    "index": 244,
+    "timestamp": "2026-01-31T16:52:57.276871+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "a570a0e757c01cd8c21c904fb0cbd4e78123646f987741136e71ba3c69cb6fb3",
+    "hash": "7e077c7de71bc2b3dbbc34ddd10da8410d48095d1edd3cc98ea7487184f41fc4"
+  },
+  {
+    "index": 245,
+    "timestamp": "2026-01-31T16:52:57.370033+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "7e077c7de71bc2b3dbbc34ddd10da8410d48095d1edd3cc98ea7487184f41fc4",
+    "hash": "fd1fdbba830c8f7182617a8a41cace4460339b2ccaf0bb3f0a5e687ca1c6934b"
+  },
+  {
+    "index": 246,
+    "timestamp": "2026-01-31T16:53:02.737073+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "fd1fdbba830c8f7182617a8a41cace4460339b2ccaf0bb3f0a5e687ca1c6934b",
+    "hash": "834515d95748329692f4c532482b0d0fed90900b1a721c48a6b61298d8d64b6b"
+  },
+  {
+    "index": 247,
+    "timestamp": "2026-01-31T16:59:32.602320+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "834515d95748329692f4c532482b0d0fed90900b1a721c48a6b61298d8d64b6b",
+    "hash": "b5b6aee41a90524d3da792f66831c4f7b2a5eaa616ee96d429acb1515480363b"
+  },
+  {
+    "index": 248,
+    "timestamp": "2026-01-31T16:59:32.644142+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "b5b6aee41a90524d3da792f66831c4f7b2a5eaa616ee96d429acb1515480363b",
+    "hash": "ef3c9d4ca87a72334549c30e6400e10eb1a91f19ae148d384c0c02d8a66a5013"
+  },
+  {
+    "index": 249,
+    "timestamp": "2026-01-31T16:59:32.755817+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "ef3c9d4ca87a72334549c30e6400e10eb1a91f19ae148d384c0c02d8a66a5013",
+    "hash": "26cf9f11e7a5b7d937520030ed8eb9c65c2c0f84c8c047317d5e2946fb345a86"
+  },
+  {
+    "index": 250,
+    "timestamp": "2026-01-31T16:59:32.899299+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "26cf9f11e7a5b7d937520030ed8eb9c65c2c0f84c8c047317d5e2946fb345a86",
+    "hash": "253ab88574f9e3bbb3baab91796e4a8e6d60abfe300776a216b6c072462e24e7"
+  },
+  {
+    "index": 251,
+    "timestamp": "2026-01-31T16:59:35.125675+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "253ab88574f9e3bbb3baab91796e4a8e6d60abfe300776a216b6c072462e24e7",
+    "hash": "cde443d63a13dc78b8a4a3dbf06ad8767fd82a4982dfa0bf873a19eb5f9ca62e"
+  },
+  {
+    "index": 252,
+    "timestamp": "2026-01-31T16:59:43.390756+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "cde443d63a13dc78b8a4a3dbf06ad8767fd82a4982dfa0bf873a19eb5f9ca62e",
+    "hash": "6aba8c73587ae5814a896e86dceaef90a97ac33aba4f054dba05676a67db4325"
+  },
+  {
+    "index": 253,
+    "timestamp": "2026-01-31T16:59:43.433584+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "6aba8c73587ae5814a896e86dceaef90a97ac33aba4f054dba05676a67db4325",
+    "hash": "f30126d0bd92ffb805992f7788a2a61f6742ee762cacdadabeac9b2c8a1926f5"
+  },
+  {
+    "index": 254,
+    "timestamp": "2026-01-31T16:59:43.468931+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "f30126d0bd92ffb805992f7788a2a61f6742ee762cacdadabeac9b2c8a1926f5",
+    "hash": "a14f3e45b44cb83964bd44384f048938b508b1a9db5229d04aef323655f4ca4e"
+  },
+  {
+    "index": 255,
+    "timestamp": "2026-01-31T16:59:43.512180+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "a14f3e45b44cb83964bd44384f048938b508b1a9db5229d04aef323655f4ca4e",
+    "hash": "ae1b23dc0c1becdc0206bc47770f79695e94eba6ab965ae73d9ea1daad969df3"
+  },
+  {
+    "index": 256,
+    "timestamp": "2026-01-31T16:59:44.453630+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "ae1b23dc0c1becdc0206bc47770f79695e94eba6ab965ae73d9ea1daad969df3",
+    "hash": "cbf5a45befd9ccb3a651aa9f05fd32954c9a587cc8186329828fc547269999f4"
+  },
+  {
+    "index": 257,
+    "timestamp": "2026-01-31T16:59:51.368223+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "cbf5a45befd9ccb3a651aa9f05fd32954c9a587cc8186329828fc547269999f4",
+    "hash": "d0e9098c169ebf7e27a2290ca5b75eaf7884f10e3eb07097f791d01a86696b72"
+  },
+  {
+    "index": 258,
+    "timestamp": "2026-01-31T16:59:51.503470+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "d0e9098c169ebf7e27a2290ca5b75eaf7884f10e3eb07097f791d01a86696b72",
+    "hash": "020ad683d010eb31807a1a7a205cf145c65112879954013dc1b036ffc404e902"
+  },
+  {
+    "index": 259,
+    "timestamp": "2026-01-31T16:59:51.721595+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "020ad683d010eb31807a1a7a205cf145c65112879954013dc1b036ffc404e902",
+    "hash": "ef40a761b7fb29bb53dbf5ca3468199d600761b28ca0ceddf0428b3e4cda8296"
+  },
+  {
+    "index": 260,
+    "timestamp": "2026-01-31T16:59:51.822438+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "ef40a761b7fb29bb53dbf5ca3468199d600761b28ca0ceddf0428b3e4cda8296",
+    "hash": "aee54b32c351c63d7856c07089474f2acb6fe68d80a9bc2da87ea944e321408b"
+  },
+  {
+    "index": 261,
+    "timestamp": "2026-01-31T16:59:53.177095+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "aee54b32c351c63d7856c07089474f2acb6fe68d80a9bc2da87ea944e321408b",
+    "hash": "88656b4537022ea9dfb5d95c0723e56aaddfb35275edec288a75b3f64d8599cf"
+  },
+  {
+    "index": 262,
+    "timestamp": "2026-01-31T16:59:54.767873+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "88656b4537022ea9dfb5d95c0723e56aaddfb35275edec288a75b3f64d8599cf",
+    "hash": "f5eacd1fe60fd69d2151c5c86c0e229219ccc1c9b71a8e0c4f601fff007e39f6"
+  },
+  {
+    "index": 263,
+    "timestamp": "2026-01-31T16:59:54.801708+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "f5eacd1fe60fd69d2151c5c86c0e229219ccc1c9b71a8e0c4f601fff007e39f6",
+    "hash": "9941f93f19aa7bc1736cce4b796c61884e6662ecdeb93bcaf2d2194849ca4401"
+  },
+  {
+    "index": 264,
+    "timestamp": "2026-01-31T16:59:54.996403+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "9941f93f19aa7bc1736cce4b796c61884e6662ecdeb93bcaf2d2194849ca4401",
+    "hash": "0cdd0ae5e437824cb9cc0b5fce789774f3d015b92ad3d5bf44cb18df833f22d1"
+  },
+  {
+    "index": 265,
+    "timestamp": "2026-01-31T16:59:55.187784+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "0cdd0ae5e437824cb9cc0b5fce789774f3d015b92ad3d5bf44cb18df833f22d1",
+    "hash": "c68de7de31cb0236629fb13810bea2883a5a31a367319e4d25223546824e2027"
+  },
+  {
+    "index": 266,
+    "timestamp": "2026-01-31T16:59:59.731287+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "c68de7de31cb0236629fb13810bea2883a5a31a367319e4d25223546824e2027",
+    "hash": "e38cd44467c23e5afc191f978611b96d96f6805dcfbf8d653ee44d5a117e0ad9"
+  },
+  {
+    "index": 267,
+    "timestamp": "2026-01-31T17:00:53.681746+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "e38cd44467c23e5afc191f978611b96d96f6805dcfbf8d653ee44d5a117e0ad9",
+    "hash": "a80e92ff3ce7e9d7cf9554d2013650c9e1d72001cdd8d236ea8f80a018f33628"
+  },
+  {
+    "index": 268,
+    "timestamp": "2026-01-31T17:00:53.779286+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "a80e92ff3ce7e9d7cf9554d2013650c9e1d72001cdd8d236ea8f80a018f33628",
+    "hash": "6c393fab31bd2b67a24b80fc66866e55c89b2f6e1555bfa2779d38e13c360388"
+  },
+  {
+    "index": 269,
+    "timestamp": "2026-01-31T17:00:53.861813+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "6c393fab31bd2b67a24b80fc66866e55c89b2f6e1555bfa2779d38e13c360388",
+    "hash": "53978dd114ad4c97f1938ce57fc2cee12453be6a3b884511ded36367aacdf09e"
+  },
+  {
+    "index": 270,
+    "timestamp": "2026-01-31T17:00:53.993814+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "53978dd114ad4c97f1938ce57fc2cee12453be6a3b884511ded36367aacdf09e",
+    "hash": "a054c7805632267408051bd5c7d219541d1c4b68bd1fe2ed73f5f4ebf8a7d385"
+  },
+  {
+    "index": 271,
+    "timestamp": "2026-01-31T17:00:57.426628+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "a054c7805632267408051bd5c7d219541d1c4b68bd1fe2ed73f5f4ebf8a7d385",
+    "hash": "a23dc853f75ca0d3b9ec3b60c961905c4e5e2b16a2b2010332799ee21c415395"
+  },
+  {
+    "index": 272,
+    "timestamp": "2026-01-31T17:07:13.016254+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "a23dc853f75ca0d3b9ec3b60c961905c4e5e2b16a2b2010332799ee21c415395",
+    "hash": "62c17f19190f092595bcfa698993688960f284dcc5e2cb7055a13b90154a5d1f"
+  },
+  {
+    "index": 273,
+    "timestamp": "2026-01-31T17:07:13.162357+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "62c17f19190f092595bcfa698993688960f284dcc5e2cb7055a13b90154a5d1f",
+    "hash": "393a4938d6a9bd3e773802380a3ba24e13424a11935da6db0f270880cf8c4e75"
+  },
+  {
+    "index": 274,
+    "timestamp": "2026-01-31T17:07:13.295269+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "393a4938d6a9bd3e773802380a3ba24e13424a11935da6db0f270880cf8c4e75",
+    "hash": "f215ab29f4014c14b071d14f973050a559b4240c267289fd20a1a30fe4ac01c4"
+  },
+  {
+    "index": 275,
+    "timestamp": "2026-01-31T17:07:13.420235+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "f215ab29f4014c14b071d14f973050a559b4240c267289fd20a1a30fe4ac01c4",
+    "hash": "8040369a4b66cf50281b33008a56f1e846d8d3947be98aba1af538e52f1edcdc"
+  },
+  {
+    "index": 276,
+    "timestamp": "2026-01-31T17:07:17.083399+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "8040369a4b66cf50281b33008a56f1e846d8d3947be98aba1af538e52f1edcdc",
+    "hash": "8d553da2a0c62cbd87c5ecf192d3123ddf32e41c3e4b51e8a76b99c0d50a7bee"
+  },
+  {
+    "index": 277,
+    "timestamp": "2026-01-31T17:08:08.024812+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "8d553da2a0c62cbd87c5ecf192d3123ddf32e41c3e4b51e8a76b99c0d50a7bee",
+    "hash": "2e4963437d9012fb7b0006848fb2aa6426e973d291a73ef1284330234543c17f"
+  },
+  {
+    "index": 278,
+    "timestamp": "2026-01-31T17:08:08.085833+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "2e4963437d9012fb7b0006848fb2aa6426e973d291a73ef1284330234543c17f",
+    "hash": "068aa84817bf09d34df543d2ee8fd810fa214b97ce40ea399f0b1814ffd166ab"
+  },
+  {
+    "index": 279,
+    "timestamp": "2026-01-31T17:08:08.326771+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "068aa84817bf09d34df543d2ee8fd810fa214b97ce40ea399f0b1814ffd166ab",
+    "hash": "6faf79f2a2ba33e0604a23bc0821102b79fa20719be38e126e69c9372b64e5c9"
+  },
+  {
+    "index": 280,
+    "timestamp": "2026-01-31T17:08:08.521088+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "6faf79f2a2ba33e0604a23bc0821102b79fa20719be38e126e69c9372b64e5c9",
+    "hash": "5d126106fc56fc48151ebfac353e55390d6f94bcf2bdb7f978a42e2ba00210b1"
+  },
+  {
+    "index": 281,
+    "timestamp": "2026-01-31T17:08:11.367592+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "5d126106fc56fc48151ebfac353e55390d6f94bcf2bdb7f978a42e2ba00210b1",
+    "hash": "75ce68c5172c83518e2e19b9aac887a4829b3eab708d97ba121bed33f667af55"
+  },
+  {
+    "index": 282,
+    "timestamp": "2026-01-31T17:12:08.888967+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "75ce68c5172c83518e2e19b9aac887a4829b3eab708d97ba121bed33f667af55",
+    "hash": "8cc0b49f43019e978e412e6e5bcca523ccbd4afe91a96564eff9f1e4fc8acac8"
+  },
+  {
+    "index": 283,
+    "timestamp": "2026-01-31T17:12:09.047011+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "8cc0b49f43019e978e412e6e5bcca523ccbd4afe91a96564eff9f1e4fc8acac8",
+    "hash": "2a6933cf111f867fa963cd8efadb2cab5f9015648add75cf8daf28e0f34d8d5c"
+  },
+  {
+    "index": 284,
+    "timestamp": "2026-01-31T17:12:09.182990+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "2a6933cf111f867fa963cd8efadb2cab5f9015648add75cf8daf28e0f34d8d5c",
+    "hash": "22a6bf6b075ce3a6a83ad975f7b778e58feebfcee6cca643f800686d0d5f0dd8"
+  },
+  {
+    "index": 285,
+    "timestamp": "2026-01-31T17:12:09.336622+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "22a6bf6b075ce3a6a83ad975f7b778e58feebfcee6cca643f800686d0d5f0dd8",
+    "hash": "d4b21dc910c3319e5d91618e72f8e1d7114fd812ad15c03fbe77e6adc3fd45af"
+  },
+  {
+    "index": 286,
+    "timestamp": "2026-01-31T17:12:12.651028+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "d4b21dc910c3319e5d91618e72f8e1d7114fd812ad15c03fbe77e6adc3fd45af",
+    "hash": "0a98a25fed0394ae4808e530e6ab38818f7513605b5450239c6e83358709d375"
+  },
+  {
+    "index": 287,
+    "timestamp": "2026-01-31T17:13:17.985544+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "0a98a25fed0394ae4808e530e6ab38818f7513605b5450239c6e83358709d375",
+    "hash": "12474cc045122e532d9baa66f4f85ba0e7c12dfbef029efb69d9e07ba744067f"
+  },
+  {
+    "index": 288,
+    "timestamp": "2026-01-31T17:13:18.035250+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "12474cc045122e532d9baa66f4f85ba0e7c12dfbef029efb69d9e07ba744067f",
+    "hash": "1b5f0f2960ced6c3784c5d2e814d633d8891be6dffb4311d1bfa2f6c9ab9eef3"
+  },
+  {
+    "index": 289,
+    "timestamp": "2026-01-31T17:13:18.178169+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "1b5f0f2960ced6c3784c5d2e814d633d8891be6dffb4311d1bfa2f6c9ab9eef3",
+    "hash": "e06b798f86461ad778ec5a4dce2d04e982d1c42a852d76eea1057984d4e254be"
+  },
+  {
+    "index": 290,
+    "timestamp": "2026-01-31T17:13:18.319443+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "e06b798f86461ad778ec5a4dce2d04e982d1c42a852d76eea1057984d4e254be",
+    "hash": "d06864b7ff2bbd6ead3288c6a218a929719be2c49a385cbfdc83c41dffb9bf74"
+  },
+  {
+    "index": 291,
+    "timestamp": "2026-01-31T17:13:20.780345+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "d06864b7ff2bbd6ead3288c6a218a929719be2c49a385cbfdc83c41dffb9bf74",
+    "hash": "d767952e9adbb5bf6e04b1049d2af8c01577e008f3e0c92cf88e310555c414b1"
+  },
+  {
+    "index": 292,
+    "timestamp": "2026-01-31T17:13:32.559191+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "d767952e9adbb5bf6e04b1049d2af8c01577e008f3e0c92cf88e310555c414b1",
+    "hash": "7221aab8033bdb2bc2d7b7e539b3c0fa8e20c1856ef8a0e167e2cec5322fa7be"
+  },
+  {
+    "index": 293,
+    "timestamp": "2026-01-31T17:13:34.021871+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "7221aab8033bdb2bc2d7b7e539b3c0fa8e20c1856ef8a0e167e2cec5322fa7be",
+    "hash": "04b4807ed0ed0a5eb053d8cec45323e10c5c9dd08fe8c477de17a7749c6fca60"
+  },
+  {
+    "index": 294,
+    "timestamp": "2026-01-31T17:13:34.051293+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "04b4807ed0ed0a5eb053d8cec45323e10c5c9dd08fe8c477de17a7749c6fca60",
+    "hash": "f08b0f03510e2adfd23bfbf853105297c7aa9890115916bda9b176631b99e267"
+  },
+  {
+    "index": 295,
+    "timestamp": "2026-01-31T17:13:34.075355+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "f08b0f03510e2adfd23bfbf853105297c7aa9890115916bda9b176631b99e267",
+    "hash": "c86538a82c31ed51206b3b070489408c71a82a21b5120aec10040e9fc553d636"
+  },
+  {
+    "index": 296,
+    "timestamp": "2026-01-31T17:13:34.141164+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "c86538a82c31ed51206b3b070489408c71a82a21b5120aec10040e9fc553d636",
+    "hash": "a630f2a5a108d6274d6c144749c5afa2a59d809493a3d0ea6e4d16f0d202dd36"
+  },
+  {
+    "index": 297,
+    "timestamp": "2026-01-31T17:13:36.427694+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "a630f2a5a108d6274d6c144749c5afa2a59d809493a3d0ea6e4d16f0d202dd36",
+    "hash": "80e5dd3774b8d32473b034a681000c2c5ef315eb38aa1fa840eef4418060db15"
+  },
+  {
+    "index": 298,
+    "timestamp": "2026-01-31T17:13:45.949385+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "80e5dd3774b8d32473b034a681000c2c5ef315eb38aa1fa840eef4418060db15",
+    "hash": "1a423dfb3197364a59bd1bb42e219f8700add5179f0126c29feb0e862bddb711"
+  },
+  {
+    "index": 299,
+    "timestamp": "2026-01-31T17:13:46.076968+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "1a423dfb3197364a59bd1bb42e219f8700add5179f0126c29feb0e862bddb711",
+    "hash": "8cd86b47d7224d248423c6babdb075f16c410f56aa7d0d3a014ab8c991f00599"
+  },
+  {
+    "index": 300,
+    "timestamp": "2026-01-31T17:13:46.179996+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "8cd86b47d7224d248423c6babdb075f16c410f56aa7d0d3a014ab8c991f00599",
+    "hash": "b998f33e83aeaf8f05c58e4c2085d34804f002b09d789fd4668a2ca85614bfa9"
+  },
+  {
+    "index": 301,
+    "timestamp": "2026-01-31T17:13:46.387770+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "b998f33e83aeaf8f05c58e4c2085d34804f002b09d789fd4668a2ca85614bfa9",
+    "hash": "614d819698d74b7f4c4be1343f10fe139357781cc7ed82dedcd98f17979b27f4"
+  },
+  {
+    "index": 302,
+    "timestamp": "2026-01-31T17:13:52.013987+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "614d819698d74b7f4c4be1343f10fe139357781cc7ed82dedcd98f17979b27f4",
+    "hash": "43abe1768929407e0bb8d2d31de8d0e08c72fbf6c9af76b95ad558bcaa648186"
+  },
+  {
+    "index": 303,
+    "timestamp": "2026-01-31T17:14:43.981277+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "43abe1768929407e0bb8d2d31de8d0e08c72fbf6c9af76b95ad558bcaa648186",
+    "hash": "48715ee78e333b47b4287bbfbbfd9b7f5c48a5352b93d2d1eab469e55b6a24d2"
+  },
+  {
+    "index": 304,
+    "timestamp": "2026-01-31T17:14:44.020873+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "48715ee78e333b47b4287bbfbbfd9b7f5c48a5352b93d2d1eab469e55b6a24d2",
+    "hash": "485b373ec70d76bfbaa20f0e9e6a9510445c32f57fb2a74e7f35854280b8c405"
+  },
+  {
+    "index": 305,
+    "timestamp": "2026-01-31T17:14:44.149956+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "485b373ec70d76bfbaa20f0e9e6a9510445c32f57fb2a74e7f35854280b8c405",
+    "hash": "1e048f0a3935e4194dc423e92c6ac03993a31aed9170033d8b16949eb5ddfb8e"
+  },
+  {
+    "index": 306,
+    "timestamp": "2026-01-31T17:14:44.321241+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "1e048f0a3935e4194dc423e92c6ac03993a31aed9170033d8b16949eb5ddfb8e",
+    "hash": "f6e09a2b03f523c254ecb38038466a59bbb4a734b4291819f89fd064dd456c04"
+  },
+  {
+    "index": 307,
+    "timestamp": "2026-01-31T17:14:45.639167+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "f6e09a2b03f523c254ecb38038466a59bbb4a734b4291819f89fd064dd456c04",
+    "hash": "a5feec9075cd74c14225158735d784ff4ab7661d2a8921c0b202ec781991363b"
+  },
+  {
+    "index": 308,
+    "timestamp": "2026-01-31T17:20:04.684602+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "a5feec9075cd74c14225158735d784ff4ab7661d2a8921c0b202ec781991363b",
+    "hash": "27fd2eedf611a2c1fc1e8567f283e61e22374035fc4b5abd4bdb116de43aefae"
+  },
+  {
+    "index": 309,
+    "timestamp": "2026-01-31T17:20:04.807812+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "27fd2eedf611a2c1fc1e8567f283e61e22374035fc4b5abd4bdb116de43aefae",
+    "hash": "946f047836faa7b8a2cc3d9e23e99bb1089fbd228888e276b42935e4dca6a498"
+  },
+  {
+    "index": 310,
+    "timestamp": "2026-01-31T17:20:04.975474+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "946f047836faa7b8a2cc3d9e23e99bb1089fbd228888e276b42935e4dca6a498",
+    "hash": "ec0e2fbd46dcf40640ee4413480d20ea8cf6807596a5364c3ab3a23877a08856"
+  },
+  {
+    "index": 311,
+    "timestamp": "2026-01-31T17:20:05.170718+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "ec0e2fbd46dcf40640ee4413480d20ea8cf6807596a5364c3ab3a23877a08856",
+    "hash": "ac639a07dfda2c55d8777715d90b7f0aa657b87a017e8d6ca5517d08f4eb13fa"
+  },
+  {
+    "index": 312,
+    "timestamp": "2026-01-31T17:20:06.819368+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "ac639a07dfda2c55d8777715d90b7f0aa657b87a017e8d6ca5517d08f4eb13fa",
+    "hash": "b87087ae888076494d9f29ecc1fce71a3f3838a92b4ac7f898ab120358e5c596"
+  },
+  {
+    "index": 313,
+    "timestamp": "2026-01-31T17:20:11.386997+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "b87087ae888076494d9f29ecc1fce71a3f3838a92b4ac7f898ab120358e5c596",
+    "hash": "6d424c7ffa6420e48a5fe07aad7a522d4f0b1ab70699e8d766078b0dadddddcd"
+  },
+  {
+    "index": 314,
+    "timestamp": "2026-01-31T17:20:11.643094+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "6d424c7ffa6420e48a5fe07aad7a522d4f0b1ab70699e8d766078b0dadddddcd",
+    "hash": "f3216ed99d3710083d8b226701ab5ecc95245d2aaf468b5e57280af44f3fddd3"
+  },
+  {
+    "index": 315,
+    "timestamp": "2026-01-31T17:20:11.908728+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "f3216ed99d3710083d8b226701ab5ecc95245d2aaf468b5e57280af44f3fddd3",
+    "hash": "345a211bf9b2c121137ef5dc8c557f0e6a9dace44adafb8389ae105dedbc14dd"
+  },
+  {
+    "index": 316,
+    "timestamp": "2026-01-31T17:20:12.044796+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "345a211bf9b2c121137ef5dc8c557f0e6a9dace44adafb8389ae105dedbc14dd",
+    "hash": "b04d7a97420385994c5d3523b6582cfa54af324007f595979558152a892cea48"
+  },
+  {
+    "index": 317,
+    "timestamp": "2026-01-31T17:20:18.113195+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "b04d7a97420385994c5d3523b6582cfa54af324007f595979558152a892cea48",
+    "hash": "24ad368be9b06031fa8e80eca31a6598e9a137523ebde7e045f812f9c2b9069f"
+  },
+  {
+    "index": 318,
+    "timestamp": "2026-01-31T17:20:34.030372+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "24ad368be9b06031fa8e80eca31a6598e9a137523ebde7e045f812f9c2b9069f",
+    "hash": "a7e00a2af8cfacfcc5247311669c855ac6842fb45cb68b5c37a8d9c46f1bef12"
+  },
+  {
+    "index": 319,
+    "timestamp": "2026-01-31T17:20:34.192383+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "a7e00a2af8cfacfcc5247311669c855ac6842fb45cb68b5c37a8d9c46f1bef12",
+    "hash": "21a210e7c37bc71795d479a0ae110ef06a6b9ecc122c3df9dd9afe8aa232804d"
+  },
+  {
+    "index": 320,
+    "timestamp": "2026-01-31T17:20:34.758399+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "21a210e7c37bc71795d479a0ae110ef06a6b9ecc122c3df9dd9afe8aa232804d",
+    "hash": "2045b9ecb2e8857c1917a685c2f498463f01cdef9cc8757a8f65daf71176227d"
+  },
+  {
+    "index": 321,
+    "timestamp": "2026-01-31T17:20:34.946787+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "2045b9ecb2e8857c1917a685c2f498463f01cdef9cc8757a8f65daf71176227d",
+    "hash": "684b765dd4bcbc0538002bbbd34658c4b10b24187ed7f81c26e83e257f266328"
+  },
+  {
+    "index": 322,
+    "timestamp": "2026-01-31T17:20:38.461841+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "684b765dd4bcbc0538002bbbd34658c4b10b24187ed7f81c26e83e257f266328",
+    "hash": "933ca4391e7cf8d4109072130aa1522f96793325dbd3b3828a4c1b9ad2c53d45"
+  },
+  {
+    "index": 323,
+    "timestamp": "2026-01-31T17:20:41.017981+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "933ca4391e7cf8d4109072130aa1522f96793325dbd3b3828a4c1b9ad2c53d45",
+    "hash": "f9bf036c27faa599c5a5ad4ba185eece5dc08064185e59bc961dbcc3d22e61a4"
+  },
+  {
+    "index": 324,
+    "timestamp": "2026-01-31T17:20:41.047049+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "f9bf036c27faa599c5a5ad4ba185eece5dc08064185e59bc961dbcc3d22e61a4",
+    "hash": "ce63470610f5dec5605617c232a62088a8ba041731f72545519d987cce10ede4"
+  },
+  {
+    "index": 325,
+    "timestamp": "2026-01-31T17:20:41.081121+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "ce63470610f5dec5605617c232a62088a8ba041731f72545519d987cce10ede4",
+    "hash": "eb09057c6cd8f72e1ab02946d1ef57ef7a1359fb6bcc57b6b0fbdcc74f9327bf"
+  },
+  {
+    "index": 326,
+    "timestamp": "2026-01-31T17:20:41.189462+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "eb09057c6cd8f72e1ab02946d1ef57ef7a1359fb6bcc57b6b0fbdcc74f9327bf",
+    "hash": "f6c1a93be530c91e1ef82147533dc2a8083d0e299a0c8dc138d4441f816826d1"
+  },
+  {
+    "index": 327,
+    "timestamp": "2026-01-31T17:20:44.247626+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "f6c1a93be530c91e1ef82147533dc2a8083d0e299a0c8dc138d4441f816826d1",
+    "hash": "eac5b87d92bcff35a8858e361e355e7a97a0351fe14826a37525af4943d9666a"
+  },
+  {
+    "index": 328,
+    "timestamp": "2026-01-31T17:20:44.448328+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "eac5b87d92bcff35a8858e361e355e7a97a0351fe14826a37525af4943d9666a",
+    "hash": "213b880fb83d09f17b28747f23a108394fbf4a3f5acc1b83e5cbfec7ab6d377c"
+  },
+  {
+    "index": 329,
+    "timestamp": "2026-01-31T17:20:44.754232+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "213b880fb83d09f17b28747f23a108394fbf4a3f5acc1b83e5cbfec7ab6d377c",
+    "hash": "e079bd23720ea939a4532ebb1bc20d41219a2f48f928af1638db8461deeb54aa"
+  },
+  {
+    "index": 330,
+    "timestamp": "2026-01-31T17:20:45.037738+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "e079bd23720ea939a4532ebb1bc20d41219a2f48f928af1638db8461deeb54aa",
+    "hash": "5ca741905d727d3def28eea1622fcf923dd9860e68945dc36dcffbddebaa5a16"
+  },
+  {
+    "index": 331,
+    "timestamp": "2026-01-31T17:20:48.955718+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "5ca741905d727d3def28eea1622fcf923dd9860e68945dc36dcffbddebaa5a16",
+    "hash": "bd185752eef0c026563039982eb3b945cb7305edfab432813b63a82bcc743ff4"
+  },
+  {
+    "index": 332,
+    "timestamp": "2026-01-31T17:23:52.612224+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "bd185752eef0c026563039982eb3b945cb7305edfab432813b63a82bcc743ff4",
+    "hash": "76d3acb3bda1130595536c79f967add97e3a04c3b08637124efc6f9a0e5e2e5b"
+  },
+  {
+    "index": 333,
+    "timestamp": "2026-01-31T17:23:52.767838+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "76d3acb3bda1130595536c79f967add97e3a04c3b08637124efc6f9a0e5e2e5b",
+    "hash": "7e9f0a79971bdec44dccd38e7c15b9df96605a99be6594ec5b8cc929a3096553"
+  },
+  {
+    "index": 334,
+    "timestamp": "2026-01-31T17:23:52.868812+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "7e9f0a79971bdec44dccd38e7c15b9df96605a99be6594ec5b8cc929a3096553",
+    "hash": "308332eee8192138e9014286ecc3785c5d7f2075e02fa1289751ddf7e8f9a12c"
+  },
+  {
+    "index": 335,
+    "timestamp": "2026-01-31T17:23:53.090039+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "308332eee8192138e9014286ecc3785c5d7f2075e02fa1289751ddf7e8f9a12c",
+    "hash": "eb1abc841d9b728a5f530cf8f4e428fd5cfe8039433870bdf87d583c9601fe4f"
+  },
+  {
+    "index": 336,
+    "timestamp": "2026-01-31T17:24:09.787742+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "eb1abc841d9b728a5f530cf8f4e428fd5cfe8039433870bdf87d583c9601fe4f",
+    "hash": "6c1ff4a2baf0fc541b4bee73e98fbff7d4e96d6ecffc5679cfb4b4d17d5c36af"
+  },
+  {
+    "index": 337,
+    "timestamp": "2026-01-31T17:24:09.957268+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "6c1ff4a2baf0fc541b4bee73e98fbff7d4e96d6ecffc5679cfb4b4d17d5c36af",
+    "hash": "a7de4447b4df6ffc08586d70df091e72069cd58c71a252b4fdafe51da45d7821"
+  },
+  {
+    "index": 338,
+    "timestamp": "2026-01-31T17:24:10.266439+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "a7de4447b4df6ffc08586d70df091e72069cd58c71a252b4fdafe51da45d7821",
+    "hash": "c997083b7363563baeaf6c8e3cc6a2a63ae56b67192445d1d99766c215a10c66"
+  },
+  {
+    "index": 339,
+    "timestamp": "2026-01-31T17:24:10.371413+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "c997083b7363563baeaf6c8e3cc6a2a63ae56b67192445d1d99766c215a10c66",
+    "hash": "abe9c555628d81dfd52d63cec2ad5cd8fce9ad2c4da1214f8cab4986ae4de64a"
+  },
+  {
+    "index": 340,
+    "timestamp": "2026-01-31T17:24:12.237104+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "abe9c555628d81dfd52d63cec2ad5cd8fce9ad2c4da1214f8cab4986ae4de64a",
+    "hash": "610d883cd1816e157a539b3916c39b8dfb38ba07e6c7fb9e73079535a44b4d5d"
+  },
+  {
+    "index": 341,
+    "timestamp": "2026-01-31T17:24:27.284559+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "610d883cd1816e157a539b3916c39b8dfb38ba07e6c7fb9e73079535a44b4d5d",
+    "hash": "228744aef46eb6b91f28466ffdb18a8c0bbdd198e512b602d89cb1d8923ac33b"
+  },
+  {
+    "index": 342,
+    "timestamp": "2026-01-31T17:24:27.496947+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "228744aef46eb6b91f28466ffdb18a8c0bbdd198e512b602d89cb1d8923ac33b",
+    "hash": "38f1abd6610fd7e19102f274e6a79be7446455ee9d0a49d81c58dc43ef487bd2"
+  },
+  {
+    "index": 343,
+    "timestamp": "2026-01-31T17:24:27.675187+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "38f1abd6610fd7e19102f274e6a79be7446455ee9d0a49d81c58dc43ef487bd2",
+    "hash": "274e0a5912b1fd91903ee2de6ade15757129c5d1b395fc18ce09c3afd79be6ce"
+  },
+  {
+    "index": 344,
+    "timestamp": "2026-01-31T17:24:28.363745+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "274e0a5912b1fd91903ee2de6ade15757129c5d1b395fc18ce09c3afd79be6ce",
+    "hash": "d60ea4091e742fd8f1f1420f6a57955ce8eb97509f40365eb7ba2671778161a7"
+  },
+  {
+    "index": 345,
+    "timestamp": "2026-01-31T17:24:32.418225+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "d60ea4091e742fd8f1f1420f6a57955ce8eb97509f40365eb7ba2671778161a7",
+    "hash": "e5ad8e5a7fa10fdbb5bf81bb35cf0309acceef86d095b08209172dbe042aa9f9"
+  },
+  {
+    "index": 346,
+    "timestamp": "2026-01-31T17:24:39.121952+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "e5ad8e5a7fa10fdbb5bf81bb35cf0309acceef86d095b08209172dbe042aa9f9",
+    "hash": "6d01dc285129458216ed6e114247d2175a3cc6311ccc36d8a3a5a950ad20b84d"
+  },
+  {
+    "index": 347,
+    "timestamp": "2026-01-31T17:24:39.245061+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "6d01dc285129458216ed6e114247d2175a3cc6311ccc36d8a3a5a950ad20b84d",
+    "hash": "a4c7cc3d96e8f3d0e454857d53bfdafb8a665cc67909bd349b49a72e8d096b35"
+  },
+  {
+    "index": 348,
+    "timestamp": "2026-01-31T17:24:39.387497+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "a4c7cc3d96e8f3d0e454857d53bfdafb8a665cc67909bd349b49a72e8d096b35",
+    "hash": "0d4c240df7a1103734e1990772e841090ffd60ffd783e8a0fd0554058afa9cf5"
+  },
+  {
+    "index": 349,
+    "timestamp": "2026-01-31T17:24:39.510706+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "0d4c240df7a1103734e1990772e841090ffd60ffd783e8a0fd0554058afa9cf5",
+    "hash": "1406903a3f35afc4abe1357f0ec75637f234662da992f4e8906c497c18ba4873"
+  },
+  {
+    "index": 350,
+    "timestamp": "2026-01-31T17:24:42.774596+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "1406903a3f35afc4abe1357f0ec75637f234662da992f4e8906c497c18ba4873",
+    "hash": "e56201264961df0a0b278a345da4f2224505379f8e1c7c86d8d46452b75a7b84"
+  },
+  {
+    "index": 351,
+    "timestamp": "2026-01-31T17:25:04.827478+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "e56201264961df0a0b278a345da4f2224505379f8e1c7c86d8d46452b75a7b84",
+    "hash": "72ec6be0d12eca6e5ec6806b103bdab997a2fe03171320792d1081a5c6f8800d"
+  },
+  {
+    "index": 352,
+    "timestamp": "2026-01-31T17:25:04.903339+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "72ec6be0d12eca6e5ec6806b103bdab997a2fe03171320792d1081a5c6f8800d",
+    "hash": "18fa24800c6b18ed5d83ac37a8ee04cff254ea30c44f0600b12bd32a96f4e8bb"
+  },
+  {
+    "index": 353,
+    "timestamp": "2026-01-31T17:25:04.990773+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "18fa24800c6b18ed5d83ac37a8ee04cff254ea30c44f0600b12bd32a96f4e8bb",
+    "hash": "c6d4ebb36a1abd437aa41ede29ba96b2b6a210965eff7f2c0bd790ab068c9895"
+  },
+  {
+    "index": 354,
+    "timestamp": "2026-01-31T17:25:05.094541+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "c6d4ebb36a1abd437aa41ede29ba96b2b6a210965eff7f2c0bd790ab068c9895",
+    "hash": "18593b4d8d9c0085be1e3a2b23a9156a0afa431bc399109d07cc0b129d9de55f"
+  },
+  {
+    "index": 355,
+    "timestamp": "2026-01-31T17:25:09.732319+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "18593b4d8d9c0085be1e3a2b23a9156a0afa431bc399109d07cc0b129d9de55f",
+    "hash": "cffe64fe15e6fabd182fb25f7c511bd3cb785dac9fd9de238df4c023ec72568d"
+  },
+  {
+    "index": 356,
+    "timestamp": "2026-01-31T17:25:44.246628+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "cffe64fe15e6fabd182fb25f7c511bd3cb785dac9fd9de238df4c023ec72568d",
+    "hash": "eab5f0b4b29d9076dc25ed2309b8284641040dc47f339fa2e5d338e8db73e133"
+  },
+  {
+    "index": 357,
+    "timestamp": "2026-01-31T17:25:44.352072+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "eab5f0b4b29d9076dc25ed2309b8284641040dc47f339fa2e5d338e8db73e133",
+    "hash": "865d94adfdb48f6f56f8a9a077fa6f5b19fb97656ea013949f21e718723fd934"
+  },
+  {
+    "index": 358,
+    "timestamp": "2026-01-31T17:25:44.458800+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "865d94adfdb48f6f56f8a9a077fa6f5b19fb97656ea013949f21e718723fd934",
+    "hash": "daccc8ef0296387f066625a673a7a7bfbc23f16cc5e9e9214de01358ccef2edd"
+  },
+  {
+    "index": 359,
+    "timestamp": "2026-01-31T17:25:44.561719+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "daccc8ef0296387f066625a673a7a7bfbc23f16cc5e9e9214de01358ccef2edd",
+    "hash": "cb9fb88f2f1c1901fb1db7f22933dae1f75552c6ff91a24db9f8dc4d2086f213"
+  },
+  {
+    "index": 360,
+    "timestamp": "2026-01-31T17:25:48.609658+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "cb9fb88f2f1c1901fb1db7f22933dae1f75552c6ff91a24db9f8dc4d2086f213",
+    "hash": "d6aa49f67a57bf7a665751d70ffd920042912c5eb67e040890a697eac97c0f04"
+  },
+  {
+    "index": 361,
+    "timestamp": "2026-01-31T17:25:51.297335+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "d6aa49f67a57bf7a665751d70ffd920042912c5eb67e040890a697eac97c0f04",
+    "hash": "00817ac17e72e7aefa310db65db22951434e92d8495bcfc66d6f18d79277187e"
+  },
+  {
+    "index": 362,
+    "timestamp": "2026-01-31T17:25:51.441229+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "00817ac17e72e7aefa310db65db22951434e92d8495bcfc66d6f18d79277187e",
+    "hash": "7fc8942b364be35cd6710bc37116714aeffd3b284e193edac1ec5856994a597b"
+  },
+  {
+    "index": 363,
+    "timestamp": "2026-01-31T17:25:51.551677+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "7fc8942b364be35cd6710bc37116714aeffd3b284e193edac1ec5856994a597b",
+    "hash": "7970c970a3f2dc6fd7b2ca3a42806d2a45d128f841e6ae014461951cef045d2f"
+  },
+  {
+    "index": 364,
+    "timestamp": "2026-01-31T17:25:51.658673+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "7970c970a3f2dc6fd7b2ca3a42806d2a45d128f841e6ae014461951cef045d2f",
+    "hash": "ac55af3f815f72f8013a94692ab63354100a22a3d38990a0d388695b7d9decfd"
+  },
+  {
+    "index": 365,
+    "timestamp": "2026-01-31T17:25:58.010766+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "ac55af3f815f72f8013a94692ab63354100a22a3d38990a0d388695b7d9decfd",
+    "hash": "5011e1d62e8daf2f482d2990078ed56c3297d88f156fd3e7106c657e1f3b032f"
+  },
+  {
+    "index": 366,
+    "timestamp": "2026-01-31T17:28:16.206501+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "5011e1d62e8daf2f482d2990078ed56c3297d88f156fd3e7106c657e1f3b032f",
+    "hash": "788cb95866add3618b7554568acc9f2c86670af74fe0741941bbe7de384b131c"
+  },
+  {
+    "index": 367,
+    "timestamp": "2026-01-31T17:28:16.477924+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "788cb95866add3618b7554568acc9f2c86670af74fe0741941bbe7de384b131c",
+    "hash": "e85f1d0bff6d2ca0126623cc56b468105be7bcdc1fafada022fa010de61a8450"
+  },
+  {
+    "index": 368,
+    "timestamp": "2026-01-31T17:28:16.789145+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "e85f1d0bff6d2ca0126623cc56b468105be7bcdc1fafada022fa010de61a8450",
+    "hash": "de807b64084a3bdac43b161c8ae13d6d3e805d62b0a99e92bbbfdfe8cbd764f9"
+  },
+  {
+    "index": 369,
+    "timestamp": "2026-01-31T17:28:17.136179+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "de807b64084a3bdac43b161c8ae13d6d3e805d62b0a99e92bbbfdfe8cbd764f9",
+    "hash": "747751268b4a378b2321cd20d2044ad1c7d0d744759697270af3bdbba9f49838"
+  },
+  {
+    "index": 370,
+    "timestamp": "2026-01-31T17:28:34.958183+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "747751268b4a378b2321cd20d2044ad1c7d0d744759697270af3bdbba9f49838",
+    "hash": "003c036009a69c0c9632c4345b72528cb79ba8789e8ada535360384882cbca6b"
+  },
+  {
+    "index": 371,
+    "timestamp": "2026-01-31T17:28:35.229733+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "003c036009a69c0c9632c4345b72528cb79ba8789e8ada535360384882cbca6b",
+    "hash": "33d54d6f79a1f7bf21fe1daa41bc8464af49033f1e3d3a4c596302c1ac2bafbe"
+  },
+  {
+    "index": 372,
+    "timestamp": "2026-01-31T17:28:35.344855+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "33d54d6f79a1f7bf21fe1daa41bc8464af49033f1e3d3a4c596302c1ac2bafbe",
+    "hash": "8b2ce326478da078de35e17ba51fd3b4c1241a1c7be879ee55795a9f148e58d3"
+  },
+  {
+    "index": 373,
+    "timestamp": "2026-01-31T17:28:35.442633+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "8b2ce326478da078de35e17ba51fd3b4c1241a1c7be879ee55795a9f148e58d3",
+    "hash": "b69f60d35af4e46c7a3471ffd662ec61acda1d9b1027137013e4eda29f0b5575"
+  },
+  {
+    "index": 374,
+    "timestamp": "2026-01-31T17:28:37.457959+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "b69f60d35af4e46c7a3471ffd662ec61acda1d9b1027137013e4eda29f0b5575",
+    "hash": "acbe67d29019e59d229d1a1e851a60bda6780268ed3d8de63d405ea43fe8b2ed"
+  },
+  {
+    "index": 375,
+    "timestamp": "2026-01-31T17:29:28.367115+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "acbe67d29019e59d229d1a1e851a60bda6780268ed3d8de63d405ea43fe8b2ed",
+    "hash": "99e7b417b55ffe254797df6701485e53dcd624c25d90e94e0ce79e41badb03b8"
+  },
+  {
+    "index": 376,
+    "timestamp": "2026-01-31T17:29:28.530133+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "99e7b417b55ffe254797df6701485e53dcd624c25d90e94e0ce79e41badb03b8",
+    "hash": "ba76198b0f03c3281092b07031ed69af38cfe96132e2455cfd7aebe1ea391243"
+  },
+  {
+    "index": 377,
+    "timestamp": "2026-01-31T17:29:28.678727+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "ba76198b0f03c3281092b07031ed69af38cfe96132e2455cfd7aebe1ea391243",
+    "hash": "91faac47e701b46cd27e952c1920d024dda0dd700b2ad95215af4ab69ec19539"
+  },
+  {
+    "index": 378,
+    "timestamp": "2026-01-31T17:29:28.839749+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "91faac47e701b46cd27e952c1920d024dda0dd700b2ad95215af4ab69ec19539",
+    "hash": "5a96743140a314fc5f802755003d01b91fb52800d842d1b5ac2c5ab6ad754aba"
+  },
+  {
+    "index": 379,
+    "timestamp": "2026-01-31T17:29:37.934604+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "5a96743140a314fc5f802755003d01b91fb52800d842d1b5ac2c5ab6ad754aba",
+    "hash": "205d389281ca05518a14c6efbc3a4a5c0150d65e29e4db15ee29f0f06577ce89"
+  },
+  {
+    "index": 380,
+    "timestamp": "2026-02-02T16:20:24.140835+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "205d389281ca05518a14c6efbc3a4a5c0150d65e29e4db15ee29f0f06577ce89",
+    "hash": "67156a0da8987c22ee83413ed324cece839e1eb4000d06beaf94b51427c4a5e4"
+  },
+  {
+    "index": 381,
+    "timestamp": "2026-02-02T16:20:24.319505+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "67156a0da8987c22ee83413ed324cece839e1eb4000d06beaf94b51427c4a5e4",
+    "hash": "884814253b9d2938182e0b4015ed1f9ff7c9a94b4f6ac0601afede3a72942a6c"
+  },
+  {
+    "index": 382,
+    "timestamp": "2026-02-02T16:20:24.525496+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "884814253b9d2938182e0b4015ed1f9ff7c9a94b4f6ac0601afede3a72942a6c",
+    "hash": "366d3ea77a9f4c8820d45e63a2868042de189c9bc68729836ced63cef780c39e"
+  },
+  {
+    "index": 383,
+    "timestamp": "2026-02-02T16:20:24.668709+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "366d3ea77a9f4c8820d45e63a2868042de189c9bc68729836ced63cef780c39e",
+    "hash": "a88ba094593e133682555fe7350cbf117c44df87dcd5979caa6a53122a4fc979"
+  },
+  {
+    "index": 384,
+    "timestamp": "2026-02-02T16:20:32.150922+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "a88ba094593e133682555fe7350cbf117c44df87dcd5979caa6a53122a4fc979",
+    "hash": "45d08dc8f07c1e077d158aed64621777c9835ccd6eb9b801306f9f612fe2a0bf"
+  },
+  {
+    "index": 385,
+    "timestamp": "2026-02-02T17:06:00.111276+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "45d08dc8f07c1e077d158aed64621777c9835ccd6eb9b801306f9f612fe2a0bf",
+    "hash": "37c74d6019beff45488833d048b9b9f2f7f9e81551e3c4c81ca40bb2fbbbd500"
+  },
+  {
+    "index": 386,
+    "timestamp": "2026-02-02T17:06:00.131726+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "37c74d6019beff45488833d048b9b9f2f7f9e81551e3c4c81ca40bb2fbbbd500",
+    "hash": "f548526a93e9ffa85f9997bdc688260251e2f3ecf42356092aa6cc0004834727"
+  },
+  {
+    "index": 387,
+    "timestamp": "2026-02-02T17:06:00.153411+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "f548526a93e9ffa85f9997bdc688260251e2f3ecf42356092aa6cc0004834727",
+    "hash": "ddafa760ba4d909cfd2cab2b5d544594dafbe07f26b8d35a93ec713c8fb7d261"
+  },
+  {
+    "index": 388,
+    "timestamp": "2026-02-02T17:06:00.173420+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "ddafa760ba4d909cfd2cab2b5d544594dafbe07f26b8d35a93ec713c8fb7d261",
+    "hash": "a64b415d34eb630c5b56c1dfabb66210567d5d13eb7ed1c9659188db91eeed9e"
+  },
+  {
+    "index": 389,
+    "timestamp": "2026-02-02T17:06:01.255439+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "a64b415d34eb630c5b56c1dfabb66210567d5d13eb7ed1c9659188db91eeed9e",
+    "hash": "55089c6bd58456ee00df1b074d8ef15f5682aed55ce0e223cfa599e3f70c6a21"
+  },
+  {
+    "index": 390,
+    "timestamp": "2026-02-02T17:10:52.679332+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "55089c6bd58456ee00df1b074d8ef15f5682aed55ce0e223cfa599e3f70c6a21",
+    "hash": "71ec20598f1189dd93db8b77a755a18fb89aa117d17df882437da87147f4a5aa"
+  },
+  {
+    "index": 391,
+    "timestamp": "2026-02-02T17:10:52.721891+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "71ec20598f1189dd93db8b77a755a18fb89aa117d17df882437da87147f4a5aa",
+    "hash": "9623647bf5154b2f1e0d0b9bed05a78b69bbd04f42826adc83da5600bddc05a1"
+  },
+  {
+    "index": 392,
+    "timestamp": "2026-02-02T17:10:52.767625+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "9623647bf5154b2f1e0d0b9bed05a78b69bbd04f42826adc83da5600bddc05a1",
+    "hash": "fb4a5844b3907d1a3f06d7687c275725ecb57f255f7478c5faf1f33e4ccd26b9"
+  },
+  {
+    "index": 393,
+    "timestamp": "2026-02-02T17:10:52.803735+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "fb4a5844b3907d1a3f06d7687c275725ecb57f255f7478c5faf1f33e4ccd26b9",
+    "hash": "bafca86e0aae6e75b6c8ce2289df247437ac78e35a4328fd3ddc69ab7cf6576a"
+  },
+  {
+    "index": 394,
+    "timestamp": "2026-02-02T17:10:54.244586+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "bafca86e0aae6e75b6c8ce2289df247437ac78e35a4328fd3ddc69ab7cf6576a",
+    "hash": "1f88e1bec5c2323ecc685cfe9977de8924975e361b714a3630ea922118d439b4"
+  },
+  {
+    "index": 395,
+    "timestamp": "2026-02-02T17:13:43.159090+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "1f88e1bec5c2323ecc685cfe9977de8924975e361b714a3630ea922118d439b4",
+    "hash": "bf159370754a2dfaa263656895106c60fb729f45b615672b81c0fb05ab429284"
+  },
+  {
+    "index": 396,
+    "timestamp": "2026-02-02T17:13:43.174056+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "bf159370754a2dfaa263656895106c60fb729f45b615672b81c0fb05ab429284",
+    "hash": "141c41316af3942d4aad0005bb03733e03111be44ad37a71c72996b512014af6"
+  },
+  {
+    "index": 397,
+    "timestamp": "2026-02-02T17:13:43.188949+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "141c41316af3942d4aad0005bb03733e03111be44ad37a71c72996b512014af6",
+    "hash": "3dd9fee4094d7a4dbe72860baef22a182322ac18062d8586beb9dda5d37ecc66"
+  },
+  {
+    "index": 398,
+    "timestamp": "2026-02-02T17:13:43.200205+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "3dd9fee4094d7a4dbe72860baef22a182322ac18062d8586beb9dda5d37ecc66",
+    "hash": "dfba216ebf9380841f8470ff79dc0bdb5cd051b6830b32f98bec3b5f50f737e2"
+  },
+  {
+    "index": 399,
+    "timestamp": "2026-02-02T17:13:43.816214+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "dfba216ebf9380841f8470ff79dc0bdb5cd051b6830b32f98bec3b5f50f737e2",
+    "hash": "510173061c7f8fa678c0d54f97e8a647258773f95a1c99196fc7d4ca35015fd5"
+  },
+  {
+    "index": 400,
+    "timestamp": "2026-02-02T17:17:51.442366+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "510173061c7f8fa678c0d54f97e8a647258773f95a1c99196fc7d4ca35015fd5",
+    "hash": "273a542fa79fd8ff2a76a0983821a218110e0343aca8a8c48fd2debf91202f08"
+  },
+  {
+    "index": 401,
+    "timestamp": "2026-02-02T17:17:51.518515+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "273a542fa79fd8ff2a76a0983821a218110e0343aca8a8c48fd2debf91202f08",
+    "hash": "91b9bf61795ae1c83070cb8ec062218282eed105dcfcc21a59e73386149f4eaf"
+  },
+  {
+    "index": 402,
+    "timestamp": "2026-02-02T17:17:51.583165+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "91b9bf61795ae1c83070cb8ec062218282eed105dcfcc21a59e73386149f4eaf",
+    "hash": "43f2daa6053afa15a900a36039a2c1f9822724196385994fd5f6c5598beda3d1"
+  },
+  {
+    "index": 403,
+    "timestamp": "2026-02-02T17:17:51.666779+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "43f2daa6053afa15a900a36039a2c1f9822724196385994fd5f6c5598beda3d1",
+    "hash": "b3ab414ebdebc2678bbb21fabcc1e21ec74659fb97dcc3b777ddba1963dcde57"
+  },
+  {
+    "index": 404,
+    "timestamp": "2026-02-02T17:17:53.845128+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "b3ab414ebdebc2678bbb21fabcc1e21ec74659fb97dcc3b777ddba1963dcde57",
+    "hash": "2b523468b3f8a7be9dfc51b2fe99259289438df92c5ce56dbe70f493af5b1698"
+  },
+  {
+    "index": 405,
+    "timestamp": "2026-02-02T17:41:23.349426+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "2b523468b3f8a7be9dfc51b2fe99259289438df92c5ce56dbe70f493af5b1698",
+    "hash": "f83e034e1628ef6ed1fc7d363d3fb8debff441a53942ad702c47a5b0de5050ce"
+  },
+  {
+    "index": 406,
+    "timestamp": "2026-02-02T17:41:23.421263+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "f83e034e1628ef6ed1fc7d363d3fb8debff441a53942ad702c47a5b0de5050ce",
+    "hash": "9ab75f8027ae48f79e190bbb1ac10dc7a3b10ae8246957af12201ef487afbead"
+  },
+  {
+    "index": 407,
+    "timestamp": "2026-02-02T17:41:23.465820+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "9ab75f8027ae48f79e190bbb1ac10dc7a3b10ae8246957af12201ef487afbead",
+    "hash": "e75aeceb5f57fbdf3df98d5befc6acfb1bc1db355db62bc1edb054b2124b048a"
+  },
+  {
+    "index": 408,
+    "timestamp": "2026-02-02T17:41:23.492061+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "e75aeceb5f57fbdf3df98d5befc6acfb1bc1db355db62bc1edb054b2124b048a",
+    "hash": "11c38ad007ec0c8fc7a75f7656071feb23540f93b2b97d8c3d601931e28a3ef5"
+  },
+  {
+    "index": 409,
+    "timestamp": "2026-02-02T17:41:25.070148+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "11c38ad007ec0c8fc7a75f7656071feb23540f93b2b97d8c3d601931e28a3ef5",
+    "hash": "dd26fc367f7c0906edb71fc77152fdd59f7df81ffa230cc4b670e113b08786a1"
+  },
+  {
+    "index": 410,
+    "timestamp": "2026-02-02T17:56:42.062667+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "dd26fc367f7c0906edb71fc77152fdd59f7df81ffa230cc4b670e113b08786a1",
+    "hash": "c957ce459b99dc1bc3d62d50d6a607a98d2f117051dff4823fcc4b26762b7799"
+  },
+  {
+    "index": 411,
+    "timestamp": "2026-02-02T17:56:44.598017+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "c957ce459b99dc1bc3d62d50d6a607a98d2f117051dff4823fcc4b26762b7799",
+    "hash": "4c9a6148f2bccad2c7bd282ce206540e6acdcecaa22d19d46a19360959ebd500"
+  },
+  {
+    "index": 412,
+    "timestamp": "2026-02-02T17:56:44.647378+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "4c9a6148f2bccad2c7bd282ce206540e6acdcecaa22d19d46a19360959ebd500",
+    "hash": "e69ca26446a063f90bdf0cc9e216e78cf457849442989ceb94d6d207a6cee470"
+  },
+  {
+    "index": 413,
+    "timestamp": "2026-02-02T17:56:44.690479+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "e69ca26446a063f90bdf0cc9e216e78cf457849442989ceb94d6d207a6cee470",
+    "hash": "4b44f0599e77b86181871a052dd435c1707cdfd093e00950c014f046a0ac5eb7"
+  },
+  {
+    "index": 414,
+    "timestamp": "2026-02-02T17:56:44.740224+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "4b44f0599e77b86181871a052dd435c1707cdfd093e00950c014f046a0ac5eb7",
+    "hash": "bfb1d5737ea81182ad21e46b7fcc91b942535ca36c8eebe989639e8e9f75dd44"
+  },
+  {
+    "index": 415,
+    "timestamp": "2026-02-02T17:56:45.976603+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "bfb1d5737ea81182ad21e46b7fcc91b942535ca36c8eebe989639e8e9f75dd44",
+    "hash": "9df9bb4677b849a2ebd684d97e01a239105d94a049a5eb1e666b41991ae2ba94"
+  },
+  {
+    "index": 416,
+    "timestamp": "2026-02-02T17:56:50.623733+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "9df9bb4677b849a2ebd684d97e01a239105d94a049a5eb1e666b41991ae2ba94",
+    "hash": "31e7a04a674558d7124ae7eeea4d3d7808a13a3e0e6f351efea8e4f8f769e6c6"
+  },
+  {
+    "index": 417,
+    "timestamp": "2026-02-02T17:56:50.696984+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "31e7a04a674558d7124ae7eeea4d3d7808a13a3e0e6f351efea8e4f8f769e6c6",
+    "hash": "2d2e7feb850fa2e5f58dc0bb30c689d4c70eb0dc82753966af88b79604583467"
+  },
+  {
+    "index": 418,
+    "timestamp": "2026-02-02T17:56:50.733044+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "2d2e7feb850fa2e5f58dc0bb30c689d4c70eb0dc82753966af88b79604583467",
+    "hash": "c85fdaa1177053c59c5b01df1fa456023257249ac2a6be12f1da9211616eb78c"
+  },
+  {
+    "index": 419,
+    "timestamp": "2026-02-02T17:56:50.781003+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "c85fdaa1177053c59c5b01df1fa456023257249ac2a6be12f1da9211616eb78c",
+    "hash": "3848eb3cc7552eabdf101e1bd2f8257b67d6f31395a10928627461bc5dba569d"
+  },
+  {
+    "index": 420,
+    "timestamp": "2026-02-02T17:56:53.924621+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "3848eb3cc7552eabdf101e1bd2f8257b67d6f31395a10928627461bc5dba569d",
+    "hash": "90212cb5375baac74730a1df216e9b4be69ab6c181416db384db734b94e64187"
+  },
+  {
+    "index": 421,
+    "timestamp": "2026-02-02T18:03:25.972738+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "90212cb5375baac74730a1df216e9b4be69ab6c181416db384db734b94e64187",
+    "hash": "8f526a1c420fd4dac44a2ec85829212a2a71eddb5acd853525f6bb973c894c4d"
+  },
+  {
+    "index": 422,
+    "timestamp": "2026-02-02T18:03:26.047496+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "8f526a1c420fd4dac44a2ec85829212a2a71eddb5acd853525f6bb973c894c4d",
+    "hash": "89ef1fcdb6221b6160dc818ebc1f332fa588338abe52f39a56c91ad7419eca66"
+  },
+  {
+    "index": 423,
+    "timestamp": "2026-02-02T18:03:26.113873+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "89ef1fcdb6221b6160dc818ebc1f332fa588338abe52f39a56c91ad7419eca66",
+    "hash": "4bb195f6bfd8446a05f531ceb14fc7f350465d6064879174c7df84de150919fd"
+  },
+  {
+    "index": 424,
+    "timestamp": "2026-02-02T18:03:26.165560+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "4bb195f6bfd8446a05f531ceb14fc7f350465d6064879174c7df84de150919fd",
+    "hash": "120cb712acc28c16ff862ee345df57407868fd78f2ed5b40999f9c23da0b0849"
+  },
+  {
+    "index": 425,
+    "timestamp": "2026-02-02T18:03:28.409305+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "120cb712acc28c16ff862ee345df57407868fd78f2ed5b40999f9c23da0b0849",
+    "hash": "3967342ad62fa4a7205453d6b886e9d5d47e2de4dd8a2a28f5085c229f768c9d"
+  },
+  {
+    "index": 426,
+    "timestamp": "2026-02-02T18:08:15.690470+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "3967342ad62fa4a7205453d6b886e9d5d47e2de4dd8a2a28f5085c229f768c9d",
+    "hash": "699194bd2602aae4e33534a549d2aaf5e95164b53f68861eec8ef24613ee78ec"
+  },
+  {
+    "index": 427,
+    "timestamp": "2026-02-02T18:08:15.748364+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "699194bd2602aae4e33534a549d2aaf5e95164b53f68861eec8ef24613ee78ec",
+    "hash": "261c61ae889dabf920ad6416d710c398055616130689df658502a039c3a7e3bc"
+  },
+  {
+    "index": 428,
+    "timestamp": "2026-02-02T18:08:15.796709+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "261c61ae889dabf920ad6416d710c398055616130689df658502a039c3a7e3bc",
+    "hash": "1767923def06d1929cf891dc740e1e8da9018b5eca75d69fe023a1ed34a95a8b"
+  },
+  {
+    "index": 429,
+    "timestamp": "2026-02-02T18:08:15.831121+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "1767923def06d1929cf891dc740e1e8da9018b5eca75d69fe023a1ed34a95a8b",
+    "hash": "736c21eab4d960f03860503997b24d40438ba327c91df8e9b8e0959c6fb9f357"
+  },
+  {
+    "index": 430,
+    "timestamp": "2026-02-02T18:08:17.063145+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "736c21eab4d960f03860503997b24d40438ba327c91df8e9b8e0959c6fb9f357",
+    "hash": "3161041432de694ca64f4323432bc35d3f20b44b11c58237e93da39fc3ab20f7"
+  },
+  {
+    "index": 431,
+    "timestamp": "2026-02-03T04:52:02.400140+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "3161041432de694ca64f4323432bc35d3f20b44b11c58237e93da39fc3ab20f7",
+    "hash": "8e84646d3c737eb916768509722944324b1b096d91f3b08c963a6872d3cead42"
+  },
+  {
+    "index": 432,
+    "timestamp": "2026-02-03T04:52:02.561693+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "8e84646d3c737eb916768509722944324b1b096d91f3b08c963a6872d3cead42",
+    "hash": "e33931de98e765d93c69b7c1abe5722b79db2eb86e6dc0ea735562973d344413"
+  },
+  {
+    "index": 433,
+    "timestamp": "2026-02-03T04:52:02.860433+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "e33931de98e765d93c69b7c1abe5722b79db2eb86e6dc0ea735562973d344413",
+    "hash": "f4a4b92c9bda73b86bcb0542562e1b20b01104ba5def16e214b404e8b397522d"
+  },
+  {
+    "index": 434,
+    "timestamp": "2026-02-03T04:52:03.063392+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "f4a4b92c9bda73b86bcb0542562e1b20b01104ba5def16e214b404e8b397522d",
+    "hash": "aa4d03adbd6305fcad4943229b9f3d8a665ac188b6968a36c7143eb5b08d5795"
+  },
+  {
+    "index": 435,
+    "timestamp": "2026-02-03T04:52:13.923252+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "aa4d03adbd6305fcad4943229b9f3d8a665ac188b6968a36c7143eb5b08d5795",
+    "hash": "c3515c27e5638655f7f8f2bdc88e9f650eb913020d4d0b9d622c7f8128823e1c"
+  },
+  {
+    "index": 436,
+    "timestamp": "2026-02-03T04:52:52.576957+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "c3515c27e5638655f7f8f2bdc88e9f650eb913020d4d0b9d622c7f8128823e1c",
+    "hash": "cde53af420b49d894f10dec1e62fb0998824c2fcfeb7be6825fc1b7d5b43529a"
+  },
+  {
+    "index": 437,
+    "timestamp": "2026-02-03T04:52:53.391838+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "cde53af420b49d894f10dec1e62fb0998824c2fcfeb7be6825fc1b7d5b43529a",
+    "hash": "b625629b726c076d16bdfbba8c62807ba7f0598327fbc6364978a36990782efa"
+  },
+  {
+    "index": 438,
+    "timestamp": "2026-02-03T04:52:53.697051+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "b625629b726c076d16bdfbba8c62807ba7f0598327fbc6364978a36990782efa",
+    "hash": "d61b4f6d17f2c8f272caf34d3489adfbb3d5409e7220566b9a501ee7deebb10a"
+  },
+  {
+    "index": 439,
+    "timestamp": "2026-02-03T04:52:53.882162+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "d61b4f6d17f2c8f272caf34d3489adfbb3d5409e7220566b9a501ee7deebb10a",
+    "hash": "ad86a789e2e053287d950e0fa7cb09333f99f260383225314b4462f62879fbaa"
+  },
+  {
+    "index": 440,
+    "timestamp": "2026-02-03T04:52:59.116281+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "ad86a789e2e053287d950e0fa7cb09333f99f260383225314b4462f62879fbaa",
+    "hash": "a5c8f2dcfa023296bf0c7134ea02e09337f1794efe6e63468e219df4ba4bc7da"
+  },
+  {
+    "index": 441,
+    "timestamp": "2026-02-03T04:53:07.475229+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "a5c8f2dcfa023296bf0c7134ea02e09337f1794efe6e63468e219df4ba4bc7da",
+    "hash": "7f9dfe0488af52ee1ddea02aad2a3d4242600d35c71dc13483962e54953c1110"
+  },
+  {
+    "index": 442,
+    "timestamp": "2026-02-03T04:53:07.535208+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "7f9dfe0488af52ee1ddea02aad2a3d4242600d35c71dc13483962e54953c1110",
+    "hash": "708a5ddc7e12d330600d111f2a56093aae7808227b29a14e2f1b9f2f8130b8b9"
+  },
+  {
+    "index": 443,
+    "timestamp": "2026-02-03T04:53:07.589995+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "708a5ddc7e12d330600d111f2a56093aae7808227b29a14e2f1b9f2f8130b8b9",
+    "hash": "606e0f4ae2c7145b531d4698477d9b4284644a8ca36c8eb99e6ef71b9ae8cf2d"
+  },
+  {
+    "index": 444,
+    "timestamp": "2026-02-03T04:53:07.640963+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "606e0f4ae2c7145b531d4698477d9b4284644a8ca36c8eb99e6ef71b9ae8cf2d",
+    "hash": "bd983baac4d98ab0e794ed2614ffe4bdab95266c561a58278b00b8d117c501ae"
+  },
+  {
+    "index": 445,
+    "timestamp": "2026-02-03T04:53:14.301449+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "bd983baac4d98ab0e794ed2614ffe4bdab95266c561a58278b00b8d117c501ae",
+    "hash": "4cab1e2c26f92616e3af2d356ede0a155eb2326c28149b884460a6f89905b127"
+  },
+  {
+    "index": 446,
+    "timestamp": "2026-02-03T04:53:48.813109+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "4cab1e2c26f92616e3af2d356ede0a155eb2326c28149b884460a6f89905b127",
+    "hash": "59b62dda0d48a9a2342a3858f405ce7342f3a82aaf7efae31f6c975ef850c0aa"
+  },
+  {
+    "index": 447,
+    "timestamp": "2026-02-03T04:53:49.176399+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "59b62dda0d48a9a2342a3858f405ce7342f3a82aaf7efae31f6c975ef850c0aa",
+    "hash": "8171aec32d2d56b36c58940b3c20fdd8e53f9ea6d45721015a49aef0a6b14626"
+  },
+  {
+    "index": 448,
+    "timestamp": "2026-02-03T04:53:49.398576+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "8171aec32d2d56b36c58940b3c20fdd8e53f9ea6d45721015a49aef0a6b14626",
+    "hash": "276674308815bfe1ecdc37cd121cace9e879652b39561b0bea4fd55fee46c914"
+  },
+  {
+    "index": 449,
+    "timestamp": "2026-02-03T04:53:49.672912+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "276674308815bfe1ecdc37cd121cace9e879652b39561b0bea4fd55fee46c914",
+    "hash": "101fe9e647fdf5beefd4b24f8ccef08d96e768378ca91acaaf93e83ebfb9ba4a"
+  },
+  {
+    "index": 450,
+    "timestamp": "2026-02-03T04:53:54.141573+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "101fe9e647fdf5beefd4b24f8ccef08d96e768378ca91acaaf93e83ebfb9ba4a",
+    "hash": "4520fc0382150ea0a42456fd779d9c39bf058ed97703db99c654d1142be2e477"
+  },
+  {
+    "index": 451,
+    "timestamp": "2026-02-03T04:54:10.493121+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "4520fc0382150ea0a42456fd779d9c39bf058ed97703db99c654d1142be2e477",
+    "hash": "c96e19662946e7e5fc7a861920af31cdbd4c05590d7031eec1e188701e7a1ddb"
+  },
+  {
+    "index": 452,
+    "timestamp": "2026-02-03T04:54:10.646697+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "c96e19662946e7e5fc7a861920af31cdbd4c05590d7031eec1e188701e7a1ddb",
+    "hash": "71bede398d515fea4b2c09c25a985d7c2e9e783ec36ccdd4a9e29e91a84748f6"
+  },
+  {
+    "index": 453,
+    "timestamp": "2026-02-03T04:54:10.810705+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "71bede398d515fea4b2c09c25a985d7c2e9e783ec36ccdd4a9e29e91a84748f6",
+    "hash": "7eec1044fe30a7a38147ed51211229443a3e65f102eea9b2ebfd0a8633325169"
+  },
+  {
+    "index": 454,
+    "timestamp": "2026-02-03T04:54:10.842948+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "7eec1044fe30a7a38147ed51211229443a3e65f102eea9b2ebfd0a8633325169",
+    "hash": "9e734e3795eab7e1edf7b7218db92c2e2dd9b49e7f0144d9108245b40f0eccc9"
+  },
+  {
+    "index": 455,
+    "timestamp": "2026-02-03T04:54:20.952454+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "9e734e3795eab7e1edf7b7218db92c2e2dd9b49e7f0144d9108245b40f0eccc9",
+    "hash": "730182c567cd0be32314515c46b5da2253d4ce53496cdc8a3f40a77435d4df74"
+  },
+  {
+    "index": 456,
+    "timestamp": "2026-02-03T04:54:21.102262+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "730182c567cd0be32314515c46b5da2253d4ce53496cdc8a3f40a77435d4df74",
+    "hash": "f9cf83ef6d15005840072b5c251e9bd5a2229f69840efd0b6212fecafb5ebfaa"
+  },
+  {
+    "index": 457,
+    "timestamp": "2026-02-03T04:54:21.284622+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "f9cf83ef6d15005840072b5c251e9bd5a2229f69840efd0b6212fecafb5ebfaa",
+    "hash": "419672ee4e5cd19dfeb662bd875276b2f15003118299bed9e25ddd2bd8e81bc5"
+  },
+  {
+    "index": 458,
+    "timestamp": "2026-02-03T04:54:21.426486+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "419672ee4e5cd19dfeb662bd875276b2f15003118299bed9e25ddd2bd8e81bc5",
+    "hash": "cc0cc290f78d4582847f0f61f29260a5a7e17a6071d2888d720cdcdb472e0558"
+  },
+  {
+    "index": 459,
+    "timestamp": "2026-02-03T04:54:30.725762+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "cc0cc290f78d4582847f0f61f29260a5a7e17a6071d2888d720cdcdb472e0558",
+    "hash": "c074a6a67cceb3f2f28afe9c168512dbdc49e56a41d7536f47e397cd4ef0b8da"
+  },
+  {
+    "index": 460,
+    "timestamp": "2026-02-03T04:54:49.239021+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "c074a6a67cceb3f2f28afe9c168512dbdc49e56a41d7536f47e397cd4ef0b8da",
+    "hash": "48e191786e37f0b4f59ac4aa8a8420887e7ce4b5831d75fd053fcd81341263aa"
+  },
+  {
+    "index": 461,
+    "timestamp": "2026-02-03T04:54:49.392443+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "48e191786e37f0b4f59ac4aa8a8420887e7ce4b5831d75fd053fcd81341263aa",
+    "hash": "f54eed2580286e26be3a3d8b58f1e648e9cf9ecc57dd8c3ed8da45245258e157"
+  },
+  {
+    "index": 462,
+    "timestamp": "2026-02-03T04:54:49.594050+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "f54eed2580286e26be3a3d8b58f1e648e9cf9ecc57dd8c3ed8da45245258e157",
+    "hash": "6a12bb5c7617bd15b49338281d0c5f49b5ce8bed245c7c4252b1a605c4830524"
+  },
+  {
+    "index": 463,
+    "timestamp": "2026-02-03T04:54:49.805704+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "6a12bb5c7617bd15b49338281d0c5f49b5ce8bed245c7c4252b1a605c4830524",
+    "hash": "c4ba714bec4364610d1646e2d7a6bb5d0aacbc044bd2169f68659ddff45eb6e0"
+  },
+  {
+    "index": 464,
+    "timestamp": "2026-02-03T04:55:04.705919+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "c4ba714bec4364610d1646e2d7a6bb5d0aacbc044bd2169f68659ddff45eb6e0",
+    "hash": "a74c1e6363d71df9c91313b077117ecc7035126c2635935818525b48698f35a9"
+  },
+  {
+    "index": 465,
+    "timestamp": "2026-02-03T04:55:04.807779+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "a74c1e6363d71df9c91313b077117ecc7035126c2635935818525b48698f35a9",
+    "hash": "2bf34d6a9501c9273b8b3108a939f3e4cbf6ffd3ad474d2f8e7e218464f01204"
+  },
+  {
+    "index": 466,
+    "timestamp": "2026-02-03T04:55:04.898225+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "2bf34d6a9501c9273b8b3108a939f3e4cbf6ffd3ad474d2f8e7e218464f01204",
+    "hash": "cea308a70ba017b6e4723790f1b6484559b1d84c435c2a2640a89f407e0e937f"
+  },
+  {
+    "index": 467,
+    "timestamp": "2026-02-03T04:55:05.239308+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "cea308a70ba017b6e4723790f1b6484559b1d84c435c2a2640a89f407e0e937f",
+    "hash": "8f9199c147d0419d378df1f1e1973351fbb057354347cf396160a5864888cc0f"
+  },
+  {
+    "index": 468,
+    "timestamp": "2026-02-03T04:55:15.907676+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "8f9199c147d0419d378df1f1e1973351fbb057354347cf396160a5864888cc0f",
+    "hash": "4da069009ea62f6f83ccb88232e4edde886e95b1d0400d4f178e533f2b09646c"
+  },
+  {
+    "index": 469,
+    "timestamp": "2026-02-03T05:52:37.239180+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "4da069009ea62f6f83ccb88232e4edde886e95b1d0400d4f178e533f2b09646c",
+    "hash": "15f6af845ed0a1f51498e8bdcab238cf842816c0d663a6e9e4b4c9bd674dde8c"
+  },
+  {
+    "index": 470,
+    "timestamp": "2026-02-03T05:52:37.287709+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "15f6af845ed0a1f51498e8bdcab238cf842816c0d663a6e9e4b4c9bd674dde8c",
+    "hash": "201864d041515d913e8a03c3e50a88e334de1a6cf2671be4be1d238f84af1a18"
+  },
+  {
+    "index": 471,
+    "timestamp": "2026-02-03T05:52:37.423024+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "201864d041515d913e8a03c3e50a88e334de1a6cf2671be4be1d238f84af1a18",
+    "hash": "b71a6e8ecd64dd99ebce13dcea44d658c7f3d023e46ff9eed43dbb61a7b1c5b0"
+  },
+  {
+    "index": 472,
+    "timestamp": "2026-02-03T05:52:37.539378+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "b71a6e8ecd64dd99ebce13dcea44d658c7f3d023e46ff9eed43dbb61a7b1c5b0",
+    "hash": "8178d3af476fa7c4e2a974f7edee8a97641ee86355173de5746f62d5d1d522c4"
+  },
+  {
+    "index": 473,
+    "timestamp": "2026-02-03T05:52:46.506949+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "8178d3af476fa7c4e2a974f7edee8a97641ee86355173de5746f62d5d1d522c4",
+    "hash": "9b939fb46651ac018e3095bd7e7e9b610f9e44bb7cfe5ca38ca97ce679b38a58"
+  },
+  {
+    "index": 474,
+    "timestamp": "2026-02-03T05:52:53.568101+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "9b939fb46651ac018e3095bd7e7e9b610f9e44bb7cfe5ca38ca97ce679b38a58",
+    "hash": "697d67e7c677ae9bb1286085a9e3d3c036b3a8c8692bcebb3084ce482d6c9fea"
+  },
+  {
+    "index": 475,
+    "timestamp": "2026-02-03T05:52:53.917637+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "697d67e7c677ae9bb1286085a9e3d3c036b3a8c8692bcebb3084ce482d6c9fea",
+    "hash": "baca54132e0e6ba16bcfe2c96a9c2c6154aa1cf45420d0068fde318c43a4c607"
+  },
+  {
+    "index": 476,
+    "timestamp": "2026-02-03T05:52:54.093217+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "baca54132e0e6ba16bcfe2c96a9c2c6154aa1cf45420d0068fde318c43a4c607",
+    "hash": "e0e997ff69c7d8fc7c705a0a59b031ee91940b4ae535a080151acb67e1feede8"
+  },
+  {
+    "index": 477,
+    "timestamp": "2026-02-03T05:52:54.144293+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "e0e997ff69c7d8fc7c705a0a59b031ee91940b4ae535a080151acb67e1feede8",
+    "hash": "a883f5c70132c1cbdeae9777a97f987840949cfadc29043c82afd2df9449079e"
+  },
+  {
+    "index": 478,
+    "timestamp": "2026-02-03T05:52:55.632978+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "a883f5c70132c1cbdeae9777a97f987840949cfadc29043c82afd2df9449079e",
+    "hash": "6dc227bd809143b8e7cb5327ecf749094e4d892d77dfc28f8b7d77d85846dac0"
+  },
+  {
+    "index": 479,
+    "timestamp": "2026-02-04T17:38:39.059496+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "6dc227bd809143b8e7cb5327ecf749094e4d892d77dfc28f8b7d77d85846dac0",
+    "hash": "e906cff88b889e33fdeaddc6a7ec834f1d5607b9611c29682d743439f23dcada"
+  },
+  {
+    "index": 480,
+    "timestamp": "2026-02-04T17:38:39.101378+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "e906cff88b889e33fdeaddc6a7ec834f1d5607b9611c29682d743439f23dcada",
+    "hash": "6e356aaa9d34d2e10cc9a2e7ad06ab19641368bc19a0552243bfb0e760097ca3"
+  },
+  {
+    "index": 481,
+    "timestamp": "2026-02-04T17:38:39.131185+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "6e356aaa9d34d2e10cc9a2e7ad06ab19641368bc19a0552243bfb0e760097ca3",
+    "hash": "d2979898432b7324c24fda3b7c926a81074eca6a1fab8b76e044ea35c1e8d3b4"
+  },
+  {
+    "index": 482,
+    "timestamp": "2026-02-04T17:38:39.160325+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "d2979898432b7324c24fda3b7c926a81074eca6a1fab8b76e044ea35c1e8d3b4",
+    "hash": "6f83bae18669f90527690d8c2e1fcd3b27b49f9132bcf2d7991a9ad9fd8b6113"
+  },
+  {
+    "index": 483,
+    "timestamp": "2026-02-04T17:38:40.441837+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "6f83bae18669f90527690d8c2e1fcd3b27b49f9132bcf2d7991a9ad9fd8b6113",
+    "hash": "ecac54290f8f838642b3251c366b208eafc7b0f70fe5edc19aa3e004074d7202"
+  },
+  {
+    "index": 484,
+    "timestamp": "2026-02-04T17:39:22.742600+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "ecac54290f8f838642b3251c366b208eafc7b0f70fe5edc19aa3e004074d7202",
+    "hash": "c8ccdadafb1224a2a89c8b98201a4bf4470dcd2b8eca17c91af667c7b7c1fff6"
+  },
+  {
+    "index": 485,
+    "timestamp": "2026-02-04T17:39:22.773842+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "c8ccdadafb1224a2a89c8b98201a4bf4470dcd2b8eca17c91af667c7b7c1fff6",
+    "hash": "f6df7d633e3a1284ad41120b8baf9588b65d97c80260de3ddc47a095504b80b7"
+  },
+  {
+    "index": 486,
+    "timestamp": "2026-02-04T17:39:22.794427+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "f6df7d633e3a1284ad41120b8baf9588b65d97c80260de3ddc47a095504b80b7",
+    "hash": "4c803a408b25034b2f5d9f8d4b63e11e2c41652fdcfd4a073265d81a9c5e1b76"
+  },
+  {
+    "index": 487,
+    "timestamp": "2026-02-04T17:39:22.817902+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "4c803a408b25034b2f5d9f8d4b63e11e2c41652fdcfd4a073265d81a9c5e1b76",
+    "hash": "6c0578d4f2f62060a395bbeb4f5fb1a341ddd7a1f8e0fff96e5af7be5a00a774"
+  },
+  {
+    "index": 488,
+    "timestamp": "2026-02-04T17:39:23.664145+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "6c0578d4f2f62060a395bbeb4f5fb1a341ddd7a1f8e0fff96e5af7be5a00a774",
+    "hash": "68d895ca8a93ef2047288afae74900dc25834d88e8fea2be33b8c44b86de6b0d"
+  },
+  {
+    "index": 489,
+    "timestamp": "2026-02-04T17:39:32.593901+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "68d895ca8a93ef2047288afae74900dc25834d88e8fea2be33b8c44b86de6b0d",
+    "hash": "f48a2f0dcdcc1aeaf877a308997961fc1e6be4c1ba7b7ac7f9bc5488125b06f6"
+  },
+  {
+    "index": 490,
+    "timestamp": "2026-02-05T15:41:47.927192+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "f48a2f0dcdcc1aeaf877a308997961fc1e6be4c1ba7b7ac7f9bc5488125b06f6",
+    "hash": "d9dc42f883aaa1e4244411ef37253ceb0748646519f8eeffbd418c4bce2c646b"
+  },
+  {
+    "index": 491,
+    "timestamp": "2026-02-05T15:41:47.977845+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "d9dc42f883aaa1e4244411ef37253ceb0748646519f8eeffbd418c4bce2c646b",
+    "hash": "06a21ad32ff5a001d1f7b6d2f296a1b821d4543411915e819725a66527ee0cea"
+  },
+  {
+    "index": 492,
+    "timestamp": "2026-02-05T15:41:48.017107+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "06a21ad32ff5a001d1f7b6d2f296a1b821d4543411915e819725a66527ee0cea",
+    "hash": "91ce74221ff4f3b9f8a8d7c7cc9ebe166b38c2e6e2ab153aaa0699c63ec9b112"
+  },
+  {
+    "index": 493,
+    "timestamp": "2026-02-05T15:41:48.058042+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "91ce74221ff4f3b9f8a8d7c7cc9ebe166b38c2e6e2ab153aaa0699c63ec9b112",
+    "hash": "47a2ee8856676b5f179d6286cc6538ca693c1903b0af8730f50598aad57652c2"
+  },
+  {
+    "index": 494,
+    "timestamp": "2026-02-05T15:41:49.811438+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "47a2ee8856676b5f179d6286cc6538ca693c1903b0af8730f50598aad57652c2",
+    "hash": "9512c6bf1d31ec6ffd46a095f3bebebebe290439b07169a2241de549ede21395"
+  },
+  {
+    "index": 495,
+    "timestamp": "2026-02-05T18:14:37.866577+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "9512c6bf1d31ec6ffd46a095f3bebebebe290439b07169a2241de549ede21395",
+    "hash": "ea220c11dc2eeca762988786b0f2a7b61670c74bd25a9e12a42c80f270d5da13"
+  },
+  {
+    "index": 496,
+    "timestamp": "2026-02-05T18:14:37.892939+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "ea220c11dc2eeca762988786b0f2a7b61670c74bd25a9e12a42c80f270d5da13",
+    "hash": "6ad92d964aad63cdbb087d7621b869b4a2fa5ddf13fdf6c56d7685140341fb0a"
+  },
+  {
+    "index": 497,
+    "timestamp": "2026-02-05T18:14:37.918973+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "6ad92d964aad63cdbb087d7621b869b4a2fa5ddf13fdf6c56d7685140341fb0a",
+    "hash": "25f3a0d9e920f82081b5f60aa66bf238a2d065f940bd1b5ed61b60acd5d54142"
+  },
+  {
+    "index": 498,
+    "timestamp": "2026-02-05T18:14:37.947653+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "25f3a0d9e920f82081b5f60aa66bf238a2d065f940bd1b5ed61b60acd5d54142",
+    "hash": "fc6a8178f00575d955b91a08f55129696dd2341bca528c954430b1f4148405b3"
+  },
+  {
+    "index": 499,
+    "timestamp": "2026-02-05T18:14:38.875756+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "fc6a8178f00575d955b91a08f55129696dd2341bca528c954430b1f4148405b3",
+    "hash": "8448a07212b07956b61ca8c01fc059234fadfccca8a08f1819adb2830bb202d5"
+  },
+  {
+    "index": 500,
+    "timestamp": "2026-02-05T18:25:26.216564+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "8448a07212b07956b61ca8c01fc059234fadfccca8a08f1819adb2830bb202d5",
+    "hash": "a0019e4d4c2d752791333a3b8061fd068f043ee93b28eb6f038d9a5818e39bd3"
+  },
+  {
+    "index": 501,
+    "timestamp": "2026-02-05T18:25:26.247620+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "a0019e4d4c2d752791333a3b8061fd068f043ee93b28eb6f038d9a5818e39bd3",
+    "hash": "97eef919ef3c14ab8a75a96c8ca33c241f3497472b45680b9046b5a385183a06"
+  },
+  {
+    "index": 502,
+    "timestamp": "2026-02-05T18:25:26.276730+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "97eef919ef3c14ab8a75a96c8ca33c241f3497472b45680b9046b5a385183a06",
+    "hash": "d1acd36baa50c36ec5f84e8c1c18f17b30f3e4c0dae3e8aa62ebe5ccec596d18"
+  },
+  {
+    "index": 503,
+    "timestamp": "2026-02-05T18:25:26.304875+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "d1acd36baa50c36ec5f84e8c1c18f17b30f3e4c0dae3e8aa62ebe5ccec596d18",
+    "hash": "bb8d6ce9bcda4029776a2f0ac1fa8fa9b05fcf2076ce2929d8150f1b7d89db7c"
+  },
+  {
+    "index": 504,
+    "timestamp": "2026-02-05T18:25:27.187340+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "bb8d6ce9bcda4029776a2f0ac1fa8fa9b05fcf2076ce2929d8150f1b7d89db7c",
+    "hash": "470625635dc77ac12a9ca487fa7c944bef45cfcfdd3ccd47717382dd4fad0a2c"
+  },
+  {
+    "index": 505,
+    "timestamp": "2026-02-05T18:27:59.025098+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "470625635dc77ac12a9ca487fa7c944bef45cfcfdd3ccd47717382dd4fad0a2c",
+    "hash": "29c25f6a4c5c4d98bc1f0bd570473217280c1e48ba63e1c6e731817fe74f94b4"
+  },
+  {
+    "index": 506,
+    "timestamp": "2026-02-05T18:27:59.058880+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "29c25f6a4c5c4d98bc1f0bd570473217280c1e48ba63e1c6e731817fe74f94b4",
+    "hash": "d9f55bb32acd59125600ba3318eadae309e3769c29baa8de278284cfa626cd6f"
+  },
+  {
+    "index": 507,
+    "timestamp": "2026-02-05T18:27:59.095323+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "d9f55bb32acd59125600ba3318eadae309e3769c29baa8de278284cfa626cd6f",
+    "hash": "d0a99ab93e5388abaa073c3403c5265190f39460381054a0e2fef6d841853a96"
+  },
+  {
+    "index": 508,
+    "timestamp": "2026-02-05T18:27:59.124826+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "d0a99ab93e5388abaa073c3403c5265190f39460381054a0e2fef6d841853a96",
+    "hash": "33e9cb80e0da09e3566fd726682d540515a7f8495c32b414a873ef3f5e3b5462"
+  },
+  {
+    "index": 509,
+    "timestamp": "2026-02-05T18:28:00.160167+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "33e9cb80e0da09e3566fd726682d540515a7f8495c32b414a873ef3f5e3b5462",
+    "hash": "456096366d999d44332c66a6aa41fbd162879e65f27281d80ef7b8a7016c8dcf"
+  },
+  {
+    "index": 510,
+    "timestamp": "2026-02-05T18:45:44.232395+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "456096366d999d44332c66a6aa41fbd162879e65f27281d80ef7b8a7016c8dcf",
+    "hash": "31c7fdf4dac44bc0da6bef87b75126554ed7a65ec9304e6fc0a44485f0cb5ea1"
+  },
+  {
+    "index": 511,
+    "timestamp": "2026-02-05T18:45:44.268203+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "31c7fdf4dac44bc0da6bef87b75126554ed7a65ec9304e6fc0a44485f0cb5ea1",
+    "hash": "49dfa6ff603e8e3ce63dad9aaa5f0bd5044e06ad875994adb805b9e340420dab"
+  },
+  {
+    "index": 512,
+    "timestamp": "2026-02-05T18:45:44.299686+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "49dfa6ff603e8e3ce63dad9aaa5f0bd5044e06ad875994adb805b9e340420dab",
+    "hash": "bbee8f5ba5507700a6b8b3dd743910b3f6a7b639daa48d759c94f21505e49738"
+  },
+  {
+    "index": 513,
+    "timestamp": "2026-02-05T18:45:44.329589+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "bbee8f5ba5507700a6b8b3dd743910b3f6a7b639daa48d759c94f21505e49738",
+    "hash": "4c60f1def541e756297b60228a50cfbeb5d9ae0062bb4aa939ceba1582383e83"
+  },
+  {
+    "index": 514,
+    "timestamp": "2026-02-05T18:45:45.487422+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "4c60f1def541e756297b60228a50cfbeb5d9ae0062bb4aa939ceba1582383e83",
+    "hash": "ffbc1fb14a96fd7439f38ff270833812611016bad2b72defb98d381ebcc8be07"
+  },
+  {
+    "index": 515,
+    "timestamp": "2026-02-06T15:42:28.789811+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "ffbc1fb14a96fd7439f38ff270833812611016bad2b72defb98d381ebcc8be07",
+    "hash": "3d3ca3108fc78698f7c73e021ef68f81ad85fe02054413b42cb9738de9833878"
+  },
+  {
+    "index": 516,
+    "timestamp": "2026-02-06T15:42:28.898266+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "3d3ca3108fc78698f7c73e021ef68f81ad85fe02054413b42cb9738de9833878",
+    "hash": "6d91d9551890a42c117503047871b5dd6899e83ba40801d4d46903082f03e387"
+  },
+  {
+    "index": 517,
+    "timestamp": "2026-02-06T15:42:29.138683+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "6d91d9551890a42c117503047871b5dd6899e83ba40801d4d46903082f03e387",
+    "hash": "387342bf02fbb7ea62b25fddca976d275496e155f22f6a66289f0bffba92c6da"
+  },
+  {
+    "index": 518,
+    "timestamp": "2026-02-06T15:42:29.695183+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "387342bf02fbb7ea62b25fddca976d275496e155f22f6a66289f0bffba92c6da",
+    "hash": "c9e39feda48641fe937affe5d5e65ec2b6af546dc3fb45b0330fbdf605deae46"
+  },
+  {
+    "index": 519,
+    "timestamp": "2026-02-06T15:42:34.207666+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "c9e39feda48641fe937affe5d5e65ec2b6af546dc3fb45b0330fbdf605deae46",
+    "hash": "e953c367eace36cd52c4ae0baeeff3980f46e56d40909723f4fe82f9475d5a0b"
+  },
+  {
+    "index": 520,
+    "timestamp": "2026-02-06T15:43:51.111749+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "e953c367eace36cd52c4ae0baeeff3980f46e56d40909723f4fe82f9475d5a0b",
+    "hash": "058d01f2c0dded51b6e7490099e234944b3aa604dcc168541be17d8637ff802c"
+  },
+  {
+    "index": 521,
+    "timestamp": "2026-02-06T15:43:51.147179+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "058d01f2c0dded51b6e7490099e234944b3aa604dcc168541be17d8637ff802c",
+    "hash": "1e1a37f893f61ca1ebdcc14059761d3618512273a7c9e432d21b4d0de3f98a8e"
+  },
+  {
+    "index": 522,
+    "timestamp": "2026-02-06T15:43:51.260065+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "1e1a37f893f61ca1ebdcc14059761d3618512273a7c9e432d21b4d0de3f98a8e",
+    "hash": "a30f9dc2cc5d23b784d808440cb276006a99cfbb4f89be0ca53a2c826bc0f41c"
+  },
+  {
+    "index": 523,
+    "timestamp": "2026-02-06T15:43:51.668396+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "a30f9dc2cc5d23b784d808440cb276006a99cfbb4f89be0ca53a2c826bc0f41c",
+    "hash": "61907aaebf3811319c4c18d1d2945e245626023278033c010ba8822bb829bd2a"
+  },
+  {
+    "index": 524,
+    "timestamp": "2026-02-06T15:50:53.442051+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "61907aaebf3811319c4c18d1d2945e245626023278033c010ba8822bb829bd2a",
+    "hash": "965b68c1d800d059f9a15afa52afeeb9aab3a207aca49dfd9a95a42b7c10f9fb"
+  },
+  {
+    "index": 525,
+    "timestamp": "2026-02-06T15:50:53.575955+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "965b68c1d800d059f9a15afa52afeeb9aab3a207aca49dfd9a95a42b7c10f9fb",
+    "hash": "4946b8e490305f7c749242248edd1af20b9c2884fc11531488fdf2b06fd618b0"
+  },
+  {
+    "index": 526,
+    "timestamp": "2026-02-06T15:50:53.738705+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "4946b8e490305f7c749242248edd1af20b9c2884fc11531488fdf2b06fd618b0",
+    "hash": "d72b95e9e49272fa91faf99c72d544c9e5bb9784e3c7954b25ea1b71d515826c"
+  },
+  {
+    "index": 527,
+    "timestamp": "2026-02-06T15:50:53.854310+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "d72b95e9e49272fa91faf99c72d544c9e5bb9784e3c7954b25ea1b71d515826c",
+    "hash": "479fae1484b959499474c22aae8e989d114c00ced5c9d19be22f6a01a213d9f0"
+  },
+  {
+    "index": 528,
+    "timestamp": "2026-02-06T15:50:56.146417+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "479fae1484b959499474c22aae8e989d114c00ced5c9d19be22f6a01a213d9f0",
+    "hash": "44e4d9b5099badf962a6bbf1ae3afe3264d0ba4f36ab2cb09b5cfa35d0de4c09"
+  },
+  {
+    "index": 529,
+    "timestamp": "2026-02-06T15:51:04.341111+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "44e4d9b5099badf962a6bbf1ae3afe3264d0ba4f36ab2cb09b5cfa35d0de4c09",
+    "hash": "093bfc495f1d9703505aa886c4446c039fbb1d3fedf2c36bfadcc95e8101eb6f"
+  },
+  {
+    "index": 530,
+    "timestamp": "2026-02-06T15:51:04.390910+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "093bfc495f1d9703505aa886c4446c039fbb1d3fedf2c36bfadcc95e8101eb6f",
+    "hash": "a2f7c5c36b51efb4c1c6d9ee7a66932269edfecce9cbc054b0678923c7f6a11c"
+  },
+  {
+    "index": 531,
+    "timestamp": "2026-02-06T15:51:04.441086+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "a2f7c5c36b51efb4c1c6d9ee7a66932269edfecce9cbc054b0678923c7f6a11c",
+    "hash": "ef0bc4869ed12aaa3d9d7b6676f7f1644042c0c6fa056b96fc8460a4d217a808"
+  },
+  {
+    "index": 532,
+    "timestamp": "2026-02-06T15:51:04.499467+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "ef0bc4869ed12aaa3d9d7b6676f7f1644042c0c6fa056b96fc8460a4d217a808",
+    "hash": "b3b516f2da0d0f439f191025b633b93c1d5058e543d2f05c331a81df0e62e372"
+  },
+  {
+    "index": 533,
+    "timestamp": "2026-02-06T15:51:07.685941+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "b3b516f2da0d0f439f191025b633b93c1d5058e543d2f05c331a81df0e62e372",
+    "hash": "9cb2cad7f2d5c19c9ef5c43487ddf8f0c9291892068a214850c53a30674863d6"
+  },
+  {
+    "index": 534,
+    "timestamp": "2026-02-06T15:51:10.485073+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "9cb2cad7f2d5c19c9ef5c43487ddf8f0c9291892068a214850c53a30674863d6",
+    "hash": "73558e3f2a725d8490bcd81f55fa16d04d9df54e7c8c833ad0ebbbb9cc488c4e"
+  },
+  {
+    "index": 535,
+    "timestamp": "2026-02-06T15:51:10.796467+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "73558e3f2a725d8490bcd81f55fa16d04d9df54e7c8c833ad0ebbbb9cc488c4e",
+    "hash": "30eba5cfaf83885cb8c373e4ce06c38d6f6edd1a1d50c4de4556f9773bb69939"
+  },
+  {
+    "index": 536,
+    "timestamp": "2026-02-06T15:51:10.831821+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "30eba5cfaf83885cb8c373e4ce06c38d6f6edd1a1d50c4de4556f9773bb69939",
+    "hash": "fab2a1f7ae26e90e0112620ce802156c3982a79d5a2b8f8f8b6651ec57d77e87"
+  },
+  {
+    "index": 537,
+    "timestamp": "2026-02-06T15:51:10.867215+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "fab2a1f7ae26e90e0112620ce802156c3982a79d5a2b8f8f8b6651ec57d77e87",
+    "hash": "921d622b0a47f39cea6db98bdbbd0e5f6487cacf28636e60bd3123b9c7056a21"
+  },
+  {
+    "index": 538,
+    "timestamp": "2026-02-06T15:51:11.825601+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "921d622b0a47f39cea6db98bdbbd0e5f6487cacf28636e60bd3123b9c7056a21",
+    "hash": "2981a5b02ef9d0bd08158c4d988c3950ecbf8b7c8b7b3bacdf403544dda6d02d"
+  },
+  {
+    "index": 539,
+    "timestamp": "2026-02-06T15:53:22.428491+00:00",
+    "data": {
+      "alert": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+    },
+    "prev_hash": "2981a5b02ef9d0bd08158c4d988c3950ecbf8b7c8b7b3bacdf403544dda6d02d",
+    "hash": "8db9144e0e208a5734d800868243c9214c173d474910357bf3f53b56bfd294de"
+  },
+  {
+    "index": 540,
+    "timestamp": "2026-02-06T15:53:22.509344+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "8db9144e0e208a5734d800868243c9214c173d474910357bf3f53b56bfd294de",
+    "hash": "37967ce4c2b6d3be1cc050304ff8b360c20256fa9c8a001c344ffa0cbfb1d3d4"
+  },
+  {
+    "index": 541,
+    "timestamp": "2026-02-06T15:53:22.579163+00:00",
+    "data": {
+      "alert": "User david on Ship 105 had 4 consecutive failed logins!"
+    },
+    "prev_hash": "37967ce4c2b6d3be1cc050304ff8b360c20256fa9c8a001c344ffa0cbfb1d3d4",
+    "hash": "f30516e7f570b772431e146d34e281b6ebe3f72cd2fe0c1ed452fa5601089508"
+  },
+  {
+    "index": 542,
+    "timestamp": "2026-02-06T15:53:22.642801+00:00",
+    "data": {
+      "alert": "User charlie on Ship 104 had 3 consecutive failed logins!"
+    },
+    "prev_hash": "f30516e7f570b772431e146d34e281b6ebe3f72cd2fe0c1ed452fa5601089508",
+    "hash": "12db9606dbff8e99683a1c583fffbb08e8180fabed839a685bcfb257e9cebfe4"
+  },
+  {
+    "index": 543,
+    "timestamp": "2026-02-06T15:53:28.560671+00:00",
+    "data": {
+      "alert": "Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+    },
+    "prev_hash": "12db9606dbff8e99683a1c583fffbb08e8180fabed839a685bcfb257e9cebfe4",
+    "hash": "df3b5884b88e6c2ff5ed5a8b804201ff4099783b1f11266faada6468dc9083f9"
   }
 ]

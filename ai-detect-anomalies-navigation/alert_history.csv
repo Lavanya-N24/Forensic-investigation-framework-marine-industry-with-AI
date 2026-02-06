@@ -774,3 +774,563 @@ Timestamp,Alert
 2025-11-22T10:27:45.787991,User david on Ship 105 had 4 consecutive failed logins!
 2025-11-22T10:27:50.446333,User charlie on Ship 104 had 3 consecutive failed logins!
 2025-11-22T10:27:57.050612,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-29T22:22:08.455891,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-29T22:22:26.229385,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-29T22:22:37.515731,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-29T22:22:52.404260,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-29T22:23:11.123953,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-29T22:23:26.155291,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-29T22:23:40.692865,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-29T22:23:48.787205,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-29T22:24:07.256833,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-29T22:30:15.417353,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-29T22:30:34.241074,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-29T22:30:54.234307,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-29T22:31:04.014037,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-29T22:31:27.623383,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-29T22:41:23.462907,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-29T22:41:28.111068,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-29T22:41:33.437407,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-29T22:41:42.766813,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-29T22:41:48.084998,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-29T22:41:56.077905,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-29T22:43:08.478173,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-29T22:43:12.208119,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-29T22:43:30.383967,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-29T22:43:43.287879,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-29T22:43:51.067975,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-29T22:43:59.186595,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-29T22:48:45.055065,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-29T22:49:10.473265,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-29T22:49:18.294812,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-29T22:49:21.575443,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-29T22:49:26.722679,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-29T22:51:53.188705,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-29T22:51:59.058473,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-29T22:59:51.940873,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-29T23:00:25.863698,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-29T23:00:48.199041,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-29T23:01:06.055175,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-29T23:01:21.403162,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-29T23:25:44.969171,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-29T23:25:48.492431,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-29T23:26:01.271215,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-29T23:26:11.464468,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-29T23:26:19.399500,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-29T23:26:31.969777,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:19:24.695600,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:19:24.751027,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:19:24.777241,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:19:24.804607,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:19:27.288607,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:19:33.248500,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:19:33.260419,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:19:33.272007,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:19:33.285017,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:19:34.253749,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:19:42.411550,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:19:42.425272,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:19:42.437005,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:19:42.448832,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:19:43.246755,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:19:57.533722,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:19:57.547537,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:19:57.561057,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:19:57.571888,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:19:58.505334,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:20:22.170564,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:20:22.183975,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:20:22.199114,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:20:22.208653,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:20:23.184219,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:24:34.738091,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:24:34.760063,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:24:34.781645,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:24:34.799229,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:24:37.345760,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:24:44.676158,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:24:44.691285,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:24:44.711112,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:24:44.725705,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:24:45.888343,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:24:49.457204,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:24:49.474830,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:24:49.489749,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:24:49.502969,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:24:50.481564,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:31:28.719960,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:31:28.750879,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:31:28.772651,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:31:28.793873,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:31:30.279310,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:31:36.981070,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:31:37.028066,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:31:37.062409,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:31:37.082978,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:31:38.096291,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:35:16.878786,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:35:16.900114,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:35:16.916181,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:35:16.932038,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:35:18.931778,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:36:49.333717,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:36:49.351567,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:36:49.367312,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:36:49.382393,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:36:50.228927,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:37:11.627083,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:37:11.653829,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:37:11.667667,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:37:11.690706,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:37:13.209150,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:37:19.366329,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:37:19.396641,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:37:19.417634,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:37:19.434737,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:37:20.468925,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:37:22.598726,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:37:22.618998,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:37:22.638040,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:37:22.655599,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:37:26.914854,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:37:26.946328,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:37:26.977406,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:37:27.028854,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:37:30.599185,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:37:36.730293,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:37:36.758417,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:37:36.778946,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:37:36.801364,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:37:37.569573,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:38:00.944781,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:38:00.969798,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:38:00.987579,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:38:01.009691,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:38:01.919017,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:38:15.929278,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:38:15.947399,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:38:15.968477,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:38:15.990102,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:38:16.878381,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:46:28.119708,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:46:28.132930,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:46:28.146282,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:46:28.159276,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:46:30.977956,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:46:35.848002,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:46:35.868152,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:46:35.884761,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:46:35.912770,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:46:37.000871,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:46:43.334521,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:46:43.366000,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:46:43.397313,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:46:43.427071,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:46:44.278901,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:46:47.316605,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:46:47.339064,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:46:47.369505,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:46:47.393033,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:46:48.341896,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:46:54.652995,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:46:54.671805,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:46:54.702410,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:46:54.732868,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:46:55.510598,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:46:58.097233,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:46:58.121143,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:46:58.173385,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:46:58.227080,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:46:59.069485,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:47:00.354555,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:47:00.370796,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:47:00.389831,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:47:00.408440,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:47:03.827457,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:49:13.432744,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:49:13.457740,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:49:13.479680,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:49:13.500725,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:49:17.602396,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:50:25.224755,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:50:25.256748,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:50:25.277718,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:50:25.296117,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:50:29.027181,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:55:08.402605,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:55:08.425910,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:55:08.444677,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:55:08.469002,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:55:09.748017,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:55:34.155488,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:55:34.178503,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:55:34.200935,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:55:34.221149,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:55:35.754035,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:56:05.491232,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:56:05.518444,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:56:05.541002,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:56:05.562970,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:56:06.639111,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-30T23:59:18.358109,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-30T23:59:18.433393,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-30T23:59:18.480277,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-30T23:59:18.528860,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-30T23:59:20.328625,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T21:43:36.667740,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T21:43:36.770399,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T21:43:36.783859,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T21:43:36.811125,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T21:43:36.917573,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T21:43:36.920158,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T21:43:36.997059,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T21:43:37.013192,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T21:43:42.424382,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T21:43:42.427830,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T21:52:15.538853,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T21:52:15.659931,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T21:52:15.775948,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T21:52:15.804502,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T21:52:25.116104,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:04:21.007119,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:04:21.572324,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:04:22.907756,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:04:23.322501,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:04:28.766850,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:04:43.582581,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:04:43.624353,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:04:43.688895,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:04:43.716142,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:04:44.974607,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:04:47.637870,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:04:47.796860,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:04:47.843355,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:04:47.886368,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:04:52.533402,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:22:16.707572,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:22:16.811993,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:22:16.840471,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:22:16.892921,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:22:21.689438,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:22:57.076739,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:22:57.120265,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:22:57.237320,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:22:57.318142,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:23:02.667552,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:29:32.593562,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:29:32.626528,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:29:32.740626,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:29:32.865005,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:29:35.119564,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:29:43.386518,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:29:43.427054,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:29:43.462322,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:29:43.506781,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:29:44.445128,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:29:51.356926,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:29:51.489926,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:29:51.652002,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:29:51.818679,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:29:53.170470,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:29:54.763923,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:29:54.789562,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:29:54.856194,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:29:55.135116,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:29:59.697833,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:30:53.677661,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:30:53.714178,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:30:53.848622,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:30:53.981276,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:30:57.424170,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:37:13.006801,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:37:13.140300,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:37:13.287194,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:37:13.370947,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:37:17.077018,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:38:08.019988,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:38:08.069831,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:38:08.231574,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:38:08.504780,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:38:11.357227,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:42:08.882239,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:42:09.015224,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:42:09.161979,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:42:09.328683,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:42:12.644056,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:43:17.981035,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:43:18.024511,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:43:18.165562,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:43:18.297017,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:43:20.739953,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:43:32.554834,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:43:34.010192,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:43:34.041846,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:43:34.069513,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:43:34.115757,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:43:36.387240,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:43:45.941733,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:43:46.045807,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:43:46.159064,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:43:46.367299,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:43:52.008302,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:44:43.973160,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:44:44.013123,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:44:44.071881,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:44:44.289016,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:44:45.623465,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:50:04.678226,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:50:04.763016,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:50:04.949170,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:50:05.161753,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:50:06.806623,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:50:11.376603,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:50:11.546616,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:50:11.882495,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:50:12.029819,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:50:18.109232,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:50:34.016077,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:50:34.162861,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:50:34.625863,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:50:34.901944,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:50:38.459573,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:50:41.014099,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:50:41.044385,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:50:41.072530,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:50:41.135701,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:50:44.238351,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:50:44.420764,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:50:44.720332,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:50:45.015514,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:50:48.950478,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:53:52.604692,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:53:52.729846,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:53:52.845233,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:53:52.987888,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:54:09.780490,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:54:09.939726,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:54:10.222596,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:54:10.357094,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:54:12.224993,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:54:27.270927,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:54:27.429266,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:54:27.612503,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:54:28.258534,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:54:32.404883,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:54:39.108326,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:54:39.214774,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:54:39.365553,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:54:39.492341,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:54:42.764994,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:55:04.809718,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:55:04.879663,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:55:04.941837,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:55:05.056386,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:55:09.680016,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:55:43.989109,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:55:44.328273,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:55:44.442451,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:55:44.539878,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:55:48.582799,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:55:51.290514,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:55:51.426796,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:55:51.532060,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:55:51.633437,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:55:57.894800,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:58:16.193142,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:58:16.408350,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:58:16.710900,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:58:17.086297,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:58:34.927317,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:58:35.202430,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:58:35.338228,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:58:35.425042,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:58:37.450355,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-01-31T22:59:28.348731,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-01-31T22:59:28.511315,User david on Ship 105 had 3 consecutive failed logins!
+2026-01-31T22:59:28.652764,User david on Ship 105 had 4 consecutive failed logins!
+2026-01-31T22:59:28.816830,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-01-31T22:59:37.891361,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-02T21:50:24.096602,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-02T21:50:24.311818,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-02T21:50:24.498528,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-02T21:50:24.630213,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-02T21:50:32.140756,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-02T22:36:00.107154,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-02T22:36:00.127686,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-02T22:36:00.148541,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-02T22:36:00.170131,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-02T22:36:01.253783,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-02T22:40:52.673587,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-02T22:40:52.713551,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-02T22:40:52.759684,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-02T22:40:52.798486,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-02T22:40:54.240408,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-02T22:43:43.157145,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-02T22:43:43.170933,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-02T22:43:43.185582,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-02T22:43:43.197778,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-02T22:43:43.814568,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-02T22:47:51.429141,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-02T22:47:51.498963,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-02T22:47:51.567489,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-02T22:47:51.651809,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-02T22:47:53.841121,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-02T23:11:23.333086,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-02T23:11:23.412991,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-02T23:11:23.460308,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-02T23:11:23.487226,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-02T23:11:25.048389,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-02T23:26:42.043855,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-02T23:26:44.591541,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-02T23:26:44.635682,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-02T23:26:44.683518,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-02T23:26:44.733075,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-02T23:26:45.968301,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-02T23:26:50.620159,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-02T23:26:50.688149,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-02T23:26:50.727201,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-02T23:26:50.774047,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-02T23:26:53.920405,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-02T23:33:25.956493,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-02T23:33:26.032390,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-02T23:33:26.102270,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-02T23:33:26.157954,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-02T23:33:28.403042,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-02T23:38:15.679692,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-02T23:38:15.738924,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-02T23:38:15.792331,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-02T23:38:15.826374,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-02T23:38:17.053915,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-03T10:22:02.371864,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-03T10:22:02.514608,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-03T10:22:02.799238,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-03T10:22:02.749991,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-03T10:22:03.030079,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-03T10:22:03.115992,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-03T10:22:03.534953,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-03T10:22:04.334926,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-03T10:22:13.899387,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-03T10:22:13.905284,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-03T10:22:52.292699,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-03T10:22:53.283892,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-03T10:22:53.589180,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-03T10:22:53.874168,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-03T10:22:59.023848,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-03T10:23:07.470785,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-03T10:23:07.525983,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-03T10:23:07.581369,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-03T10:23:07.636529,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-03T10:23:14.284610,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-03T10:23:48.782440,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-03T10:23:49.151592,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-03T10:23:49.389660,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-03T10:23:49.661416,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-03T10:23:54.101123,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-03T10:24:10.488839,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-03T10:24:10.626382,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-03T10:24:10.786432,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-03T10:24:10.839185,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-03T10:24:20.895131,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-03T10:24:21.055698,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-03T10:24:21.277290,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-03T10:24:21.411299,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-03T10:24:30.713551,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-03T10:24:49.235346,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-03T10:24:49.389610,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-03T10:24:49.580949,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-03T10:24:49.773807,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-03T10:25:04.680949,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-03T10:25:04.747454,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-03T10:25:04.894580,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-03T10:25:05.163922,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-03T10:25:15.898428,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-03T11:22:37.226383,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-03T11:22:37.275799,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-03T11:22:37.414540,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-03T11:22:37.518779,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-03T11:22:46.467318,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-03T11:22:53.564007,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-03T11:22:53.898383,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-03T11:22:54.052741,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-03T11:22:54.139353,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-03T11:22:55.625965,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-04T23:08:39.052753,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-04T23:08:39.096693,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-04T23:08:39.126545,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-04T23:08:39.155313,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-04T23:08:40.439000,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-04T23:09:22.739899,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-04T23:09:22.769303,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-04T23:09:22.790914,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-04T23:09:22.814923,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-04T23:09:23.660306,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-04T23:09:32.586361,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-04T23:11:54.413423,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-04T23:11:54.420370,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-04T23:11:54.428329,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-04T23:11:54.433659,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-04T23:11:55.620550,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-04T23:12:34.279498,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-04T23:12:34.288080,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-04T23:12:34.292041,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-04T23:12:34.298394,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-04T23:12:35.017765,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-04T23:34:49.917787,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-04T23:34:49.924719,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-04T23:34:49.929735,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-04T23:34:49.935254,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-04T23:34:50.929872,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-05T21:11:47.920511,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-05T21:11:47.969527,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-05T21:11:48.009837,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-05T21:11:48.052332,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-05T21:11:49.796438,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-05T23:44:37.861513,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-05T23:44:37.889760,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-05T23:44:37.916866,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-05T23:44:37.944100,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-05T23:44:38.871443,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-05T23:55:26.213558,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-05T23:55:26.243802,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-05T23:55:26.272727,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-05T23:55:26.300541,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-05T23:55:27.183821,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-05T23:57:59.020043,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-05T23:57:59.054338,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-05T23:57:59.085219,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-05T23:57:59.122826,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-05T23:58:00.155905,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-06T00:15:44.225641,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-06T00:15:44.263916,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-06T00:15:44.295658,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-06T00:15:44.324436,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-06T00:15:45.485319,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-06T21:12:28.780593,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-06T21:12:28.886355,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-06T21:12:29.113026,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-06T21:12:29.605664,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-06T21:12:34.142313,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-06T21:13:51.108299,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-06T21:13:51.144762,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-06T21:13:51.245382,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-06T21:13:51.651708,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-06T21:20:53.437050,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-06T21:20:53.564431,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-06T21:20:53.698187,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-06T21:20:53.850801,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-06T21:20:56.045505,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-06T21:21:04.337025,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-06T21:21:04.386896,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-06T21:21:04.438085,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-06T21:21:04.490223,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-06T21:21:07.679527,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-06T21:21:10.480071,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-06T21:21:10.781845,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-06T21:21:10.824825,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-06T21:21:10.864705,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-06T21:21:11.816092,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
+2026-02-06T21:23:22.419340,"Suspicious IP 192.168.3.21 — fails: 2, users: 4"
+2026-02-06T21:23:22.500695,User david on Ship 105 had 3 consecutive failed logins!
+2026-02-06T21:23:22.575680,User david on Ship 105 had 4 consecutive failed logins!
+2026-02-06T21:23:22.638592,User charlie on Ship 104 had 3 consecutive failed logins!
+2026-02-06T21:23:28.551133,"Blocked IP 192.168.0.104 attempted login on Ship 104, user charlie"
