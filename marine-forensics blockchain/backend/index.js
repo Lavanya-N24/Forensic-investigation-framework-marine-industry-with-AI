@@ -1,25 +1,53 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const session = require("express-session");
 const crypto = require("crypto");
 const cors = require("cors");
 const fs = require("fs-extra");
 const path = require("path");
 const { ethers } = require("ethers");
 const { exec } = require("child_process");
-
+function cleanId(id) {
+  return id.startsWith("0x") ? id.slice(2) : id;
+}
 const app = express();
-app.use(cors());
+app.use(cors({ origin: true, credentials: true }));
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+// Session – required for login (only logged-in users access the site)
+app.use(session({
+  secret: process.env.SESSION_SECRET || "marine-forensics-secret-change-in-production",
+  resave: false,
+  saveUninitialized: false,
+  cookie: { httpOnly: true, maxAge: 24 * 60 * 60 * 1000 }
+}));
+
 // Serve all frontend files (HTML, CSS, JS)
 app.use(express.static(path.join(__dirname, "../frontend")));
 const evidenceDir = path.join(__dirname, "evidence");
 fs.ensureDirSync(evidenceDir);
 
-// 🔴 UPDATE THESE AFTER DEPLOYMENT 🔴
-const CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
-const PRIVATE_KEY = "0xdf57089febbacf7ba0bc227dafbffa9fc08a93fdc68e1e42411a14efcf23656e";
-const RPC_URL = "http://127.0.0.1:8545";
-// 🔴 END UPDATE 🔴
+
+// ─── NETWORK CONFIGURATION ────────────────────────────────────────────────────
+const INFURA_API_KEY = "592071cb68f14c67bc929dfc2e76af78";
+
+// Set NETWORK=sepolia in your environment to use the Sepolia testnet
+// Otherwise defaults to local Hardhat node
+const NETWORK = process.env.NETWORK || "sepolia";
+
+const RPC_URLS = {
+  local:   "http://127.0.0.1:8545",
+  sepolia: `https://sepolia.infura.io/v3/${INFURA_API_KEY}`,
+  mainnet: `https://mainnet.infura.io/v3/${INFURA_API_KEY}`
+};
+
+const CONTRACT_ADDRESS = process.env.CONTRACT_ADDRESS || "0x7764CD0A2AFCbf8409b05EB28e7573bF13a9f2E0";
+const PRIVATE_KEY      = process.env.PRIVATE_KEY      || "0x2709827e6922ab3c9cd68617ae6feb1cae4000b47a7a33cbd0bc50d212aa2685";
+const RPC_URL          = process.env.RPC_URL          || RPC_URLS[NETWORK] || RPC_URLS.local;
+
+console.log(`🌐 Connected to network: ${NETWORK.toUpperCase()} → ${RPC_URL}`);
+// ─────────────────────────────────────────────────────────────────────────────
 
 const ABI = [
   "function submitEvidence(bytes32 evidenceId, bytes32 hashValue) public",
@@ -34,26 +62,58 @@ function sha256(data) {
   return crypto.createHash("sha256").update(data).digest("hex");
 }
 
+// ---------- LOGIN: only logged-in users can access the site ----------
+// Allowed users (username -> password). Change these for your project.
+const USERS = { admin: "lav123", clerk: "clerk123", officer: "officer123" };
+
+app.get("/api/check-session", (req, res) => {
+  if (req.session && req.session.user) {
+    return res.json({ loggedIn: true, username: req.session.user });
+  }
+  res.json({ loggedIn: false });
+});
+
+app.post("/api/login", (req, res) => {
+  const username = (req.body.username || "").trim();
+  const password = (req.body.password || "");
+  if (!username || !password) {
+    return res.status(400).json({ success: false, message: "Username and password required." });
+  }
+  if (USERS[username] === password) {
+    req.session.user = username;
+    return res.json({ success: true, username });
+  }
+  res.status(401).json({ success: false, message: "Invalid username or password." });
+});
+
+app.post("/api/logout", (req, res) => {
+  req.session.destroy(() => { });
+  res.json({ success: true });
+});
+
+// Root: redirect to login if not logged in, else to home
+app.get("/", (req, res) => {
+  if (req.session && req.session.user) {
+    return res.redirect("/home.html");
+  }
+  res.redirect("/login.html");
+});
+
 /* ======================================================
      🚀 NEW FUNCTION — START PYTHON STREAMLIT DASHBOARD
    ====================================================== */
 app.get("/start-python", (req, res) => {
-  const pythonFolder = path.join(__dirname, "../../python");
-  const pythonFile = "maritime_cybersecurity_dashboard_FINAL.py";
+  // On Render, we cannot use `exec(start cmd)` because it's Linux
+  // and Streamlit needs to be hosted as a separate Web Service.
+  // Instead, return the Streamlit URL via an environment variable.
+  const streamlitUrl = process.env.STREAMLIT_URL || "http://localhost:8501";
+  
+  if (!process.env.STREAMLIT_URL) {
+    // Fallback for local testing (trying to open it silently, or just telling frontend to open localhost:8501)
+    console.log("No STREAMLIT_URL provided. Assuming local development.");
+  }
 
-  const command = `start cmd /k "cd ${pythonFolder} && streamlit run ${pythonFile}"`;
-
-  console.log("Launching Streamlit using:", command);
-
-  exec(command, (error) => {
-    if (error) {
-      console.error("❌ Error starting Streamlit:", error);
-      return res.json({ error: "Failed to start Streamlit" });
-    }
-    console.log("✅ Streamlit launched successfully!");
-  });
-
-  res.json({ status: "Python Dashboard Starting..." });
+  res.json({ status: "Python Dashboard URL", url: streamlitUrl });
 });
 
 
@@ -79,12 +139,15 @@ app.post("/submit", async (req, res) => {
     res.send({
       message: "Evidence stored",
       evidenceId: eIdBytes,
-      hash
+      hash,
+      evidence: log   // 👈 IMPORTANT
     });
+
   } catch (err) {
     res.send({ error: err.message });
   }
 });
+
 
 /* ==========================
    VERIFY EVIDENCE (same)
@@ -121,20 +184,34 @@ app.get("/verify/:id", async (req, res) => {
 /* ==========================
    GET ALL RECORDS (same)
    ========================== */
-app.get("/records", (req, res) => {
+app.get("/records", async (req, res) => {
   try {
     const files = fs.readdirSync(evidenceDir);
     const records = [];
 
-    files.forEach(file => {
+    for (const file of files) {
       const id = file.replace(".json", "");
       const content = fs.readJsonSync(path.join(evidenceDir, file));
+      const localHash = sha256(JSON.stringify(content));
 
-      records.push({
-        evidenceId: "0x" + id,
-        data: content
-      });
-    });
+      try {
+        const [chainHash] = await contract.getEvidence("0x" + id);
+        const isValid = chainHash.replace("0x", "") === localHash;
+
+        records.push({
+          evidenceId: "0x" + id,
+          data: content,
+          valid: isValid
+        });
+      } catch (e) {
+        console.error(`Error verifying ${id}:`, e);
+        records.push({
+          evidenceId: "0x" + id,
+          data: content,
+          valid: false // Treat as invalid if blockchain check fails
+        });
+      }
+    }
 
     res.send(records);
   } catch (err) {
@@ -161,12 +238,9 @@ app.get("/evidence/:id", (req, res) => {
     res.send({ error: err.message });
   }
 });
-// SERVE HOME.HTML THROUGH NODE BACKEND
-/* =============================================
-   SERVE HOME.HTML (ABSOLUTE PATH)
-   ============================================= */
+// Serve home page from this project's frontend
 app.get("/home", (req, res) => {
-  res.sendFile("C:/Users/lavan/OneDrive/Desktop/mini project/marine-forensics/frontend/home.html");
+  res.sendFile(path.join(__dirname, "../frontend/home.html"));
 });
 
 
@@ -174,7 +248,8 @@ app.get("/home", (req, res) => {
 /* ==========================
    START BACKEND
    ========================== */
-app.listen(5000, () =>
-  console.log("Backend running at http://localhost:5000")
+const PORT = process.env.PORT || 5001;
+app.listen(PORT, () =>
+  console.log(`Backend running at http://localhost:${PORT}`)
 );
 
