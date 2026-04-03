@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/api/:match*", "destination": "https://forensic-investigation-framework-marine-p5l7.onrender.com/api/:match*" },
+    { "source": "/submit", "destination": "https://forensic-investigation-framework-marine-p5l7.onrender.com/submit" },
+    { "source": "/records", "destination": "https://forensic-investigation-framework-marine-p5l7.onrender.com/records" },
+    { "source": "/verify/:id", "destination": "https://forensic-investigation-framework-marine-p5l7.onrender.com/verify/:id" },
+    { "source": "/evidence/:id", "destination": "https://forensic-investigation-framework-marine-p5l7.onrender.com/evidence/:id" },
+    { "source": "/start-python", "destination": "https://forensic-investigation-framework-marine-p5l7.onrender.com/start-python" }
+  ]
+}
