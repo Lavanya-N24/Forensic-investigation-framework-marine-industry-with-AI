@@ -6,7 +6,13 @@
 </head>
 
 <body>
-
+<script>
+(function(){ var x=new XMLHttpRequest(); x.open("GET","/api/check-session",false); x.withCredentials=true;
+try{x.send();}catch(e){location.href="/login.html";return;}
+if(x.status!==200){location.href="/login.html";return;}
+if(!JSON.parse(x.responseText||"{}").loggedIn) location.href="/login.html";
+})();
+</script>
 <!-- NAVBAR -->
 <div class="navbar">
   <h2>Marine Digital Forensics</h2>

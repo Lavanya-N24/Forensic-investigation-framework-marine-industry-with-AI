@@ -1,6 +1,6 @@
 // Fetch all stored evidence records
 async function loadRecords() {
-    const res = await fetch("http://localhost:5000/records");
+    const res = await fetch("/records");
     const data = await res.json();
 
     displayRecords(data);
@@ -27,13 +27,14 @@ function displayRecords(records) {
 
         div.innerHTML = `
             <p class="record-eid">${record.evidenceId}</p>
-
+            
             <pre class="record-json">${formattedJson}</pre>
 
             <button class="download-btn" onclick="downloadJSON('${record.evidenceId}')">
                 Download JSON
             </button>
         `;
+
 
         container.appendChild(div);
     });
@@ -43,7 +44,7 @@ function downloadJSON(evidenceId) {
 
     console.log("Downloading:", id);
 
-    fetch(`http://localhost:5000/evidence/${id}`)
+    fetch(`/evidence/${id}`)
         .then(res => {
             if (!res.ok) throw new Error("File not found");
             return res.json();

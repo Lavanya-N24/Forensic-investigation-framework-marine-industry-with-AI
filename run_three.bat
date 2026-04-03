@@ -1,18 +1,28 @@
 @echo off
-cd marine-forensics
+title MINI PROJECT AUTO RUN
 
-echo Starting Hardhat Node...
-start cmd /k "cd /d %cd% && npx hardhat node"
+REM Go to the folder where this .bat file exists
+cd /d "%~dp0"
 
-timeout /t 5
+echo ===============================
+echo Starting Blockchain Backend...
+echo ===============================
+start "Blockchain Backend" cmd /k "cd /d ""%~dp0marine-forensics blockchain\backend"" && node index.js"
 
-echo Deploying Smart Contract...
-start cmd /k "cd /d %cd% && npx hardhat run --network localhost scripts/deploy.js"
+timeout /t 6 >nul
 
-timeout /t 3
+echo ===============================
+echo Starting AI Backend (Streamlit)...
+echo ===============================
+start "AI Backend" cmd /k "cd /d ""%~dp0ai-detect-anomalies-navigation"" && python -m streamlit run maritime_cybersecurity_dashboard_updated.py"
 
-echo Starting Backend Server...
-start cmd /k "cd /d %cd%/backend && node index.js"
+timeout /t 5 >nul
 
-echo All processes started!
-pause
+echo ===============================
+echo Opening Home Page...
+echo ===============================
+start "" "%~dp0marine-forensics blockchain\frontend\home.html"
+
+echo ===============================
+echo Project Started Successfully!
+echo ===============================

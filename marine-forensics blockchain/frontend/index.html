@@ -1,36 +1,55 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Marine Digital Forensics</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-<div class="navbar">
-  <h2>Marine Digital Forensics</h2>
-  <div>
-    <a href="index.html">Home</a>
-    <a href="submit.html">Submit</a>
-    <a href="verify.html">Verify</a>
-    <a href="records.html">Record</a>
-    <a href="about.html">About</a>
-
+  <script>
+    (function () {
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "/api/check-session", false);
+      xhr.withCredentials = true;
+      try { xhr.send(); } catch (e) { location.href = "/login.html"; return; }
+      if (xhr.status !== 200) { location.href = "/login.html"; return; }
+      var d = JSON.parse(xhr.responseText || "{}");
+      if (!d.loggedIn) location.href = "/login.html";
+    })();
+  </script>
+  <div class="navbar">
+    <h2>Marine Digital Forensics</h2>
+    <div>
+      <a href="home.html">Portal Home</a>
+      <a href="index.html">Home</a>
+      <a href="submit.html">Submit</a>
+      <a href="verify.html">Verify</a>
+      <a href="records.html">Record</a>
+      <a href="admin.html">Admin</a>
+      <a href="about.html">About</a>
+      <a href="#" id="logoutLink">Logout</a>
+    </div>
   </div>
-</div>
 
-<div class="container">
-  <h1>Welcome to Marine Forensic Evidence System</h1>
+  <div class="container">
+    <h1>Welcome to Marine Forensic Evidence System</h1>
 
-  <p style="font-size:18px; color:#ffffff; text-align:center;">
-    Blockchain-based forensic evidence system for securing and verifying  
-    maritime digital logs, events, and incidents.
-  </p>
+    <p style="font-size:18px; color:#ffffff; text-align:center;">
+      Blockchain-based forensic evidence system for securing and verifying
+      maritime digital logs, events, and incidents.
+    </p>
 
-  <p style="color:#e0f0ff; text-align:center;">
-    Navigate using the menu above to submit or verify any marine evidence.
-  </p>
-</div>
-
+    <p style="color:#e0f0ff; text-align:center;">
+      Navigate using the menu above to submit or verify any marine evidence.
+    </p>
+  </div>
+  <script>
+    document.getElementById("logoutLink").addEventListener("click", function (e) {
+      e.preventDefault();
+      fetch("/api/logout", { method: "POST", credentials: "same-origin" }).then(function () { location.href = "/login.html"; });
+    });
+  </script>
 </body>
+
 </html>
