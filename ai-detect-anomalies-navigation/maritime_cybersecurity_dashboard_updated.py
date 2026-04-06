@@ -354,20 +354,14 @@ except Exception:
     malicious_set = set()
 
 # ---------------- CONSECUTIVE FAIL DETECTION ----------------
-def detect_failed_logins(group):
-    g = group.copy()
-    g["Fail_Flag"] = (g["Login_Status"] == "Fail").astype(int)
-    g["Consec_Fails"] = g["Fail_Flag"].groupby((g["Fail_Flag"] == 0).cumsum()).cumsum()
-    return g
-
 for c in ["Ship_ID", "Username", "Login_Status"]:
     if c not in login_df.columns:
         login_df[c] = None
 
-login_df = login_df.groupby(["Ship_ID", "Username"], group_keys=False).apply(detect_failed_logins)
-if "Username" not in login_df.columns:
-    login_df = login_df.reset_index()
-login_df = login_df.loc[:, ~login_df.columns.duplicated()]
+login_df["Fail_Flag"] = (login_df["Login_Status"] == "Fail").astype(int)
+login_df["_zero_blocks"] = login_df.groupby(["Ship_ID", "Username"])["Fail_Flag"].transform(lambda x: (x == 0).cumsum())
+login_df["Consec_Fails"] = login_df.groupby(["Ship_ID", "Username", "_zero_blocks"])["Fail_Flag"].cumsum()
+login_df.drop(columns=["_zero_blocks"], inplace=True)
 
 suspicious = login_df[login_df.get("Consec_Fails", 0) >= 3]
 if not suspicious.empty:
