@@ -365,6 +365,8 @@ for c in ["Ship_ID", "Username", "Login_Status"]:
         login_df[c] = None
 
 login_df = login_df.groupby(["Ship_ID", "Username"], group_keys=False).apply(detect_failed_logins)
+if "Username" not in login_df.columns:
+    login_df = login_df.reset_index()
 login_df = login_df.loc[:, ~login_df.columns.duplicated()]
 
 suspicious = login_df[login_df.get("Consec_Fails", 0) >= 3]
