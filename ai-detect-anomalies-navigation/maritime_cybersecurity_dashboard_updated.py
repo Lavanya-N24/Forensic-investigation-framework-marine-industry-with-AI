@@ -477,7 +477,7 @@ st.markdown(
 )
 
 # Project home URL (backend serves frontend on port 5000)
-HOME_PAGE_URL = "http://localhost:5000/home.html"
+HOME_PAGE_URL = "https://forensic-investigation-framework-marine-p5l7.onrender.com/home.html"
 
 # Sidebar: Go back (link to project home) + Utilities
 st.sidebar.markdown(
